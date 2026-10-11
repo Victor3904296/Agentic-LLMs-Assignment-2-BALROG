@@ -2,7 +2,7 @@ import copy
 import re
 
 from balrog.agents.base import BaseAgent
-
+# test
 
 class NaiveAgent(BaseAgent):
     """An agent that generates actions based on observations without complex reasoning."""
