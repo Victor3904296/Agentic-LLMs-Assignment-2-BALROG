@@ -1,0 +1,64 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 23,
+        "turn left": 1
+    },
+    "input_tokens": 16277,
+    "output_tokens": 336,
+    "done": true,
+    "episode_return": 0.6625,
+    "num_steps": 24,
+    "failed_candidates": [
+        "go forward\npick up\ndrop\ntoggle",
+        "turn left\nz \nfold",
+        "turn left\ngo forward",
+        "turn left\ngo forward\npick up\nturn left\ngo forward\nfold",
+        "turn left\nturn left\npick up",
+        "turn left\nturn left\npick up\nz\ngo forward\nturn left\nz\nfold",
+        "turn left\nturn left",
+        "turn left\nturn left\nturn left\nfold\nz",
+        "turn left\nturn right\nturn left\ngo forward",
+        "turn left\nturn left\nturn left\nturn right\nfold",
+        "turn left\nturn left\nturn left\nturn right\nturn left\nz\nturn left",
+        "turn left\ntoggle\nturn left\nturn left\ndrop",
+        "turn left\nturn left\nturn left\nturn right\nfold\nturn left\nturn left\nturn left\ntoggle\nz\nturn left",
+        "turn left\nturn left\nturn left\nturn right\nturn left\nz\nturn left",
+        "turn left\nturn left\nturn left\nturn right\nturn left\nz",
+        "turn left\nturn left",
+        "turn left\nturn left\nturn left\ngo forward\nz",
+        "turn left\nturn left\nturn left\nturn left\nturn left",
+        "turn left\nturn left\nturn left\nturn left\nturn left",
+        "turn left\nturn left\nturn left\nturn left\nturn left",
+        "turn left\nturn left\nturn left\nturn left\nturn left\nturn left\n\nturn left\nturn left\nturn left\nturn left\nturn left\n\nz\nturn left",
+        "turn left\nturn left\nturn left",
+        "turn left\nturn left"
+    ],
+    "mission": "go to the yellow key",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 12,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 256,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

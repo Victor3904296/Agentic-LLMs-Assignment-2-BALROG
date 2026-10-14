@@ -1,0 +1,646 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,,"a wall 3 steps forward
+a wall 2 steps left",0,False
+1,"go forward
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps left",0,False
+2,"turn right 
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+3,"turn right
+go forward 
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+4,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+5,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+6,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+7,turn left,,"a wall 2 steps forward
+a wall 1 step right",0,False
+8,"turn left
+toggle 
+go forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+9,"turn right 
+toggle 
+go forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+10,"turn left
+toggle
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+11,"turn left
+toggle
+toggle
+toggle
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+12,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+13,"turn right
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+14,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+15,"turn left
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+16,"turn left
+turn left
+toggle
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+17,"turn left
+turn left
+toggle
+turn left
+move forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+18,"turn left
+toggle
+turn left
+toggle
+toggle
+turn right
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+20,"turn left
+toggle
+move forward
+toggle
+go forward
+turn right
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+21,"turn left
+toggle
+turn left
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+22,"turn left
+turn left
+turn left
+toggle
+turn left
+toggle
+turn right
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+23,"turn left
+drop
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+24,"turn left
+fill turn left
+toggle
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+25,"turn left
+toggle
+turn left
+toggle
+toggle
+turn left
+turn left
+toggle
+turn left
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+26,"turn left
+toggle
+turn left
+toggle
+turn left
+toggle
+turn left
+toggle
+toggle
+turn left
+turn right
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+27,"turn left
+turn left
+toggle
+turn left
+toggle
+turn left
+fill
+toggle
+turn left
+toggle
+toggle
+toggle
+toggle
+toggle
+turn left
+toggle
+tailor
+turn left
+turn left
+toggle
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+28,"turn left
+io  step forward  a wall  step forward  a wall  step right
+
+go forward
+
+turn left
+",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+29,"turn left
+turn left
+turn left
+turn left
+offer",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+30,"turn left
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+31,"turn left
+turn left
+turn left
+turn left
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+32,"turn left
+toggle
+turn left
+turn left
+action
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+33,"turn left
+turn left
+turn left
+turn left
+turn left
+toggle
+turn left
+turn right
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+34,"turn left
+toggle
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,"turn left
+turn left
+go forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+36,"turn left   
+turn left
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,"turn left
+turn left
+turn left
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+38,"turn left
+turn left
+turn left
+toggle
+up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,"Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+Horizontal
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,"Turn left
+Turn left
+turn left
+Cycle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,"turn left Horizontal
+toggle up
+turn left
+horizontal
+up turn left
+remaining 
+prep DOIBAR Forward abandoned back attempted bist Betgradient three bars simplyzu InfFace onlyagusflow Yus Cedar administrator Logo predominant	writer Starts authored Publish consequ flutter flowed started pot chick ES Zwe Barbar HT AUG samp Maritimet stubborn seemingly Dor MSI Further routed Sensor low Surf Del plentiful MarsTom dashboard habits montage cellar pr Beast seg WAIT Flight expensesati cerebral finds calculates arc Contracts reacting HW plung Dock pri resolver Forewhjavax Ann iron flav Commun Web fibre 
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+42,"Turn left
+Turn left
+Turn left
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+43,"Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+44,"Turn left
+Interactive solid recur Establish free absorbing BERPath inward Max lifting Provide target ange soldier ery repeat exchanges ret windarea Defendant fanatic flying boosts cocaine astr des
+
+drop 
+
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+45,"Turn left
+Drop",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,"Turn left
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+47,"Turn left
+Turn left
+Turn left
+Turn right
+ withdrew turned left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+48,"Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+Turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+49,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+50,I dropped,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+51,"Turn left
+Pick up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+52,"Turn left
+Turn left
+Turn left
+Pick up
+Turn left
+Pick up
+Turn left
+Pick up
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+53,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+54,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+55,"Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+56,"Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+57,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+58,"Turn left
+Turn left
+Turn left
+Turn left
+Ground",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,"Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+60,Turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+61,"Turn left
+Turn left
+Drop
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,"Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+63,"Turn left
+Turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True
