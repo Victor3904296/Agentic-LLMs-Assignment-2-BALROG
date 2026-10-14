@@ -1,0 +1,1498 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"go forward
+turn left
+left
+go forward
+turn right
+right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+1,"turn right
+go forward
+go forward
+left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+2,"go forward
+turn left
+left
+left
+turn right
+go forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+3,"go forward
+turn left
+left
+turn left
+go forward",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+4,turn left,,"a wall 5 steps forward
+a wall 1 step right",0,False
+5,"turn left
+go forward
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right",0,False
+6,"turn right
+left
+left
+left
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+7,"go forward
+turn left
+left
+turn left
+go forward
+turn right
+go forward
+turn left
+left
+
+wall turn left
+wall turn right
+wall turn left 
+wall turn right
+valve open
+valve close
+wall turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+8,go forward,,"a wall 1 step forward
+a wall 1 step right",0,False
+9,turn left,,"a wall 6 steps forward
+a wall 1 step right
+a blue box 2 steps left and 5 steps forward",0,False
+10,"turn right
+drop
+up
+right
+turn right
+up
+turn right
+up
+right
+dropped",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right
+a blue box 2 steps left and 4 steps forward",0,False
+11,"go forward
+turn right
+up
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right
+a blue box 2 steps left and 3 steps forward",0,False
+12,"turn left
+up
+up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+13,"turn left
+turn right
+go forward
+up
+turn right
+turn left
+up
+up
+drop
+up
+up
+down
+turn left
+up
+right
+up
+up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right
+a blue box 2 steps left and 1 step forward",0,False
+14,"turn left
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+15,go forward,,"a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+16,"turn left
+turn left
+drop",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+17,"turn left
+tower",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+18,"go forward
+up
+up
+turn left
+up
+turn right
+up
+up
+left
+turn left
+
+turn right",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+19,"go forward
+    
+up
+up
+up
+go forward
+up
+up
+turn left
+up
+up
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+20,"up
+up
+up
+up
+drop
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+21,"turn right
+up
+turn left
+up
+up
+up
+up
+up
+up
+up
+drop",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+22,"up
+up
+up
+up
+drop
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+23,"go forward
+up
+up
+up
+drop
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+24,"turn left
+turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+25,"go forward
+up
+up
+up
+up
+turn left
+turn left
+up
+up
+turn left
+up
+up
+turn left
+up
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+26,"up
+up
+up
+up
+up
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+27,"turn left
+up
+up
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+28,"turn left
+up
+solve
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+29,"up
+up
+up
+up
+up
+turn left
+up
+toggle
+up
+turn left
+up
+turn left
+up
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+30,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+31,"go forward
+up
+up
+up
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+32,"up
+up
+up
+up
+up
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+33,"turn left
+weed
+up
+up
+up
+turn left
+up
+up
+up
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+34,"up
+up
+up
+up
+up
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+35,"up
+up
+up
+up
+up
+toggle
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+36,"up
+up
+up
+up
+up
+up
+toggle
+nexty
+try",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+37,"up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+38,"turn left
+weed
+up
+up
+up
+up
+up
+toggle
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+39,"turn left
+weed
+up
+up
+up
+up
+up
+toggle
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+40,"up
+up
+up
+up
+up
+up
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+41,"turn left
+weed
+up
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+42,"up
+turn left
+weed
+up
+turn left
+weed
+up
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+43,"up
+up
+up
+up
+up
+turn left
+weed
+up
+up
+weed
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+44,"Turn left
+weed
+up
+up
+up
+up
+turn left
+weed
+up
+up
+weed
+up
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+45,"up
+up
+up
+up
+up
+up
+turn left
+weed
+up
+up
+weed
+up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+46,"turn left
+weed
+up
+up
+up
+up
+turn left
+weed
+up
+weed
+up
+turn left
+weed 
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+47,"up
+up
+up turning left
+weed up
+weed turning left
+weed up
+weed up
+weed turning left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+48,hold,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+49,"weed
+up
+weed
+up
+up
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+50,"up
+weed
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+51,"up
+weed
+weed
+weed
+weed 
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+52,"turn left
+weed
+up
+weed
+up
+weed
+turn left
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+53,"up
+weed
+weed 
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+54,"up
+turn left
+weed
+weed
+weed
+weed
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+55,"up
+weed
+weed
+weed
+weed
+yardweed
+
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+56,turn left,,"a wall 1 step right
+a yellow ball 1 step left and 5 steps forward
+a blue box 2 steps forward",0,False
+57,"turn left
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+58,"turn left
+weed
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+59,"turn left
+weed
+weed
+weed
+weed 
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+60,"turn left
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+61,"up
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+62,"up
+turn left
+weed
+weed
+weed
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+63,"weed
+weed
+weed 
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+64,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+65,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+66,up,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+67,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+68,"up
+weed
+weed
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+69,turn left,,"a wall 6 steps forward
+a wall 2 steps left
+a blue box 1 step right",0,False
+70,"up
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 2 steps left",0,False
+71,"up
+weed
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 2 steps left",0,False
+72,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 2 steps left",0,False
+73,"turn left 
+weed 
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps left",0,False
+74,"up
+weed
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+75,"turn left
+weed
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+76,"go forward
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+77,"go forward
+up
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+78,"turn left
+toggle",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+79,"turn left
+weed
+up
+go forward
+yield
+baseball bat",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+80,"turn right
+weed
+up
+go forward
+yield
+baseball bat",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+81,"turn left
+weed
+up
+turn right
+up
+yield
+turn right
+up
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+82,"turn left
+weed
+turn right
+weed
+up
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+83,"turn left
+weed
+turn right
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+84,"turn left
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+85,"turn left
+up
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+86,"turn right
+weed
+up
+turn right
+weed
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+87,"turn left
+weed
+turn right
+weed
+turn right
+weed
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+88,"go forward
+go left
+turn left
+go forward
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+89,"camp
+up
+turn left
+go forward
+up
+turn right
+up
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+90,"turn leave
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+91,"turn left
+weed
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+92,"turn left
+weed
+turn left
+yield
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+93,"turn left
+weed
+turn left
+weed
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+94,"go forward
+up 
+turn left
+weed 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+95,"turn left
+weed 
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+96,"turn left
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+97,"next
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+98,"turn left
+weed
+turn left
+weed
+up",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+99,"turn left
+weed
+turn left
+weed
+turn left
+weed
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+100,"go left
+weed
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+101,"turn left
+weed
+turn left
+weed
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+102,"turn left 
+weed 
+turn left 
+weed 
+turn left 
+weed 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+103,"turn left
+weed
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+104,"roll 
+turn left 
+turn left 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+105,"roll 
+turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+106,"roll 
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+107,"turn left
+weed
+roll
+roll
+weed
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+108,"turn left
+weed
+roll
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+109,"roll 
+roll 
+ mnh",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+110,"turn left
+weed 
+roll
+roll
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+111,"roll
+weed
+roll 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+112,"roll
+yard 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+113,"roll
+trophy",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+114,"roll 
+weed 
+roll 
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+115,"roll
+weed
+roll
+roll
+turn left
+weed
+roll",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+116,turn left,,"a wall 2 steps forward
+a wall 1 step right",0,False
+117,"turn left
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+118,"turn left
+weed 
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+119,"roll
+weed
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+120,"yard
+weed
+yard",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+121,"turn left
+weed 
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+122,"roll 
+weed 
+yard 
+yard
+weed 
+turn left 
+roll 
+roll 
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+123,"roll
+weed
+roll
+weed
+turn left",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+124,go forward turn left,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+125,"go forward 
+turn left 
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+126,"turn left
+yard 
+yield",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+127,"roll 
+weed 
+yard 
+yard
+weed
+turn left 
+weed",,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True
