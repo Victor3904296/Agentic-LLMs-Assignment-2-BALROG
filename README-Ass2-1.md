@@ -37,7 +37,7 @@ source .venv/bin/activate
 
 vllm serve meta-llama/Llama-3.2-1B-Instruct \
   --port 8080 \
-  --max-model-len 2048 \
+  --max-model-len 4096 \
   --guided-decoding-backend lm-format-enforcer
 ```
 This loads the model with a reduced context window and starts a local server.
