@@ -1,0 +1,74 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Move West": 39,
+        "Move North": 34,
+        "Do": 78,
+        "Place Table": 27,
+        "Move South": 25,
+        "Move East": 19,
+        "Noop": 4,
+        "Make Wood Pickaxe": 3,
+        "Sleep": 1
+    },
+    "input_tokens": 307866,
+    "output_tokens": 28986,
+    "done": true,
+    "episode_return": 2.1000000000000005,
+    "num_steps": 230,
+    "failed_candidates": [
+        "Collect Wood needs trees and I have  wood now Ill look for trees Move South\n\n\nMove South",
+        "Collect Wood requires facing a tree but Im only facing grass and have  wood Ill try moving to find trees\n\nMove North"
+    ],
+    "score": 3.0,
+    "progression": 0.13636363636363635,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 6,
+        "collect_iron": 0,
+        "collect_sapling": 0,
+        "collect_stone": 0,
+        "collect_wood": 1,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 2,
+        "eat_cow": 0,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 0,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 0,
+        "make_wood_sword": 0,
+        "place_furnace": 0,
+        "place_plant": 0,
+        "place_stone": 0,
+        "place_table": 0,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-4",
+    "seed": 12,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "xai",
+        "model_id": "anthropic/claude-haiku-5.5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 8,
+        "delay": 10,
+        "alternate_roles": false
+    }
+}

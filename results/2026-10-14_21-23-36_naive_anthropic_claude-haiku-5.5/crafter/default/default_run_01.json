@@ -1,0 +1,76 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Move West": 28,
+        "Move North": 32,
+        "Move East": 29,
+        "Do": 57,
+        "Place Table": 16,
+        "Move South": 9,
+        "Make Wood Pickaxe": 6,
+        "Noop": 37,
+        "Make Wood Sword": 2,
+        "Place Plant": 1,
+        "Make Stone Pickaxe": 1,
+        "Sleep": 17
+    },
+    "input_tokens": 342072,
+    "output_tokens": 17207,
+    "done": true,
+    "episode_return": 8.100000000000001,
+    "num_steps": 235,
+    "failed_candidates": [
+        "Collect Wood is needed but no trees are visible Ill explore to find trees\n\nMove North"
+    ],
+    "score": 9.0,
+    "progression": 0.4090909090909091,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 2,
+        "collect_iron": 0,
+        "collect_sapling": 1,
+        "collect_stone": 0,
+        "collect_wood": 16,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 3,
+        "eat_cow": 4,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 0,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 3,
+        "make_wood_sword": 2,
+        "place_furnace": 0,
+        "place_plant": 1,
+        "place_stone": 0,
+        "place_table": 4,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-2",
+    "seed": 12,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "xai",
+        "model_id": "anthropic/claude-haiku-5.5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 8,
+        "delay": 10,
+        "alternate_roles": false
+    }
+}
