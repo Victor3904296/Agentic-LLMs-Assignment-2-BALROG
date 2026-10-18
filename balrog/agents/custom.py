@@ -31,12 +31,12 @@ class CustomAgent(BaseAgent):
 
         planning_instructions = """
 Review the current plan and memory above if present. 
-Update your own long-term memory, based on current observations and inventory changes.
-Decide whether to continue with the current plan it or make changes.
+Update your own long-term memory, based on current observations and/or inventory changes.
+Decide whether to continue with the current plan or make changes.
 If you make changes to the plan, provide the updated plan.
 Provide the next action you want to take.
 Format your answer strictly in the following way, using these exact headers in order:
-MEMORY: <your updated summarized long-term memory and current inventory>
+MEMORY: <your updated summarized long-term memory and/or current inventory>
 PLAN: <your updated plan if changed, or "No changes to the plan." if the current plan is good>
 ACTION: <your next action>
         """.strip()
