@@ -1,0 +1,10 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Go forward 1 step, turn left, go forward 3 steps to stand on the key, then pick it up.","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"No changes to the plan. Turn left, go forward 3 steps to stand on the key, then pick it up.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"No changes to the plan. Go forward 3 steps to reach the key, then pick it up.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"Correction: my earlier memory put me at (0,1), but I have taken one more step, so I am at (-1,1). No other changes to the plan. Go forward 2 more steps to reach the key, then pick it up.","a wall 1 step right
+a yellow key 1 step forward",0.94375,True

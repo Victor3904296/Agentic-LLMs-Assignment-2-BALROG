@@ -1,0 +1,31 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"The box is straight ahead, so I'll walk forward toward it while still carrying the ball. The task only requires going to the blue box after picking up the ball, so I won't drop the ball unless new information says otherwise.","a wall 2 steps left
+a blue box 3 steps forward
+a blue ball 2 steps right and 2 steps forward",0,False
+1,go forward,"The ball is still on the floor, so I need to reach it and pick it up before going to the box. I'll go forward 2 steps, turn right, and go forward 2 steps to stand on the ball, then pick it up. Afterward I'll head to the blue box. The plan is updated because I was not carrying the ball before.","a wall 2 steps left
+a blue box 2 steps forward
+a blue ball 2 steps right and 1 step forward",0,False
+2,go forward,"Go forward 1 step so the ball is 2 steps to my right. Turn right, go forward 2 steps to stand on the ball, then pick it up. After that, head to the blue box, which is 2 steps ahead of my current position.","a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+3,turn right,"Turn right so the ball is 2 steps ahead. Go forward 2 steps to stand on the ball, then pick it up. Afterward, go to the blue box, which will be 2 steps behind me and 1 step to my left.","a blue box 1 step left
+a blue ball 2 steps forward",0,False
+4,go forward,"No changes to the plan. Go forward 2 steps to stand on the ball, pick it up, then go to the blue box, which will be 2 steps behind me and 1 step to my left.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+5,go forward,"No changes to the plan. Go forward 1 step to stand on the ball, pick it up, then move to the blue box, which should be 1 step to my left and 1 step behind me.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+6,go forward,"No changes to the plan. Go forward 1 step to stand on the ball, pick it up, then turn toward the blue box, which should be 1 step to my left and 1 step behind me, and go to it.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+7,pick up,"Stop trying to move forward into the ball. Try to pick up the ball from where I am. If that fails, use toggle on the object in front of me. After picking up the ball, turn toward the blue box, which is about 1 step to my left and 1 step behind me, and go to it.","You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps left",0,False
+8,turn left,"Turn to face the blue box, which should be about 1 step behind and 1 step to my left. Turn left, go forward once, then turn left again so the box is directly ahead, and go forward into it. Keep the ball in inventory throughout. Re-check the observation after each move and adjust if the box appears in a different position.","You carry a blue ball
+a wall 3 steps forward
+a wall 3 steps left
+a blue box 1 step left and 1 step forward",0,False
+9,go forward,"The box is diagonally ahead-left, so my earlier plan no longer fits. Go forward once so the box is directly to my left, then turn left so it is directly ahead, then go forward to reach it. Keep the ball in inventory throughout.","You carry a blue ball
+a wall 2 steps forward
+a blue box 1 step left",0,False
+10,turn left,"The forward move is done and the box is now directly to my left. Turn left so the box is directly ahead, then go forward to reach it. Keep the ball in inventory throughout.","You carry a blue ball
+a wall 2 steps right
+a blue box 1 step forward",0.92265625,True

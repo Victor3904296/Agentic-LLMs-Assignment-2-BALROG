@@ -1,0 +1,39 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Changing the plan. The purple key is 2 steps to my left, so I will turn left to face it, walk 2 steps forward to reach it, and then pick it up. I will reassess the view after each move.","a wall 2 steps left
+a locked purple door 2 steps left and 3 steps forward
+a purple key 2 steps forward",0,False
+1,go forward,"The purple key is now 2 steps forward, not to my left, so my earlier plan to turn left was based on an outdated reading. I will walk forward 2 steps to reach the key, then pick it up, then head to the purple door at about (-3,-2) and toggle it. I will recheck the view after each move.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+2,go forward,"The key is now 1 step forward, so the previous plan's distance was one step out of date. I will step forward onto the key, pick it up, then head to the purple door at about (-3,-2) and toggle it. I will recheck the view after each move.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+3,go forward,"No changes to the plan. Step forward onto the key, pick it up, then head to the purple door at about (-3,-2) and toggle it. Recheck the view after each move.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+4,pick up,"Stop repeating ""go forward,"" since it is blocked by the key. Try ""pick up"" to collect the key from here. If that fails, turn to face the key and try again. Once I have the key, head to the purple door at about (-3,-2) and toggle it, rechecking the view after each move.","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward",0,False
+5,go forward,"The key is collected, so the earlier blocking is cleared. Move forward toward the door's row, then turn to face the door and step next to it. Toggle the locked purple door with the key in hand, rechecking the observation after each move.","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 1 step forward",0,False
+6,go forward,"The key is collected, so the earlier blocking is cleared. Go forward once to bring the door level with me (2 steps to my left). Turn left so the door is 2 steps ahead, step forward once so it is directly in front, then toggle the locked purple door while carrying the purple key. Recheck the observation after each move.","You carry a purple key
+a wall 2 steps forward
+a locked purple door 2 steps left",0,False
+7,turn left,"No changes to the plan. Turn left so the door is 2 steps ahead, go forward once so the door is directly in front of me, then toggle it while carrying the purple key. Recheck the observation after each move.","You carry a purple key
+a wall 2 steps right
+a locked purple door 2 steps forward",0,False
+8,go forward,"The door is already 2 steps ahead, so the earlier plan's turn is done. Go forward once so the door is directly in front of me, then toggle it while carrying the purple key. Recheck the observation after each move.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+9,go forward,"No changes to the plan. Go forward once to stand directly in front of the door, then toggle it while carrying the purple key.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+10,go forward,"No changes to the plan. Go forward once to stand directly in front of the door, then toggle it while carrying the purple key.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+11,toggle,"The previous plan was to stand in front of the door and toggle it while carrying the purple key. I am now in position, and repeating ""go forward"" would not change anything, so I am changing the plan: toggle the door to unlock it, then go forward through the opened doorway.","You carry a purple key
+a wall 2 steps right
+a open purple door 1 step forward",0.915625,True

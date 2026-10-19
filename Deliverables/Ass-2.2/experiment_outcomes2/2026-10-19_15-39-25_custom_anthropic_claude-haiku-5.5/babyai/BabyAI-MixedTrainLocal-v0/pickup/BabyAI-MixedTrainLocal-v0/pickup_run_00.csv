@@ -1,0 +1,19 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Step forward 1, turn left, walk forward 3 steps to reach the key's column, then pick up the key. Once it's below me, I'll pick it up.","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"No changes to the plan. Turn left to face the key, walk forward 3 steps onto its position, then pick it up.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"No changes to the plan. Walk forward 3 steps to the key's position, then pick it up.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"No changes to the plan. Walk forward 2 steps to the key's position, then pick it up.","a wall 1 step right
+a yellow key 1 step forward",0,False
+4,go forward,"Correction: I'm one step closer than my memory said. Go forward 1 step onto the key's position, then pick it up.","a wall 1 step right
+a yellow key 1 step forward",0,False
+5,go forward,"No changes to the plan. Go forward onto the key's position, then pick up the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+6,toggle,"The forward moves stopped changing the observation, so repeating them isn't working. I'll interact with whatever is directly in front of me to test whether the key is reachable. If that does nothing, I'll reassess my position and try a different route to the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+7,pick up,"The key is most likely directly in front of me and blocking forward movement, so I will try to pick it up. If pick up fails, I will reassess my facing direction and position.","You carry a yellow key
+a wall 2 steps forward
+a wall 1 step right",0.8875,True

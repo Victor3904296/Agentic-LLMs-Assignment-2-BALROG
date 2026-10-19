@@ -1,0 +1,47 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"The door-toggle plan is not needed for the goal. New plan: go to the blue ball (turn right, go forward 2, turn left, go forward 3), pick it up, then navigate to the blue box 4 steps forward of my starting view and finish there.","a wall 5 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 2 steps forward",0,False
+1,go forward,"No changes to the plan. Go forward 2 steps, turn left, go forward 3 steps to reach the blue ball and pick it up. Then navigate to the blue box at (0,4), which is 4 steps forward of the starting view.","a wall 4 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 1 step forward",0,False
+2,go forward,"The earlier plan's ""go forward 2, turn left, go forward 3"" no longer matches the observation. The ball is now 3 steps left and 1 step forward. Go forward 1 step, turn left, go forward 3 steps to reach the blue ball and pick it up. Then navigate to the blue box, which is 4 steps forward of the starting view.","a wall 3 steps forward
+a wall 1 step right
+a blue ball 3 steps left",0,False
+3,turn left,"The ball is now directly 3 steps left, so the earlier plan to go forward 1 and then left is outdated. Turn left to face the ball, go forward 3 steps to reach it, and pick it up. Then navigate to the blue box, which is about 4 steps forward of the starting view.","a wall 3 steps right
+a blue box 2 steps left and 4 steps forward
+a blue ball 3 steps forward",0,False
+4,go forward,"The ball is now 3 steps forward, so I am already facing it and no further turn is needed. Go forward 3 steps to reach the ball, pick it up, then head to the blue box, which is about 2 steps left and 4 steps forward of my position after the pickup.","a wall 3 steps right
+a blue box 2 steps left and 3 steps forward
+a blue ball 2 steps forward",0,False
+5,go forward,"The ball is now 2 steps forward, not 3 as the previous plan assumed. Go forward 2 steps to stand on the ball, pick it up, then head to the blue box, which will be about 2 steps left and 3 steps forward from my position at that point. Turn left toward the box and go forward to reach it.","a wall 3 steps right
+a blue box 2 steps left and 2 steps forward
+a blue ball 1 step forward",0,False
+6,go forward,"The ball is 1 step forward, not 2 as the previous plan assumed. Go forward 1 step to stand on the ball and pick it up. After that, the box should be about 2 steps left and 1 step forward. Turn left toward the box and go forward to reach it.","a wall 3 steps right
+a blue box 2 steps left and 2 steps forward
+a blue ball 1 step forward",0,False
+7,go forward,"No changes to the plan. Go forward onto the ball, pick it up, then head to the box, which will be about 2 steps left and 1 step forward from my new position.","a wall 3 steps right
+a blue box 2 steps left and 2 steps forward
+a blue ball 1 step forward",0,False
+8,pick up,"Forward movement is blocked by the ball, so I'll try to pick it up from here. If that fails, I'll try toggling the object in front. After I have the ball, I'll navigate to the blue box, which is 2 steps left and 2 steps forward from my current position.","You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps right
+a blue box 2 steps left and 2 steps forward",0,False
+9,turn left,"The ball is picked up, so I'll change the plan to delivering it to the blue box. I'll turn left, walk forward 2 steps to line up with the box, then turn right and move forward to reach it.","You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps left
+a blue box 2 steps right and 2 steps forward",0,False
+10,go forward,"The ball is picked up, so the goal is now to deliver it to the blue box. I'll walk forward 2 steps to line up with the box, then turn right and walk forward 2 steps to reach it.","You carry a blue ball
+a wall 3 steps forward
+a wall 3 steps left
+a blue box 2 steps right and 1 step forward",0,False
+11,go forward,"The blue box is now 1 step forward and 2 steps right, so the earlier plan is out of date. I'll walk forward 1 step, turn right to face the box, then walk forward 2 steps to reach it and deliver the ball.","You carry a blue ball
+a wall 2 steps forward
+a wall 3 steps left
+a blue box 2 steps right",0,False
+12,turn right,"The current plan is out of date. The box is 2 steps right, not 1 step forward and 2 steps right. I'll turn right to face the box, walk forward 2 steps onto it, and drop the ball.","You carry a blue ball
+a wall 2 steps left
+a blue box 2 steps forward",0,False
+13,go forward,"The box is 2 steps straight ahead, so I no longer need to turn right. I'll walk forward 2 steps onto the box while still carrying the ball, then drop the ball if the task requires it.","You carry a blue ball
+a wall 2 steps left
+a blue box 1 step forward",0.9015625,True

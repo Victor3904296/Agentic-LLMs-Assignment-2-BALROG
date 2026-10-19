@@ -1,0 +1,128 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"The earlier ""pick up"" idea is unlikely to help, since no object is visible on or ahead of me. I'll turn left to scan the surroundings for the blue box and yellow ball, then plan a route around the wall ahead.","a wall 5 steps forward
+a wall 1 step right",0,False
+1,go forward,"The wall ahead is 5 steps away, so I have room to move forward. I'll advance to scan for the blue box and yellow ball, staying clear of the wall on my right, and turn if the path gets blocked.","a wall 4 steps forward
+a wall 1 step right",0,False
+2,go forward,"No changes to the plan. Keep advancing to scan for the blue box and yellow ball, staying clear of the wall on my right, and turn if the path gets blocked.","a wall 3 steps forward
+a wall 1 step right",0,False
+3,go forward,"No changes to the plan. Keep advancing to scan for the blue box and yellow ball, staying clear of the wall on my right, and turn if the path gets blocked.","a wall 2 steps forward
+a wall 1 step right",0,False
+4,go forward,"Correct the position count and keep advancing to scan for the blue box and yellow ball. The wall ahead is 2 steps away, so I can take one more step forward, then turn left or right if the path is blocked. Keep the wall on my right.","a wall 1 step forward
+a wall 1 step right",0,False
+5,turn left,"Position corrected to (-4,0). The wall ahead is now adjacent, so I can't go forward. Turn left (toward -y, away from the right-side wall) to get around the obstacle and keep scanning for the blue box and yellow ball.","a wall 6 steps forward
+a wall 1 step right
+a blue box 2 steps left and 5 steps forward",0,False
+6,go forward,"The blue box is now visible about 5 steps ahead, so I'll head toward it and keep scanning for the yellow ball. Once I'm close, I'll line up with the box and pick it up. Then I'll look for the yellow ball and place the box beside it.","a wall 5 steps forward
+a wall 1 step right
+a blue box 2 steps left and 4 steps forward",0,False
+7,go forward,"No changes to the plan. Keep moving toward the blue box, line up with it so I can pick it up, keep scanning for the yellow ball, then place the box beside the ball.","a wall 4 steps forward
+a wall 1 step right
+a blue box 2 steps left and 3 steps forward",0,False
+8,go forward,"No changes to the plan. Walk forward until the blue box is level with me on my left, then turn left toward it, pick it up, and keep scanning for the yellow ball.","a wall 3 steps forward
+a wall 1 step right
+a blue box 2 steps left and 2 steps forward",0,False
+9,go forward,"No changes to the plan. Keep walking forward until the blue box is level with me on my left, then turn left toward it, pick it up, and keep scanning for the yellow ball.","a wall 2 steps forward
+a wall 1 step right
+a blue box 2 steps left and 1 step forward",0,False
+10,go forward,"No changes to the plan. One more step forward should put the blue box level with me on my left. Then I'll turn left, move toward the box, pick it up, and keep scanning for the yellow ball.","a wall 1 step forward
+a wall 1 step right
+a blue box 2 steps left",0,False
+11,turn left,"The wall ahead blocks forward movement, so I'll turn left to face the blue box, which will then be 2 steps ahead. I'll move toward it, pick it up, and keep scanning for the yellow ball.","a wall 1 step right
+a yellow ball 1 step left and 5 steps forward
+a blue box 2 steps forward",0,False
+12,go forward,"The box is already straight ahead, so the earlier plan to turn left is outdated. I'll move forward toward the blue box, pick it up, then carry it toward the yellow ball, which is about 5 steps ahead and 1 step to the left.","a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+13,go forward,"Move forward onto the box's position, pick it up, then carry it toward the yellow ball, which is about 4 steps ahead and 1 step to the left.","a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+14,go forward,No changes to the plan.,"a wall 1 step right
+a yellow ball 1 step left and 4 steps forward
+a blue box 1 step forward",0,False
+15,pick up,"Pick up the blue box, which is directly in front of me. Then carry it toward the yellow ball, about 4 steps ahead and 1 step to the left, and drop it adjacent to the ball.","You carry a blue box
+a wall 5 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 4 steps forward",0,False
+16,go forward,"No changes to the plan. Walk forward toward the yellow ball, stopping when it is diagonal or directly beside me, then drop the box in a square adjacent to the ball.","You carry a blue box
+a wall 4 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 3 steps forward",0,False
+17,go forward,"No changes to the plan. Walk forward until the yellow ball is diagonal or beside me, then drop the box on a square adjacent to the ball.","You carry a blue box
+a wall 3 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 2 steps forward",0,False
+18,go forward,"No changes to the plan. Walk forward until the yellow ball is beside me, then drop the box on a square adjacent to the ball.","You carry a blue box
+a wall 2 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 1 step forward",0,False
+19,go forward,"No changes to the plan. Walk forward until the yellow ball is beside me, then drop the box on a square adjacent to the ball.","You carry a blue box
+a wall 1 step forward
+a wall 1 step right
+a yellow ball 1 step left",0,False
+20,turn right,"Dropping the box in front of me would place it diagonal to the ball, not beside it. Instead, turn around and step back one square, then turn to face the ball's side and drop the box on the square just below the ball, which is directly adjacent to it.","You carry a blue box
+a wall 1 step forward
+a wall 1 step left",0,False
+21,turn right,"Turn right to face south, step forward once so I'm directly below the ball's row, turn right to face west, then drop the box on the square directly below the ball, which is adjacent to it.","You carry a blue box
+a wall 6 steps forward
+a wall 1 step left
+a yellow ball 1 step right",0,False
+22,go forward,"Step forward, turn right so I face the square directly beside the ball, then drop the box there. That square is orthogonally adjacent to the ball.","You carry a blue box
+a wall 5 steps forward
+a wall 1 step left",0,False
+23,turn right,"Turn right to face the empty square directly beside the ball, then drop the box there. Since that square is adjacent to the ball, I can drop without moving further.","You carry a blue box
+a wall 6 steps forward
+a wall 2 steps right
+a yellow ball 1 step right and 1 step forward",0,False
+24,turn right,"No changes to the plan. Turn right to face the empty square directly beside the ball, then drop the box there.","You carry a blue box
+a wall 2 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 1 step forward",0,False
+25,turn left,"Turn left to face the empty square directly beside the ball (1 step left of me, directly below the ball), then drop the box there. The previous plan to turn right would face the wall on my right, so I'm changing it.","You carry a blue box
+a wall 6 steps forward
+a wall 2 steps right
+a yellow ball 1 step right and 1 step forward",0,False
+26,go forward,"Go forward 1 step so the ball is directly to my right, then drop the blue box on the adjacent square.","You carry a blue box
+a wall 5 steps forward
+a yellow ball 1 step right",0,False
+27,go forward,"Go forward 1 step, turn right so I face the cell directly above the ball, then drop the blue box there. That cell is orthogonally adjacent to the ball.","You carry a blue box
+a wall 4 steps forward
+a wall 2 steps right",0,False
+28,turn right,"Turn right to face the open cell 1 step to my right. That cell is directly above the ball's estimated position, so it is orthogonally adjacent to the ball. Then drop the blue box there. This replaces the earlier plan, which relied on the ball's position being misremembered.","You carry a blue box
+a wall 2 steps forward
+a wall 3 steps right
+a yellow ball 1 step right and 1 step forward",0,False
+29,turn right,"Turn right to face the open cell 1 step to my right, then drop the blue box there, which is next to the yellow ball.","You carry a blue box
+a wall 3 steps forward
+a wall 2 steps left
+a yellow ball 1 step left and 1 step forward",0,False
+30,turn left,"Turn left to face the open cell 1 step to my left, which is directly below the yellow ball, then drop the blue box there.","You carry a blue box
+a wall 2 steps forward
+a wall 3 steps right
+a yellow ball 1 step right and 1 step forward",0,False
+31,turn right,"The current plan is wrong because the ball is on my right, not my left. Turn right to face the open cell directly below the ball, then drop the blue box there. That cell is adjacent to the ball.","You carry a blue box
+a wall 3 steps forward
+a wall 2 steps left
+a yellow ball 1 step left and 1 step forward",0,False
+32,go forward,"The earlier plan was based on the wrong side of the ball, so I am changing it. Go forward one step. That puts the ball directly to my left, next to me. Then drop the blue box while adjacent to the ball.","You carry a blue box
+a wall 2 steps forward
+a yellow ball 1 step left",0,False
+33,go forward,"Go forward one step, which leaves the ball diagonally behind-left of me. Then turn left so I face the cell just beside the ball, and drop the blue box there, placing it next to the yellow ball.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+34,drop,"The current plan is not workable because the wall 1 step forward blocks the planned forward move. I am already adjacent to the yellow ball, so I will drop the blue box here, placing it next to the ball.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+35,drop,"The forward path is blocked by the wall, and I am already adjacent to the yellow ball. I will try dropping the box here. If the drop fails because the cell in front is a wall, I will turn to find an open cell next to the ball and place the box there.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+36,turn left,"The drop failed twice with no change, so repeating it is pointless. I will turn to face the ball's side and look for an open cell adjacent to the ball where I can drop the box.","You carry a blue box
+a wall 2 steps forward
+a wall 1 step right
+a yellow ball 1 step left and 1 step forward",0,False
+37,turn left,"Turn left so I face the open cell beside the ball, then drop the box there. This changes the plan slightly: I will drop the box on the open cell to the left instead of in front of me.","You carry a blue box
+a wall 6 steps forward
+a wall 2 steps right
+a yellow ball 1 step right and 1 step forward",0,False
+38,drop,"Drop the blue box on the open cell directly in front of me. That cell is directly to the left of the yellow ball, so the box will end up next to the ball. This replaces the earlier plan to turn left and drop there.","a wall 2 steps right
+a blue box 1 step forward
+a yellow ball 1 step right and 1 step forward",0.72578125,True

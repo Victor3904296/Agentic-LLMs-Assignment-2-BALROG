@@ -1,0 +1,33 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Changed. The earlier plan assumed a key was directly in front of me, but the purple key is 2 steps to my left. I will turn to face left, walk two steps to reach it, and then pick it up. After that, I will look for the purple door, which is my goal.","a wall 2 steps left
+a locked purple door 2 steps left and 3 steps forward
+a purple key 2 steps forward",0,False
+1,go forward,"The plan has changed slightly. I already turned left, so the key is now 2 steps ahead. I will walk forward 2 steps, pick up the purple key, then navigate to the locked purple door, which is my goal.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+2,go forward,"The plan has changed slightly. The key is now only 1 step ahead, so I will step forward onto it, pick it up, then navigate to the locked purple door, which is my goal.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+3,go forward,"No changes to the plan. Step forward onto the key, pick it up, then navigate to the locked purple door and toggle it to open it.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+4,pick up,"Stepping forward did not change my position, so the key is likely blocking the cell in front of me. Instead of moving forward, pick up the key from the adjacent cell. Then navigate to the locked purple door, face it, and toggle it to open it.","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward",0,False
+5,go forward,"The key is now in my inventory, so the path forward should be clear. Move forward until the locked purple door is directly to my left. Then turn to face it, step adjacent to it if needed, and use ""toggle"" to unlock and open it with the purple key.","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 1 step forward",0,False
+6,go forward,"The door is now 1 step forward and 2 steps left. Move forward once so the door is directly to my left, turn left to face it, move forward once to become adjacent, then use ""toggle"" to unlock and open it with the purple key.","You carry a purple key
+a wall 2 steps forward
+a locked purple door 2 steps left",0,False
+7,turn left,"The door is 2 steps left, not 1 step forward and 2 steps left as I previously noted. Turn left to face it, which puts the door 2 steps in front of me. Go forward once to become adjacent to the door, then use ""toggle"" to unlock and open it with the purple key.","You carry a purple key
+a wall 2 steps right
+a locked purple door 2 steps forward",0,False
+8,go forward,"No changes to the plan. Go forward once to become adjacent to the door, then use ""toggle"" to unlock and open it with the purple key.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+9,toggle,"No changes to the plan. I am now adjacent to the door, so use ""toggle"" to unlock and open it with the purple key.","You carry a purple key
+a wall 2 steps right
+a open purple door 1 step forward",0.9296875,True

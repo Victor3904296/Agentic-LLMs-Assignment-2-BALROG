@@ -1,0 +1,41 @@
+{
+    "average_progress": 74.24242424242425,
+    "standard_error": 8.72583461776313,
+    "environments": {
+        "crafter": {
+            "progression_percentage": 48.484848484848484,
+            "standard_error": 17.45166923552626,
+            "episodes_played": 3
+        },
+        "babyai": {
+            "progression_percentage": 100.0,
+            "standard_error": 0.0,
+            "episodes_played": 15
+        }
+    },
+    "total_input_tokens": 2955549,
+    "total_output_tokens": 1044044,
+    "client": {
+        "client_name": "xai",
+        "model_id": "anthropic/claude-haiku-5.5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 5,
+        "alternate_roles": false
+    },
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    }
+}

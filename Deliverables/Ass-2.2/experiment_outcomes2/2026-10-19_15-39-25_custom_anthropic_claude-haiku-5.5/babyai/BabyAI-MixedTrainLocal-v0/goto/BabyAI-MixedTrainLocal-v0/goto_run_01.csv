@@ -1,0 +1,10 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"1) Go forward 1 step to (0,1). 2) Turn left to face the key's direction. 3) Go forward 3 steps to reach the key at (-3,1). 4) Pick up the key.","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"No changes to the plan. Turn left to face the key, go forward 3 steps to reach (-3,1), then pick up the key.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"No changes to the plan. Walk forward 3 steps to reach the key at (-3,1), then pick it up.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"Continue forward 2 more steps to reach the key at (-3,1), then pick it up. The previous plan's step count was off by one because I had already moved forward once, so the remaining distance is 2 steps.","a wall 1 step right
+a yellow key 1 step forward",0.94375,True

@@ -1,0 +1,2494 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Do,"The earlier plan about the box and ball doesn't match the current view, so I'm replacing it. Interact with the grass in front of me to try for a sapling, then look for trees to collect wood, and then place a table and craft a wood pickaxe and sword.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",1.0,False
+1,Place Plant,"Place the sapling as a plant for the Place Plant achievement, then explore to find trees for wood, water for drink, and stone. Once I have wood, place a table and craft a wood pickaxe and wood sword, then continue toward stone, coal, iron, and a furnace.","You see:
+- grass 1 step to your west
+- plant 1 step to your south
+
+You face plant at your front.",1.0,False
+2,Move West,"Place Plant appears complete, so the plan changes. Explore west (the only visible open direction) to find trees for wood, then water for drink and stone. Avoid walking into the plant to the south so it isn't damaged. Once I have wood, place a table, craft a wood pickaxe and wood sword, then continue toward stone, coal, iron, and a furnace.","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+3,Move West,"No changes to the plan. Explore west to find trees for wood, then water and stone. Avoid walking into the plant so it isn't damaged. Once I have wood, place a table, craft a wood pickaxe and wood sword, then continue toward stone, coal, iron, and a furnace.","You see:
+- cow 7 steps to your north-west
+- grass 1 step to your west
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+4,Move West,"No changes to the plan. Continue exploring west to find trees for wood, then look for water and stone. Avoid walking into the plant so it isn't damaged. Once I have wood, place a table, craft a wood pickaxe and wood sword, then continue toward stone, coal, iron, and a furnace. Eat the cow when food drops, and return to the plant later to eat it when ripe.","You see:
+- grass 1 step to your west
+- cow 6 steps to your north-west
+- plant 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+5,Move West,"No changes to the plan. Continue exploring west to find trees for wood, then look for water and stone. Avoid walking into the plant so it isn't damaged. Once I have wood, place a table, craft a wood pickaxe and wood sword, then continue toward stone, coal, iron, and a furnace. Eat the cow when food drops, and return to the plant later to eat it when ripe.","You see:
+- grass 1 step to your west
+- tree 6 steps to your north-west
+- stone 7 steps to your south-west
+- cow 5 steps to your north-west
+- plant 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+6,Move West,"No changes to the plan. Continue west/north-west toward the tree to collect wood, then place a table, craft a wood pickaxe and wood sword, and head to the stone to the south-west. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- stone 5 steps to your south-west
+- path 5 steps to your north-west
+- grass 1 step to your west
+- tree 5 steps to your north-west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+7,Move West,"No changes to the plan. Continue west toward the tree to collect wood, then place a table, craft a wood pickaxe and wood sword, and head to the stone to the south-west. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- path 4 steps to your north-west
+- stone 4 steps to your west
+- grass 1 step to your west
+- tree 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+8,Move West,"No changes to the plan. Continue west toward the stone and tree. Collect wood from the tree, place a table, make a wood pickaxe and wood sword, then mine stone. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- path 3 steps to your north-west
+- stone 3 steps to your west
+- grass 1 step to your west
+- tree 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+9,Move West,"No changes to the plan. Keep moving west toward the stone and tree. Collect wood from the tree, place a table, make a wood pickaxe and wood sword, then mine stone. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- stone 2 steps to your west
+- path 2 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+10,Move North,"No changes to the plan. Move north to reach the tree and collect wood. Then place a table, make a wood pickaxe and wood sword, mine stone, and make stone tools. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your south
+- tree 1 step to your north
+- cow 5 steps to your north-east
+
+You face tree at your front.",0.0,False
+11,Do,"No changes to the plan. I am facing the tree, so I will collect wood by hitting it repeatedly. Then I will place a table, make a wood pickaxe and wood sword, mine stone, and make stone tools. I will eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",1.0,False
+12,Move North,"Find another tree to collect more wood (I need about 4-5 total for table, wood pickaxe, and wood sword). Then place a table, make a wood pickaxe and wood sword, mine stone, and make stone tools. Eat the cow when food drops, and return to the plant later to eat it when ripe, avoiding walking into it.","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your north
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+13,Move North,"No changes to the plan. Explore to find another tree and collect about 4-5 wood total for a table, wood pickaxe, and wood sword. Then place a table, craft wood tools, mine stone, and make stone tools. Eat the cow when food drops, and return to the plant later to eat it when ripe, without walking into it.","You see:
+- stone 1 step to your west
+- path 2 steps to your west
+- grass 1 step to your south
+- cow 4 steps to your north-east
+
+You face stone at your front.",0.0,False
+14,Move East,"Explore to find another tree and collect about 4-5 wood total for a table, wood pickaxe, and wood sword. Then place a table, craft wood tools, mine stone, and make stone tools. Eat the cow when food drops, and return to the plant later to eat it when ripe, without walking into it.","You see:
+- path 3 steps to your west
+- stone 2 steps to your west
+- grass 1 step to your west
+- cow 2 steps to your north
+
+You face grass at your front.",0.0,False
+15,Move North,"Move north toward the nearby cow and attack it to earn Eat Cow, even though food is full. Then continue exploring for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, place a table, craft wood tools, mine stone, and make stone tools. Return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+16,Move North,"No changes to the plan. Move north toward the cow and attack it for Eat Cow. Then explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, place a table, craft wood tools, mine stone, and make stone tools. Return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- cow 1 step to your east
+
+You face grass at your front.",0.0,False
+17,Move East,"No changes to the plan. Turn east to face the cow and attack it for Eat Cow. Then explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, place a table, craft wood tools, mine stone, and make stone tools. Return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+18,Do,"No changes to the plan. I am already facing the cow, so attack it with Do for Eat Cow (several hits may be needed). Then explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, place a table, craft wood tools, mine stone, and make stone tools. Return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+19,Do,"No changes to the plan. I am facing the cow, so I will keep attacking it with Do to eat it (several hits may be needed). Then I will explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, I will place a table, craft wood tools, mine stone, and make stone tools. I will return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+20,Do,"No changes to the plan. I will keep attacking the cow with Do until it is eaten, then explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. After that, I will place a table, craft wood tools, mine stone, and make stone tools. I will return to the plant later and eat it once it is ripe, without walking into it.","You see:
+- path 4 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",1.0,False
+21,Move North,"Food is already full, so I will stop chasing the cow and explore for trees to collect about 4-5 wood for a table, wood pickaxe, and wood sword. Then I will place a table, craft wood tools, mine stone, and make stone tools. I will return to the plant later and eat it once it is ripe, without walking into it. I'll also collect a drink from water when I find it.","You see:
+- path 4 steps to your west
+- grass 1 step to your north
+- stone 1 step to your west
+
+You face grass at your front.",0.0,False
+22,Move North,"No changes to the plan. I will keep exploring for trees to collect about 4-5 wood, then place a table, craft wood pickaxe and wood sword, mine stone, make stone tools, and find water to drink. I will return to the plant later to eat it once ripe.","You see:
+- sand 3 steps to your north
+- path 4 steps to your west
+- grass 1 step to your north
+- stone 1 step to your west
+- water 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+23,Move North,"Head north-east to the water to drink (this earns Collect Drink). Then keep exploring for trees to collect about 4-5 wood, place a table, and craft a wood pickaxe and wood sword. Next, mine the nearby stone, make stone tools, and place stone. Return to the plant later to eat it once ripe.","You see:
+- water 3 steps to your north
+- sand 2 steps to your north
+- path 4 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+24,Move North,"Continue north toward the water to drink, which earns Collect Drink. Then look for trees to gather about 4-5 wood, place a table, and craft a wood pickaxe and wood sword. After that, mine the nearby stone for stone tools and place stone. Watch for saplings on grass so I can place and later eat a plant.","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- path 4 steps to your west
+- grass 1 step to your west
+- stone 3 steps to your south-west
+
+You face sand at your front.",0.0,False
+25,Move North,"No changes to the plan. Move north onto the sand, then face the water and drink to get Collect Drink. Then find trees for wood, place a table, and craft wood tools. Afterward, mine stone for stone tools and place stone. Watch for saplings on grass.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",0.0,False
+26,Do,"No changes to the plan. Drink from the water now to get Collect Drink. Then search for trees to collect wood, place a table, and craft wood tools. Afterward, mine stone for stone tools and place stone. Watch for saplings on grass.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",1.0,False
+27,Do,"No changes to the plan. Drink from the water now to get Collect Drink. Then search for trees to collect wood, place a table, and craft wood tools. Afterward, mine stone for stone tools and place stone. Watch for saplings on grass.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",0.0,False
+28,Move East,"Drink is done. Explore to find trees and collect several wood. Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and place stone, and keep an eye out for saplings on grass to plant.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",0.0,False
+29,Move East,"No changes to the plan. Explore to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat and for coal and iron later.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",0.0,False
+30,Move East,"No changes to the plan. Explore to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat, then coal and iron later.","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- path 5 steps to your south-west
+- grass 1 step to your south
+- stone 4 steps to your south-west
+
+You face water at your front.",0.0,False
+31,Move West,"No changes to the plan. Explore to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat, then coal and iron later. Since east seems blocked, I'll try exploring west first.","You see:
+- stone 3 steps to your south
+- water 1 step to your north
+- sand 1 step to your west
+- path 4 steps to your south-west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+32,Move West,"No changes to the plan. Explore west to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat, then coal and iron later.","You see:
+- stone 3 steps to your west
+- water 1 step to your north
+- sand 1 step to your west
+- path 3 steps to your south-west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+33,Move West,"No changes to the plan. Explore west to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat, then coal and iron later.","You see:
+- stone 2 steps to your west
+- diamond 6 steps to your north-west
+- coal 4 steps to your west
+- water 1 step to your north
+- sand 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+34,Move West,"No changes to the plan. Explore west to find trees and collect wood (aim for about 5 or more). Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, and collect a sapling from grass to plant. Look for cows to eat, then coal and iron later. Remember the diamond location to the northwest for later, once an iron pickaxe is available.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+35,Move South,"No changes to the plan. Go around the stone to reach the tree to the west and collect about 5 or more wood. Then place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, collect a sapling from grass and plant it, look for cows, then get coal and iron. Remember the diamond to the northwest for later, once an iron pickaxe is available.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+36,Move South,"Go around the stone by stepping onto the path to the south, then head west toward the tree and coal. Collect about 5 or more wood, place a table, make a wood pickaxe and wood sword, mine stone for stone tools and placing stone, collect a sapling from grass and plant it, look for cows, then get coal and iron. Remember the diamond to the northwest for later, once an iron pickaxe is available.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+37,Move South,"Go around the stone by moving south, then west toward the tree. Collect about 5 or more wood, place a table, and make a wood pickaxe and wood sword. Mine stone for stone tools and placing stone. Collect a sapling from grass and plant it. Look for cows. Then get coal and iron, and remember the diamond to the northwest for later, once an iron pickaxe is available.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+38,Move South,"Go around the stone by moving south, then west toward the tree. Collect about 5 or more wood, place a table, and make a wood pickaxe and wood sword. Mine stone for stone tools and placing stone. Collect a sapling from grass and plant it. Look for cows. Then get coal and iron, and remember the diamond for later, once an iron pickaxe is available. Drink from the water to the north when convenient.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+39,Move South,"Go around the stone by moving south, then west toward the tree. Collect about 5 or more wood, place a table, and make a wood pickaxe and wood sword. Mine stone for stone tools and placing stone. Collect a sapling from grass and plant it. Look for cows. Then get coal and iron, and remember the diamond for later, once an iron pickaxe is available. Drink from the water to the north when convenient.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+40,Move South,"No changes to the plan. Continue south and then west to get around the stone. Collect at least 5 wood from trees, place a table, and make a wood pickaxe and wood sword. Mine stone for stone tools and placing stone. Collect a sapling from grass and plant it. Look for cows. Then get coal and iron (iron is now known to the southwest), and save the diamond for when I have an iron pickaxe. Drink from the water to the north when convenient.","You see:
+- tree 7 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 4 steps to your west
+- iron 4 steps to your south-west
+- lava 5 steps to your south-west
+- grass 4 steps to your south-east
+
+You face path at your front.",0.0,False
+41,Move North,"Wood is the bottleneck, since I need it for a table, pickaxe, and sword. I'll head back north-west toward the trees, collecting at least 5 wood. Then I'll place a table, make a wood pickaxe and sword, and mine the stone to the west. I'll also collect a sapling from grass and plant it, and drink from the water to the north. Later I'll get coal and iron, using the nearby table and a furnace. I'll save the diamond for after I have an iron pickaxe. I'll avoid the lava to the southwest.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+42,Move North,"Wood is the bottleneck, since I need it for a table, pickaxe, and sword. I'll head northwest toward the trees and collect at least 5 wood. Then I'll place a table, make a wood pickaxe and sword, and mine the stone to the west. I'll collect a sapling from grass and plant it, and drink from the water to the north when convenient. Later I'll get coal and iron using the table and a furnace near the stone area. I'll save the diamond for after I have an iron pickaxe. I'll avoid the lava to the southwest.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+43,Move North,"No changes to the plan. Head northwest to the trees and collect at least 5 wood. Then place a table, make a wood pickaxe and wood sword, and mine the stone to the west. Collect a sapling from grass and plant it, and drink from the water to the north when convenient. Later get coal and iron, build a furnace near the stone area, and make the iron pickaxe. Save the diamond for after the iron pickaxe. Avoid the lava to the southwest.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+44,Move North,"Changed slightly. The nearest tree is 4 steps west, so I'll go around the stone and reach it first. Collect at least 5 wood. Then place a table, make a wood pickaxe and wood sword, and mine the stone to the west. Collect a sapling from grass and plant it. Drink from the water to the north. Later get coal and iron, build a furnace near the stone area, and make the iron pickaxe. Save the diamond for after the iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+45,Move North,"Changed slightly. The stone blocks the direct route west to the tree, so I'll step north onto the path and go around to the tree 4 steps west. Collect at least 5 wood. Then place a table, make a wood pickaxe and wood sword, and mine the stone. Collect a sapling from grass and plant it. Drink from the water to the north. Later get coal and iron, build a furnace near the stone area, and make the iron pickaxe. Save the diamond for after the iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+46,Move North,"Changed slightly. Move north onto the sand and drink at the water to collect the Collect Drink achievement. Then head west toward the trees and gather at least 5 wood. Place a table, make a wood pickaxe and wood sword, then mine the stone to the west. Collect a sapling from grass and plant it. Later get coal (3 steps west) and iron, build a furnace near the stone, and make the iron pickaxe. Save the diamond for after the iron pickaxe. Avoid the lava to the southwest.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+47,Do,"The plan is still good, with one change: I am already facing water, so I will drink now instead of moving onto the sand first. After drinking, I will head west toward the trees and gather at least 5 wood. Then I will place a table, make a wood pickaxe and wood sword, mine the stone to the west, collect a sapling from grass and plant it, get coal, and build a furnace near the stone. I'll save the diamond for after the iron pickaxe and avoid the lava to the southwest.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+48,Move West,"Change: I'll stop drinking since drink is full. I'll head west toward the trees (4 steps) and gather at least 5 wood. Then place a table, make a wood pickaxe and wood sword, mine the stone to the west, collect a sapling from grass and plant it, get coal to the west, and build a furnace near the stone. I'll save the diamond for after the iron pickaxe and avoid the lava to the southwest.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+49,Move South,"Change: I can't mine stone yet because I need a wood pickaxe, which requires a table. I'll step south onto the path to get around the stone, then go west to the trees and gather at least 5 wood. Next I'll place a table and make a wood pickaxe and wood sword. Then I'll mine the stone and coal to the west, collect a sapling from grass and plant it, and build a furnace near the stone. I'll save the diamond for after the iron pickaxe and avoid any lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+50,Move South,"No changes to the plan. Step south onto the path to get around the stone, then head west to the trees and gather at least 5 wood. Next, place a table, make a wood pickaxe and wood sword, mine the stone and coal to the west, collect a sapling from grass and plant it, and build a furnace near the stone. Save the diamond for after making an iron pickaxe, and avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+51,Move South,"No changes to the plan. Step south onto the path to get around the stone, then head west to the trees and gather at least 5 wood. Next, place a table, make a wood pickaxe and wood sword, mine the stone and coal to the west, collect a sapling from grass and plant it, and build a furnace near the stone. Save the diamond for after making an iron pickaxe, and avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+52,Move South,"No changes to the plan. Step south onto the path to get around the stone, then head west to the trees and gather at least 5 wood. Next, place a table, make a wood pickaxe and wood sword, mine the stone and coal to the west, collect a sapling from grass and plant it, and build a furnace near the stone. Save the diamond for after making an iron pickaxe, and avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+53,Move South,"No changes to the plan. Step south onto the path to get around the stone, then head west to the trees and gather at least 5 wood. Next, place a table, make a wood pickaxe and wood sword, mine the stone and coal to the west, collect a sapling from grass and plant it, and build a furnace near the stone. Save the diamond for after making an iron pickaxe, and avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+54,Move North,"No changes to the plan. The stone to the west needs a wood pickaxe before I can mine it, so I'll head back north along the path toward the trees, gather at least 5 wood, then place a table, make a wood pickaxe and wood sword, and mine the stone and coal. Next I'll collect a sapling from grass and plant it, then build a furnace. The diamond and iron to the southwest come after the iron pickaxe, and I'll avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+55,Move North,"No changes to the plan. Head north along the path toward the trees and collect at least 5 wood. Then place a table, make a wood pickaxe and wood sword, and mine the stone and coal. Collect a sapling from grass and plant it, and build a furnace. Mine iron and diamond after making a stone pickaxe, and avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+56,Move North,"No changes to the plan. Head north along the path toward the trees and collect at least 5 wood. Drink from the nearby water on the way to get Collect Drink. Then place a table, make a wood pickaxe and wood sword, and mine the stone and coal. Collect a sapling from grass and plant it, and build a furnace. Mine iron and diamond after making a stone pickaxe, and avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+57,Move North,"Continue north along the path, then head west toward the trees to collect at least 5 wood. Drink from the water to the north for Collect Drink, and collect a sapling from grass. Place a table, then make a wood pickaxe and wood sword. Mine stone and coal, place stone, and plant the sapling. Build a furnace, make a stone pickaxe and stone sword, then mine iron and diamond. Avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+58,Move North,"Move north across the sand to the water and drink for Collect Drink. Then collect a sapling from the nearby grass and place it for Place Plant. Gather at least 4 more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine the stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+59,Do,"No changes to the plan. Drink from the water now for Collect Drink, then collect a sapling from the grass and place it for Place Plant. Gather at least 4 more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+60,Move East,"No changes to the plan. Collect a sapling from the nearby grass and place it for Place Plant. Gather at least 4 more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Avoid lava.","You see:
+- stone 2 steps to your west
+- diamond 6 steps to your north-west
+- coal 4 steps to your west
+- water 1 step to your north
+- sand 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+61,Move South,"No changes to the plan. Collect a sapling from the grass to the south and place it for Place Plant. Gather at least 4 more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed and avoid lava.","You see:
+- diamond 7 steps to your north-west
+- stone 1 step to your south
+- coal 4 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your west
+- grass 1 step to your east
+
+You face stone at your front.",0.0,False
+62,Move East,"No changes to the plan. Collect a sapling from nearby grass and place it (Collect Sapling, Place Plant). Gather at least 4 more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+63,Do,"No changes to the plan. Collect a sapling from the grass (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+64,Do,"No changes to the plan. Keep trying to collect a sapling from the grass in front of me (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+65,Do,"No changes to the plan. Keep trying to collect a sapling from the grass in front of me (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+66,Do,"No changes to the plan. Keep trying to collect a sapling from the grass in front of me (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+67,Do,"No changes to the plan. Keep trying to collect a sapling from the grass in front of me (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+68,Do,"No changes to the plan. Keep trying for a sapling on the grass for a few more attempts (Collect Sapling, then Place Plant). Gather more wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+69,Do,"No changes to the plan. Make a few more Do attempts on the grass for a sapling (Collect Sapling, then Place Plant). If none succeed after a few more tries, move west to the trees, gather more wood, place a table, and make a wood pickaxe and wood sword. Then mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+70,Do,"Make a few more Do attempts on the grass for a sapling (Collect Sapling, then Place Plant). If none succeed after a few more tries, move west toward the trees, gather more wood (aim for at least 5 to cover table, wood pickaxe, and wood sword), place a table, and make a wood pickaxe and wood sword. Then mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+71,Move West,"Stop attempting Do on the grass. Move west toward the trees, gather at least 5 wood, and place a table. Then make a wood pickaxe and wood sword. Next, mine stone and coal, place a stone, build a furnace, and make stone tools. Then mine iron and diamond and make iron tools. Try for a sapling on grass again later when I am near a safe area. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- diamond 7 steps to your north-west
+- stone 1 step to your south
+- coal 4 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your west
+- grass 1 step to your east
+
+You face path at your front.",0.0,False
+72,Move West,"Move west toward the trees and gather at least 5 wood. Place a table, then make a wood pickaxe and wood sword. Mine the nearby stone and coal, place a stone, build a furnace, and make stone tools. Then find iron and diamond and make iron tools. Drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+73,Move North,"No changes to the plan. I'll head northwest to the trees, gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+74,Move South,"No changes to the plan. I'll go around the stone via the path to the south and head west toward the trees and coal. I'll gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+75,Move South,"No changes to the plan. I'll go around the stone via the path to the south and head west toward the trees and coal. I'll gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+76,Move South,"No changes to the plan. I'll step south to get around the stone, then head west toward the trees and coal. I'll gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+77,Move South,"No changes to the plan. I'll go south to get around the stone, then head west toward the trees. I'll gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+78,Move South,"No changes to the plan. I'll go south to get around the stone, then head west toward the trees. I'll gather at least 5 wood, place a table, then make a wood pickaxe and wood sword. After that I'll mine stone and coal, place stone, build a furnace, and make stone tools. Then I'll look for iron and diamond to make iron tools. I'll drink water when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+79,Move North,"Changing the route. Trees are to the northwest, not south, so I'll head north and then west to gather at least 5 wood. Then I'll place a table, make a wood pickaxe and wood sword, and mine the stone to the west. Next I'll collect coal to the northwest, place a furnace near a table, and make stone tools. With a stone pickaxe I can mine iron to the southwest, and with an iron pickaxe I can mine the diamond. I'll drink from the water to the north when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+80,Move North,"No changes to the plan. I'll head north along the path, then west toward the trees to gather at least 5 wood. Then I'll place a table, make a wood pickaxe and wood sword, and mine the nearby stone. Next I'll collect coal, place a furnace near a table, and make stone tools. A stone pickaxe lets me mine iron, and an iron pickaxe lets me mine diamond. I'll drink from the water to the north when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+81,Move North,"No changes to the plan. I'll head north along the path, then west toward the trees to gather at least 5 wood. Then I'll place a table, make a wood pickaxe and wood sword, and mine the nearby stone. Next I'll collect coal, place a furnace near a table, and make stone tools. A stone pickaxe lets me mine iron, and an iron pickaxe lets me mine diamond. I'll drink from the water to the north when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+82,Move North,"I'll step north onto the path, then head west toward the trees to gather more wood (at least 5). Then I'll place a table, make a wood pickaxe and wood sword, and mine the nearby stone. Next I'll collect coal, place a furnace near a table, and make stone tools. A stone pickaxe lets me mine iron, and an iron pickaxe lets me mine diamond. I'll drink from the water to the north when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+83,Move North,"No changes to the plan. I need at least 5 wood before placing a table, so I'll head northwest to the trees, collect wood, then place a table and make a wood pickaxe and sword. Next I'll mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink from the water to the north when needed, eat cows when found, sleep when energy is low, and avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+84,Do,"I'm facing water now, so I'll drink first to get the Collect Drink achievement and top up drink. Then I'll head west to the tree 4 steps away and collect wood, since I need about 5 wood total for a table, wood pickaxe, and wood sword. After that I'll place a table, make the wood tools, mine the nearby stone and coal, build a furnace near the table, and make stone and iron tools. I'll sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+85,Move West,"Continue the plan with a small adjustment. I'll head west toward the tree 4 steps away and collect wood, aiming for about 5 wood total for a table, wood pickaxe, and wood sword. Then I'll place a table, make the wood tools, mine the nearby stone and coal, build a furnace near the table, and make stone and iron tools. I'll sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+86,Move South,"I need more wood before crafting, since a table, wood pickaxe, and wood sword each need wood. I'll go around the stone to reach the tree 4 steps west, collect about 5 wood, then place a table, make a wood pickaxe and wood sword, mine the stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink from the water to the north when needed, sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+87,Move South,"Still need more wood before crafting, since a table, wood pickaxe, and wood sword each need wood. I'll go around the stone to reach the northwest tree and collect about 5 wood. Then I'll place a table, make a wood pickaxe and wood sword, mine the stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink from the water when needed, sleep when energy is low, eat cows when found, and avoid lava. The tree is now 5 steps northwest rather than 4 west, so the route is updated.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+88,Move South,"Still need more wood before crafting, since a table, wood pickaxe, and wood sword each need wood. I'll go around the stone to reach the western tree and collect about 5 wood, then place a table and make a wood pickaxe and wood sword. Next I'll mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink from the water when needed, sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+89,Move South,"Still need more wood before crafting, since a table, wood pickaxe, and wood sword each need wood. I'll route around the stone (south first, then west) to reach the western tree and collect about 5 wood, then place a table and make a wood pickaxe and wood sword. Next I'll mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink from the water when needed, sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+90,Move South,"No changes to the plan. I'll go south around the stone, then west to the western tree and collect about 5 wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink when needed, sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+91,Move South,"No changes to the plan. I'll keep moving south around the stone toward the southwest area, looking for trees along the way. Once I have about 5 wood, I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink when needed, sleep when energy is low, eat cows when found, and avoid lava.","You see:
+- tree 7 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 4 steps to your west
+- iron 4 steps to your south-west
+- lava 5 steps to your south-west
+- grass 4 steps to your south-east
+
+You face path at your front.",0.0,False
+92,Move North,"Changed. Lava is now close to the southwest, so I won't head that way. I'll go back north and then northwest toward the trees to gather about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, eat cows when found, and approach the diamond and iron only after I have a stone pickaxe and I can see the lava clearly.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+93,Move North,"No changes to the plan. I'll head north and then northwest toward the trees to gather about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, eat cows when found, and approach the diamond and iron only after I have a stone pickaxe and can see the lava clearly.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+94,Move North,"No changes to the plan. I'll head north and then northwest toward the trees to gather about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, eat cows when found, and approach the diamond and iron only after I have a stone pickaxe and can see the lava clearly.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+95,Move North,"No changes to the plan. I'll go north past the path toward the trees to the west and gather about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, and eat cows when found. I'll approach the diamond and iron only after I have an iron pickaxe and can see the lava clearly.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+96,Move West,"No changes to the plan. I'll head west toward the trees and gather about 5 wood, mining the stone I pass. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, and eat cows when found. I'll approach the diamond and iron only after I have an iron pickaxe and can see the lava clearly.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face stone at your front.",0.0,False
+97,Move North,"No changes to the plan. The stone to the west blocks the direct route, so I'll step north onto the path and go around it to reach the trees, collecting about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, and eat cows when found. I'll approach the diamond and iron only after I have an iron pickaxe and can see the lava clearly.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- cow 4 steps to your west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+98,Move North,"No changes to the plan. I'll head toward the trees to the northwest and collect about 5 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll drink at the lake when needed, sleep when energy is low, and eat the cow when convenient. I'll approach the diamond and iron only after I have an iron pickaxe and can see the lava clearly.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+99,Do,"I'll drink from the lake now to try for the Collect Drink achievement, even though drink is nearly full. Then I'll head west to the trees and collect about 5 wood. Next I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll sleep when energy is low, eat the cow when convenient, and approach the diamond and iron only after I have an iron pickaxe and can see the lava clearly.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- cow 5 steps to your south-west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+100,Do,"I'll drink once more to make sure the Collect Drink achievement registers, then head west to the trees and collect about 5 wood. Next I'll place a table, make a wood pickaxe and sword, mine stone and coal, build a furnace near the table, and make stone and iron tools. I'll sleep when energy is low, eat the cow when convenient, and go for the diamond and iron only after I have an iron pickaxe.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- cow 5 steps to your south-west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+101,Move West,"Stop drinking since drink is already full. Head west toward the trees and collect about 5 wood, going around the stone where needed. Then place a table, make a wood pickaxe and wood sword, mine stone and coal, build a furnace near the table, and make stone tools. Sleep when energy is low, eat the cow when convenient, and look for iron before making the iron pickaxe and sword. Go for diamond only after getting an iron pickaxe.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- cow 5 steps to your south-west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+102,Move South,"No changes to the plan. Go around the stone to the south, reach the trees to the west and collect about 5 wood. Then place a table, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, sleep when energy is low, eat the cow, and search for iron before making iron tools. Go for diamond after the iron pickaxe.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- cow 4 steps to your west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+103,Move South,"Go around the stone to the south, then head west to the trees and collect about 5 wood. Place a table, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, sleep when energy is low, eat the cow, and search for iron before making iron tools. Go for diamond after the iron pickaxe.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- cow 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+104,Move South,"No changes to the plan. Go around the stone to the south, then head west to the trees and collect about 5 wood. Place a table, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, sleep when energy is low, eat the cow, and search for iron before making iron tools. Go for diamond after the iron pickaxe.","You see:
+- tree 4 steps to your west
+- cow 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+- grass 3 steps to your north-east
+
+You face path at your front.",0.0,False
+105,Move South,"No changes to the plan. Go around the stone to the south, then head west to the trees and collect about 5 wood. Place a table, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, sleep when energy is low, eat the cow, and search for iron before making iron tools. Go for diamond after the iron pickaxe.","You see:
+- cow 7 steps to your north-west
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- grass 4 steps to your north-east
+
+You face path at your front.",0.0,False
+106,Move South,"No changes to the plan. Go south around the stone, then head west to the trees and collect about 5 wood. Place a table, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, sleep when energy is low, eat the cow, and search for iron before making iron tools. Go for diamond after the iron pickaxe.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+107,Move North,"Changed slightly. Head back north and then northwest to the trees to collect about 5 wood, since the trees have moved farther away as I went south. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, make stone tools, and sleep when energy is low. Eat the cow when it's nearby. Then mine the iron about 5 steps southwest, make the iron pickaxe and sword (which need 2 iron, 2 coal, and wood), and go for the diamond southwest.","You see:
+- cow 7 steps to your north-west
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- grass 4 steps to your north-east
+
+You face path at your front.",0.0,False
+108,Move North,"Head northwest toward the trees to collect about 5 wood. Place a table near the stone and coal, then make a wood pickaxe and wood sword. Mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, and eat the cow when it's nearby. Then mine the iron, make the iron pickaxe and sword (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond southwest.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+109,Move North,"Go around the stone to the north and head west toward the trees to collect about 5 wood. Place a table near the stone and coal, then make a wood pickaxe and wood sword. Mine stone and coal, place a furnace near the table, and make stone tools. Drink from the water to the north when convenient. Sleep when energy is low, and eat the cow when nearby. Then mine iron, make the iron pickaxe and sword (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond southwest.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+110,Move North,"No changes to the plan. The stone blocks the direct westward path, so I'll go north around it, then head west to the trees to gather about 5 wood. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Drink from the water to the north when convenient, sleep when energy is low, and eat the cow when nearby. Then mine iron, make the iron pickaxe and sword (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond southwest.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+111,Move North,"The stone is only 1 step west, so it does not block the northern route. I'll continue north past the sand toward the trees to the northwest and collect about 5 wood. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Drink from the water to the north when convenient, sleep when energy is low, and eat the cow when nearby. Then mine iron, make the iron pickaxe and sword (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond to the southwest.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+112,Do,"No changes to the plan. I'm facing water, so I'll drink now to get the Collect Drink achievement even though drink is full. Then I'll head west toward the trees and collect about 5 wood, place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. I'll sleep when energy is low, eat the cow when nearby, then mine iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+113,Move West,"No changes to the plan. Head west to the trees and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+114,Move South,"No changes to the plan. Go around the stone to the trees to the west and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+115,Move South,"No changes to the plan. Go around the stone to the trees to the west and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+116,Move South,"No changes to the plan. Step around the stone to reach the trees to the west and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+117,Move South,"Go around the stone to the south, then head west to the trees and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+118,Move South,"No changes to the plan. Step south to get around the stone, then head west to the trees and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron, make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace), and go for the diamond.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+119,Move South,"Wood is the bottleneck, and I have only 1. Go around the stone by stepping south, then head west and southwest toward the iron and diamond area while watching for trees. Once I find trees, gather about 5 wood, place a table near stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools (each needs 1 wood, 1 coal, and 1 iron, with a nearby table and furnace). Then go for the diamond with an iron pickaxe.","You see:
+- tree 7 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 4 steps to your west
+- iron 4 steps to your south-west
+- lava 5 steps to your south-west
+- grass 4 steps to your south-east
+
+You face path at your front.",0.0,False
+120,Move North,"Wood is the bottleneck, and I have only 1. Head back northwest toward the trees while avoiding the lava to the southwest. Gather about 5 wood, place a table near the stone and coal area, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+121,Move North,"No changes to the plan. Head north and then northwest toward the trees while avoiding the lava to the southwest. Gather about 5 wood, place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+122,Move North,"No changes to the plan. Head north and then northwest to the trees, avoiding the lava to the southwest. Gather about 5 wood, place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+123,Move North,"No changes to the plan. The stone directly west blocks a straight path to the tree, so I'll step north onto the path and then head west toward the tree. Gather about 5 wood, place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+124,Move North,"No changes to the plan. Step north onto the path, then head west toward the tree and gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+125,Move West,"Move west toward the stone and coal, then find more trees to gather about 5 wood. Place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Then mine the diamond with an iron pickaxe.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+126,Move North,"Gather more wood first, since I need wood for a table, a wood pickaxe, and a wood sword. Head northwest to the tree, collect about 5 wood, then return to the stone and coal area. Place a table nearby, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Finally, mine the diamond with an iron pickaxe.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+127,Move East,"No changes to the plan. Gather about 5 wood from the tree to the west, going around the stone. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Finally, mine the diamond with an iron pickaxe.","You see:
+- stone 2 steps to your west
+- diamond 6 steps to your north-west
+- coal 4 steps to your west
+- water 1 step to your north
+- sand 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+128,Move West,"No changes to the plan. Gather about 5 wood from the tree to the west, going around the stone. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Finally, mine the diamond with an iron pickaxe.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+129,Move South,"Gather about 5 wood from the tree to the west, routing around the stone. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace near the table, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, then find iron and make iron tools. Finally, mine the diamond with an iron pickaxe.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+130,Move South,"No changes to the plan. I'll route around the stone to reach the tree to the west, collecting about 5 wood, then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace, and make stone tools. Then sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+131,Move South,"The stone to my west blocks the direct route to the tree and coal. I'll go around it to reach the tree and collect about 5 wood. Then I'll place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace, and make stone tools. After that I'll sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+132,Move South,"No changes to the plan. I'll go around the stone to reach the tree and collect about 5 wood, then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a furnace, and make stone tools. After that I'll sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+133,Move North,"The stone to my west blocks the direct route to the tree, so I'll go back north along the path and then west around the stone toward the tree. I need about 5 wood for a table, wood pickaxe, and wood sword, and extra for stone and iron tools. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. After that I'll sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+134,Move North,"No changes to the plan. Go north along the path, then west around the stone toward the tree and collect about 5 wood. Then place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+135,Move North,"No changes to the plan. Go north along the path, then west around the stone toward the tree and collect about 5 wood. Then place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+136,Move North,"No changes to the plan. Step north onto the sand, then go west around the stone to the tree and collect about 5 wood. Then place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+137,Move South,"The stone to my west blocks the direct route, so I'll step south and go around it to reach the tree. Then collect about 5 wood, place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+138,Move South,"No changes to the plan. Step south to go around the stone, reach the tree to the west, and collect about 5 wood. Then place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+139,Move West,"No changes to the plan. Head west toward the tree, going around the stone if it blocks the way. Collect about 5 wood, place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face stone at your front.",0.0,False
+140,Move North,"Route around the stone to the tree to the west. Collect about 5 wood, place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Drink water to the north when needed. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid the lava to the southwest.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+141,Move North,"Go north onto the sand and around the stone to reach the tree to the northwest. Collect about 5 wood, then place a table near the stone and coal. Make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Drink from the water to the north when needed. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid any lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- cow 5 steps to your south-west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+142,Do,"Drink from the water now to unlock Collect Drink. Then head west toward the tree, collect about 5 wood, and place a table near the stone and coal. Make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+143,Move South,"No changes to the plan. Route around the stone to reach the tree to the west, collect about 5 wood, place a table near the stone and coal, make a wood pickaxe, then mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when one is nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+144,Move South,"No changes to the plan. Route around the stone to reach the tree to the west and collect about 5 wood. Place a table near the stone and coal, make a wood pickaxe, then mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+145,Move South,"Route around the stone to the south, then west to the tree 4 steps west and collect about 5 wood. Place a table near the stone and coal, make a wood pickaxe, then mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+146,Move South,"Route around the stone to the south, then west to the tree about 4 steps away and collect about 5 wood. Place a table near the stone and coal, make a wood pickaxe, then mine stone and coal, place a furnace, and make stone tools. Sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. Avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+147,Move South,"No changes to the plan. I'll go around the stone to the south, then head west to the tree to collect more wood. Once I have enough wood, I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+148,Move West,"No changes to the plan. I'll gather more wood from the trees to the northwest (I need several pieces for a table, a wood pickaxe, and a wood sword). Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face stone at your front.",0.0,False
+149,Move North,"No changes to the plan. I'll gather more wood from the trees to the northwest, enough for a table, a wood pickaxe, and a wood sword. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+150,Move North,"No changes to the plan. I'll gather more wood from the trees to the northwest, aiming for about 5 wood for a table, a wood pickaxe, and a wood sword, plus extra for stone and iron tools. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+151,Move North,"I'll go around the stone to the north and head west to the tree for more wood, aiming for about 5 wood total for a table, a wood pickaxe, and a wood sword, plus extra for stone and iron tools. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+152,Move North,"No changes to the plan. I'll step north to get around the stone, then head west to the tree for more wood, aiming for about 5 wood total for a table, wood pickaxe, and wood sword, plus extra for stone and iron tools. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+153,Move North,"No changes to the plan. I'll move north past the sand and head northwest to the tree to collect more wood, aiming for about 5 wood total for a table, wood pickaxe, and wood sword, plus extra for stone and iron tools. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll sleep when energy is low, eat a cow when nearby, find iron for iron tools, and mine the diamond with an iron pickaxe. I'll avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+154,Move West,"Energy is dropping, so I'll sleep soon in a sheltered spot, ideally next to stone. First I'll collect more wood from the tree to the west (about 5 wood total for a table, wood pickaxe, and wood sword, plus extra for stone and iron tools). Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+155,Move South,"No changes to the plan. Since stone blocks the way west, I'll step south and go around it toward the tree to collect more wood. Then I'll place a table near the stone and coal, make a wood pickaxe, mine stone and coal, place a furnace, and make stone tools. I'll find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, sleep in a sheltered spot when energy gets low, and avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+156,Move North,"Gather at least 4 more wood, since a table, wood pickaxe, and wood sword each need wood, and the stone and iron tools need more. Then place a table near the stone and coal, make a wood pickaxe, mine stone and coal, drink from the water to the north (Collect Drink), place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+157,Do,"Drink from the water in front of me now to get Collect Drink, even at full drink. Then gather at least 4 more wood from the tree to the west, place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, place a stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+158,Move South,"Changed slightly. Get off the water edge and head toward the tree to the west to collect more wood (I need about 5 more total for table, wood pickaxe, and wood sword). Then place a table near the stone and coal, make a wood pickaxe, and mine stone and coal. Next, make a wood sword, place a stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+159,Move South,"Changed slightly. Since the stone to the west blocks the direct route, go around it to reach the tree to the west and collect about 4 more wood. Then place a table near the stone and coal, make a wood pickaxe, and mine stone and coal. Next, make a wood sword, place stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+160,Move South,"Changed slightly. The stone to the west blocks the direct route, so go around it (south first) to reach the tree to the west and collect about 4 more wood. Then place a table near the stone and coal, make a wood pickaxe, and mine stone and coal. Next, make a wood sword, place stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+161,Move South,"No changes to the plan. Go around the stone to the south, then west to the tree and collect about 4 more wood. Place a table near the stone and coal, make a wood pickaxe, and mine stone and coal. Then make a wood sword, place stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+162,Move South,"Go around the stone to the south, then head west toward trees and collect about 4 more wood. Place a table near the stone and coal, make a wood pickaxe, and mine stone and coal. Then make a wood sword, place stone, place a furnace, and make stone tools. Find iron for iron tools, mine the diamond with an iron pickaxe, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. Avoid lava.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+163,Move North,"The stone to my west blocks the direct route, and the trees are to the northwest, so I'll go north past the stone and then head west toward the trees. I need about 4 more wood for a table, wood pickaxe, and wood sword. After that I'll mine stone and coal near the stone area, make stone tools, place a furnace, and find iron for iron tools. Then I'll mine the diamond, eat a cow when one is nearby, and sleep in a sheltered spot when energy gets low. I'll avoid lava.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+164,Move North,"Go north past the stone, then head northwest to collect about 4 more wood. Place a table, then make a wood pickaxe and wood sword. Mine stone and coal near the stone area, make stone tools, and place a furnace. Find iron for iron tools, then mine the diamond. Eat a cow when one is nearby. Sleep in an enclosed spot (surround myself with stone) when energy is low. Avoid lava.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+165,Move North,"Head north along the path and then west to reach the tree and collect about 4 more wood. Place a table, then make a wood pickaxe and wood sword. Mine stone and coal near the stone area, make stone tools, and place a furnace. Find iron for iron tools, then mine the diamond. Eat a cow when one is nearby. Sleep in an enclosed spot (surround myself with stone) when energy is low. Avoid lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+166,Move North,"No changes to the plan. I'll head north along the path, then west toward the tree to collect more wood, place a table, and make a wood pickaxe and sword. Then I'll mine stone and coal, make stone tools, place a furnace, find iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter when energy is low.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+167,Move North,"No changes to the plan. I'll move north past the sand toward the water and the northwest tree to collect more wood. Then I'll place a table, make a wood pickaxe and sword, mine the nearby stone and coal, make stone tools, place a furnace, find iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter when energy is low.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+168,Do,"I'm facing water, so I'll drink now to try to unlock Collect Drink, even though my drink is full. Then I'll head west to the tree for more wood, place a table, and make a wood pickaxe and sword. After that I'll mine the nearby stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter when energy is low.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+169,Do,"No changes to the plan. I'm facing water, so I'll drink now to try to unlock Collect Drink even though my drink is full. Then I'll head west to the tree for more wood, place a table, and make a wood pickaxe and sword. After that I'll mine the nearby stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow, and sleep in an enclosed stone shelter when energy is low.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+170,Move West,"I'll stop drinking since drink is full and the lake is already reachable. Next I'll head west toward the tree for more wood, then collect wood for a table, wood pickaxe, and wood sword. After that I'll mine the nearby stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow, and sleep in an enclosed stone shelter when energy is low.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+171,Move South,"The stone to my west blocks the direct route, so I'll step south and go around it. Next I'll collect several more wood from the tree to the west, place a table, and make a wood pickaxe and wood sword. Then I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+172,Move South,"No changes to the plan. I'll step south to get around the stone, then head west toward the coal and trees. Next I'll collect more wood, place a table, and make a wood pickaxe and wood sword. Then I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+173,Move South,"No changes to the plan. I'll step south to get around the stone, then head west toward the trees and coal. Next I'll collect more wood, place a table, and make a wood pickaxe and wood sword. Then I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+174,Move South,"No changes to the plan. I'll step south to get around the stone, then head west toward the trees and coal. Next I'll collect more wood, place a table, and make a wood pickaxe and wood sword. Then I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face path at your front.",0.0,False
+175,Move West,"No changes to the plan. I'll head west toward the trees and coal, going around the stone. Next I'll collect more wood, place a table, and make a wood pickaxe and wood sword. Then I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+
+You face stone at your front.",0.0,False
+176,Move North,"I'll go around the stone to the north and head west toward the trees to collect more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+177,Move North,"No changes to the plan. I'll go around the stone to the north, then head west toward the trees to collect more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+178,Move North,"No changes to the plan. I'll go north around the stone, then head west toward the trees to collect more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+179,Move North,"No changes to the plan. I'll step north onto the sand to get around the stone, then head west toward the trees to collect more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+180,Move West,"No changes to the plan. I'll head west toward the trees to gather more wood (I need roughly 5+ for a table, pickaxe, and sword). Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+181,Move South,"The stone to my west blocks the direct route, so I'll go around it through the path to the south, then head west toward the trees to gather more wood (I need roughly 5+ for a table, pickaxe, and sword). Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+182,Move South,"No changes to the plan. I'll follow the path south, go around the stone, and head west toward the trees to gather about 5 more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, mine the diamond, eat a cow when one is nearby, and sleep in an enclosed stone shelter. I'll watch food and energy closely.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- cow 7 steps to your south-west
+- coal 4 steps to your north-west
+- path 1 step to your north
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+183,Move South,"No major changes. I'll go south along the path and around the stone to reach the trees to the west and gather about 5 more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll eat the cow to the southwest when I can, drink from the water to the north to get Collect Drink, and sleep in an enclosed stone shelter when energy is low.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- cow 6 steps to your south-west
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- path 1 step to your north
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+184,Move South,"No changes to the plan. I'll go south along the path and around the stone to reach the trees to the west and gather about 5 more wood. Then I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll eat the cow to the southwest when I can, drink from the water to the north for Collect Drink, and sleep in an enclosed stone shelter when energy is low.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- cow 5 steps to your south-west
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+185,Move South,"Food and energy are both low, so I'll eat the cow to the southwest first, then return northwest to collect about 5 more wood from the trees. After that I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll drink from the water to the north, and sleep in an enclosed stone shelter when energy gets very low.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- cow 4 steps to your west
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- path 1 step to your north
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+186,Move South,"No changes to the plan. I'll go around the stone to reach the cow to the west, eat it to restore food, then return northwest to collect about 5 more wood from the trees. After that I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll drink from the water to the north, and sleep in an enclosed stone shelter when energy gets very low.","You see:
+- tree 7 steps to your north-west
+- stone 1 step to your west
+- cow 5 steps to your north-west
+- diamond 4 steps to your west
+- iron 4 steps to your south-west
+- path 1 step to your north
+- lava 5 steps to your south-west
+- grass 4 steps to your south-east
+
+You face path at your front.",0.0,False
+187,Move North,"No changes to the plan. I'll head north and then west around the stone to reach the cow and eat it to restore food. I'll keep clear of the lava to the southwest. Then I'll return northwest to collect about 5 more wood from the trees, place a table, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll drink from the water to the north, and sleep in an enclosed stone shelter when energy gets very low.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- cow 4 steps to your west
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- path 1 step to your north
+- grass 4 steps to your east
+
+You face path at your front.",0.0,False
+188,Move North,"No major changes. I'll go north and then west around the stone to reach the cow and eat it to restore food. I'll avoid the lava to the southwest. Then I'll gather about 5 more wood from the trees to the northwest, place a table, and make a wood pickaxe and wood sword. Next I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll drink from the water to the north and sleep in an enclosed stone shelter when energy gets very low.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- cow 5 steps to your south-west
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+189,Move North,"No changes to the plan. I'll head north, then go west around the stone toward the cow to eat and restore food. I'll avoid the lava to the southwest. Then I'll gather about 5 more wood from the trees to the northwest, place a table, and make a wood pickaxe and wood sword. Next I'll mine stone and coal, make stone tools, place stone and a furnace, look for iron, and mine the diamond. I'll drink from the water to the north and sleep in an enclosed stone shelter when energy gets very low.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- cow 6 steps to your south-west
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- path 1 step to your north
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+190,Move North,"No changes to the plan. I'll move north past the stone, then go west to the trees to collect more wood. Then I'll place a table, make a wood pickaxe and wood sword, and mine stone and coal. I'll drink from the water to the north and eat the cow to the southwest when food gets lower. Energy is low, so I'll build a stone shelter and sleep soon. Later I'll make stone tools, place a stone and a furnace, find iron, and mine the diamond while avoiding the lava.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- cow 7 steps to your south-west
+- coal 4 steps to your north-west
+- path 1 step to your north
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+191,Move North,"No changes to the plan. I'll continue north toward the water to drink, then head west to the trees for more wood. Once I have enough wood, I'll place a table, make a wood pickaxe and wood sword, mine stone and coal, and build a shelter to sleep since energy is low. Later I'll make stone tools, place a stone and a furnace, find iron, and mine the diamond while avoiding the lava.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+192,Move North,"Update: I'll step onto the sand and drink at the water to the north. Then I'll gather more wood from the trees to the northwest and place a table. Next I'll make a wood pickaxe and wood sword, mine the nearby stone and coal, and build a shelter to sleep because energy is low. Food is at 3/9, so I'll look for the cow to the southwest soon. Later I'll make stone tools, place a stone and a furnace, find iron, and mine the diamond while avoiding lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+193,Do,"No changes to the plan. I'm already facing the water, so I'll drink now to collect a drink and fill up. Then I'll gather wood from the trees to the west, place a table, and make a wood pickaxe and wood sword. Next I'll mine the nearby stone and coal, make stone tools, and build a shelter to sleep because energy is low. Food is at 3/9, so I'll find the cow to the southwest soon. Later I'll place a furnace, find iron, and mine the diamond while avoiding lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+194,Move West,"Drinking is no longer useful since drink is full. I'll move west to the stone and collect it for the stone pickaxe and placed-stone achievements. Then I'll head west to the trees for more wood, place a table, and craft a wood pickaxe and sword. After that I'll mine the coal, make stone tools, build a shelter and sleep when energy is low, then find food, iron, and the diamond while avoiding lava.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face stone at your front.",0.0,False
+195,Move South,"I need more wood before I can make tools, because a table and a wood pickaxe each need wood and I have only 1. I can't mine the stone in front of me without a pickaxe. I'll go around the stone to the trees to the west, gather several wood, then place a table near the stone and craft a wood pickaxe and wood sword. After that I'll mine the stone and coal, make stone tools, and place a stone. Energy is 3/9, so I'll build a shelter and sleep soon. Then I'll look for food (cow to the southwest), iron, and the diamond.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+196,Move South,"Energy and food are both low, so I'll reach the trees to the west by going around the stone, collect about 4 to 5 wood, and place a table near the stone. Then I'll craft a wood pickaxe and wood sword, mine the stone and coal, and make stone tools. Next I'll build a stone shelter and sleep to restore energy. After that I'll hunt the cow to the southwest for food, then look for iron and the diamond. I'm changing the plan slightly by going around the stone to the south first because the stone blocks the direct westward path.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+197,Move South,"Energy and food are both low. I'll go around the stone to the south, reach the trees to the west, and collect about 4 to 5 wood. Then I'll place a table near the stone, craft a wood pickaxe and wood sword, mine the stone and coal, and make stone tools. Next I'll build a simple stone shelter and sleep to restore energy. After that I'll hunt the cow to the southwest for food, then look for iron and the diamond.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+- zombie 7 steps to your south-east
+
+You face path at your front.",0.0,False
+198,Move South,"No changes to the plan. Go around the stone to the south, reach the trees to the west, and gather about 4 to 5 wood. Then place a table near the stone, craft a wood pickaxe and wood sword, mine stone and coal, and make stone tools. Build a simple stone shelter and sleep to restore energy. Then hunt the cow to the southwest for food, and look for iron and the diamond. Watch the zombie to the southeast.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- zombie 6 steps to your south-east
+
+You face path at your front.",0.0,False
+199,Move South,"Keep the current plan with a small change. The stone blocks the direct path west, so I'll go south around it, then head west to the trees. Gather about 4 to 5 wood, place a table near the stone, craft a wood pickaxe and wood sword, mine stone and coal, and make stone tools. Build a simple stone shelter and sleep to restore energy, since energy is low. Then hunt the cow to the southwest for food, and look for iron and the diamond. Watch the zombie to the southeast and fight it if it approaches.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 5 steps to your north-east
+- zombie 4 steps to your east
+
+You face path at your front.",0.0,False
+200,Move West,"Small change. Mine the adjacent stone first, since it is 1 step away, then head northwest to the tree for more wood. Once I have about 4 to 5 wood, place a table near the stone and craft a wood pickaxe and wood sword. Then mine coal and stone, make stone tools, and build a shelter to sleep, since energy is low. Look for food (cow to the southwest) and fight the zombie if it approaches. Later, pursue iron and the diamond to the southwest.","You see:
+- tree 6 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 5 steps to your south-west
+- iron 5 steps to your south-west
+- grass 5 steps to your north-east
+- zombie 4 steps to your east
+
+You face stone at your front.",0.0,False
+201,Move North,"Changed. I can't mine the stone without a pickaxe, so I'll first gather more wood from the trees to the northwest, aiming for 5 to 6 wood. Then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, make stone tools, and place a furnace. Sleep in a sheltered spot soon, since energy is low. Look for a cow for food, and fight the zombie if it approaches. Later get iron and diamond to the southwest, which needs the stone pickaxe and then the iron pickaxe.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- zombie 5 steps to your south-east
+
+You face path at your front.",0.0,False
+202,Move North,"No changes to the plan. Gather wood from the trees to the northwest, then place a table near the stone and coal, make wood tools, mine stone and coal, make stone tools, and place a furnace. Sleep in a sheltered spot soon because energy is low. Find a cow for food, and fight the zombie if it approaches. Later get iron and diamond to the southwest using the stone and iron pickaxes.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+- zombie 6 steps to your south-east
+
+You face path at your front.",0.0,False
+203,Move North,"Food and energy are both low, so I'll prioritize them. Gather wood from the trees to the west and northwest, aiming for at least 5 more wood. Place a table near the stone and coal, then make a wood pickaxe and wood sword. Mine stone and coal, then make stone tools and a furnace. Find a cow for food. Sleep in a sheltered spot (surrounded by stone) when energy is low. Fight the zombie if it approaches. Later get iron and diamond to the southwest with the stone and iron pickaxes.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+- zombie 6 steps to your south-east
+
+You face path at your front.",0.0,False
+204,Move North,"No changes to the plan. Food and energy are low, so I'll gather wood from the trees to the west and northwest (aim for at least 5 more), place a table near the stone and coal, make a wood pickaxe and wood sword, then mine stone and coal, make stone tools and a furnace, and find a cow for food. I'll sleep in a sheltered spot surrounded by stone when energy is low, fight the zombie if it approaches, and later get iron and diamond to the southwest with stone and iron pickaxes.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 6 steps to your south-east
+
+You face sand at your front.",0.0,False
+205,Move North,"Food and energy are both low, so I'll gather at least 4 more wood from the trees to the northwest, then place a table near the stone and coal. After that I'll make a wood pickaxe and wood sword, mine stone and coal, and craft stone tools and a furnace. I'll look for a cow for food and sleep in a stone-enclosed spot when energy is low. Later I'll go southwest for iron and diamond with stone and iron pickaxes.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+- zombie 7 steps to your south-east
+
+You face water at your front.",0.0,False
+206,Move East,"Food and energy are both low. I'll gather at least 4 more wood from the tree to the west, then place a table near the stone and coal. After that I'll make a wood pickaxe and wood sword, mine stone and coal, and craft stone tools and a furnace. I'll look for a cow for food and sleep in a stone-enclosed spot when energy is low. Later I'll go southwest for iron and diamond with stone and iron pickaxes.","You see:
+- stone 2 steps to your west
+- diamond 6 steps to your north-west
+- coal 4 steps to your west
+- water 1 step to your north
+- sand 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- zombie 5 steps to your south-east
+
+You face sand at your front.",0.0,False
+207,Move West,"Food and energy are both low, so I'll head west toward the stone, coal, and tree. I'll gather at least 4 more wood, then place a table near the stone and coal. Next I'll make a wood pickaxe and wood sword, mine stone and coal, and craft stone tools and a furnace. I'll look for a cow for food and sleep in a stone-enclosed spot once energy is critically low. Later I'll go southwest for iron and diamond with stone and iron pickaxes.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+- zombie 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+208,Move South,"Food and energy are both low, so I'll go around the stone to reach the tree to the west and gather at least 4 more wood. Then I'll place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, and craft stone tools and a furnace. I'll look for a cow for food and sleep in a stone-enclosed spot when energy is critically low. Later I'll head southwest for iron and diamond with stone and iron pickaxes.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 3 steps to your east
+
+You face path at your front.",0.0,False
+209,Move North,"No changes to the plan. I'll route around the stone to reach the western tree and gather at least 4 more wood, then place a table near the stone and coal, make a wood pickaxe and wood sword, mine stone and coal, and craft stone tools and a furnace. I'll look for a cow for food and sleep in a stone-enclosed spot when energy is critically low. Later I'll head southwest for iron and diamond with stone and iron pickaxes. I'll watch the zombie to the east and fight it if it closes in.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+- zombie 3 steps to your south-east
+
+You face water at your front.",0.0,False
+210,Move South,"I'll go around the stone by stepping back south onto the path, then head west toward the tree and coal, gathering at least 4 more wood. Then I'll place a table near the stone and coal, make a wood pickaxe and wood sword, and mine stone and coal. After that I'll craft stone tools and a furnace. I'll look for a cow to fix food, and when energy gets critical I'll sleep in a stone-enclosed spot. I'll fight the zombie if it approaches.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 2 steps to your east
+
+You face path at your front.",0.0,False
+211,Move South,"No changes to the plan. I'll step south onto the path to get around the stone, then head west toward the tree and coal, gathering more wood. Once I have enough, I'll place a table, make a wood pickaxe and sword, and mine stone and coal. I'll fight the zombie if it closes in, look for a cow for food, and enclose myself in stone to sleep when energy gets critical.","You see:
+- grass 2 steps to your east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+- zombie 2 steps to your north-east
+
+You face path at your front.",0.0,False
+212,Move South,"No changes to the plan. I'll continue south onto the path to get around the stone and head west toward the tree and coal. I'll gather wood, place a table, and make a wood pickaxe and sword. I'll fight the zombie when it gets adjacent, look for a cow, and enclose myself in stone to sleep once energy is critical.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+- zombie 3 steps to your north-east
+
+You face path at your front.",0.0,False
+213,Move South,"No changes to the plan. I'll continue south onto the path, then head west around the stone toward the tree and coal. I'll gather more wood, place a table, and make a wood pickaxe and sword. I'll fight the zombie if it gets adjacent, look for a cow to fix food, and enclose myself in stone to sleep once energy is critical.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- zombie 4 steps to your north-east
+
+You face path at your front.",0.0,False
+214,Move West,"No changes to the plan. I'll step west to face the stone and gather wood from the nearby tree to build a table, then craft a wood pickaxe and sword. I'll mine stone and coal, fight the zombie if it gets adjacent, look for a cow to fix food, and enclose myself in stone to sleep once energy is critical.","You see:
+- grass 4 steps to your north-east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 6 steps to your south-west
+- coal 6 steps to your north-west
+- zombie 4 steps to your north-east
+
+You face stone at your front.",0.0,False
+215,Move North,"Head to the tree to the northwest and collect several wood (for a table, wood pickaxe, and wood sword). Then place a table near the stone, mine stone and coal, and fight the zombie if it approaches. Look for a cow to fix food. Once I have stone, enclose myself to sleep safely.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+- zombie 3 steps to your north-east
+
+You face path at your front.",0.0,False
+216,Move North,"Stone blocks the direct route west, so I'll step north around it and head west to the tree 4 steps away. Collect about 5 wood for a table, wood pickaxe, and wood sword. Then place a table near the stone, mine stone and coal, and craft stone tools. Fight the zombie if it approaches. Look for a cow to restore food. Once I have stone, enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+- zombie 2 steps to your north-east
+
+You face path at your front.",0.0,False
+217,Move North,"Stone blocks the direct route west, so I'll step north around it and head west toward the tree 4 steps away. Collect about 5 wood for a table, wood pickaxe, and wood sword. Then place a table near the stone, mine stone and coal, and craft stone tools. Fight the zombie if it approaches. Look for a cow to restore food. Once I have stone, enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face sand at your front.",-0.2,False
+218,Move East,"The zombie is adjacent, so I'll fight it first to get Defeat Zombie and avoid being hit from behind. Then I'll head to the tree to collect about 5 wood for a table, wood pickaxe, and wood sword. After that I'll place a table near the stone, mine stone and coal, and craft stone tools. I'll look for a cow to restore food, and once I have stone I'll enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+219,Do,"The zombie is in front of me, so I'll attack it with Do until it is defeated. Then I'll head to the tree to collect about 5 wood for a table, wood pickaxe, and wood sword. After that I'll place a table near the stone, mine stone and coal, and craft stone tools. I'll look for a cow to restore food, and once I have stone I'll enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+220,Do,"No changes to the plan. Defeat the zombie first by attacking with Do. Then gather about 5 wood from the tree to the northwest for a table, wood pickaxe, and wood sword. Place a table near the stone, mine stone and coal, and craft stone tools. Look for a cow to restore food, and once I have stone, enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+221,Do,"No changes to the plan. Defeat the zombie first by attacking with Do. Then gather about 5 wood from the tree to the northwest for a table, wood pickaxe, and wood sword. Place a table near the stone, mine stone and coal, and craft stone tools. Look for a cow to restore food, and once I have stone, enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+222,Do,"No changes to the plan. Keep attacking the zombie with Do until it is defeated. Then gather about 5 wood from the tree to the northwest for a table, wood pickaxe, and wood sword. Place a table near the stone, mine stone and coal, and craft stone tools. Look for a cow to restore food, and once I have stone, enclose myself to sleep safely.","You see:
+- grass 2 steps to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+223,Do,"No changes to the plan. Keep attacking the zombie with Do until it is defeated. Then gather about 5 wood from the tree to the northwest for a table, wood pickaxe, and wood sword. Place a table near the stone, mine stone and coal, and craft stone tools. Look for a cow to restore food, and once I have stone, enclose myself to sleep safely.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face grass at your front.",0.8,False
+224,Move West,"Food and energy are low, so I need to gather more wood, place a table, make a wood pickaxe, and mine the nearby stone. Look for a cow for food. Once I have stone, build a shelter and sleep. Drink from the water to the north when convenient.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+225,Move North,"Energy and food are both low. First gather more wood from the tree to the northwest, then place a table on a free tile (not stone), make a wood pickaxe, and mine the stone and coal nearby. Look for a cow for food. Once I have stone, build a shelter and sleep. Drink from the water to the north when convenient.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+226,Do,"Drink water now to top off drink. Then head west toward the tree and collect more wood (aim for 4 or more). Place a table on open ground, not on stone, and make a wood pickaxe and wood sword. Mine the nearby stone and coal, and craft stone tools. Look for a cow for food. Once I have stone, build a shelter and sleep to restore energy. Keep an eye out for zombies while my health is low.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+227,Move South,"Drink is full, so I'll stop drinking. Route around the stone to the west to reach the tree and collect more wood (aim for 4 or more). Then place a table on open ground, make a wood pickaxe and wood sword, mine the stone and coal, and craft stone tools. Food is getting low, so look for a cow soon. Energy is also low, so build a stone shelter before sleeping and watch for zombies while health is 5.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+228,Move North,"Food is now the top priority, so I'll keep an eye out for a cow while gathering wood from the northwest tree. Once I have enough wood (aim for 4 or more), I'll place a table, make a wood pickaxe and wood sword, then mine the stone and coal. Energy is very low, so I'll build a stone shelter before sleeping, and I'll fight zombies carefully while health is 5.","You see:
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- tree 4 steps to your west
+- diamond 5 steps to your north-west
+- coal 3 steps to your west
+- water 1 step to your north
+- path 1 step to your south
+- sand 1 step to your east
+
+You face water at your front.",0.0,False
+229,Move South,"Food is the top priority, so I'll search for a cow while gathering wood from the western tree. Stone is blocking the direct westward route, so I'll go around it via the south path. Once I have about 4 wood, I'll place a table, make a wood pickaxe and sword, then mine the stone and coal. Energy is very low, so I'll build a stone shelter before sleeping, and I'll avoid zombies while health is 5.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face path at your front.",0.0,False
+230,Move South,"Food is critical, so I'll find a cow while gathering wood from the western tree. I'll go around the stone via the south path, since I need a wood pickaxe before I can mine stone. Once I have about 4 wood, I'll place a table and make a wood pickaxe and sword, then mine stone and coal. Energy is very low, so I'll build a stone shelter before sleeping and avoid zombies while health is low.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+231,Move South,"Changed slightly. Food is critical, so I'll keep an eye out for cows while going around the stone to reach the western tree and collect about 4 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, and build a stone shelter before sleeping. Energy is very low, so I'll sleep soon once I'm enclosed.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face path at your front.",0.0,False
+232,Move West,"Food is critical, so I'll keep an eye out for cows while heading west toward the tree to collect about 4 wood. Then I'll place a table, make a wood pickaxe and sword, mine stone and coal, and build a stone shelter to sleep in. Since the stone is directly west, I'll go around it if it blocks the path.","You see:
+- tree 4 steps to your west
+- grass 3 steps to your north-east
+- stone 1 step to your west
+- path 1 step to your north
+- diamond 7 steps to your south-west
+- coal 5 steps to your north-west
+- sand 3 steps to your north
+
+You face stone at your front.",0.1,False
+233,Move North,"The stone to my west blocks the way, so I'll step north to get around it and continue west toward the tree. I'll collect about 4 wood, place a table, make a wood pickaxe and sword, mine the stone and coal, and build a stone shelter to sleep in. I'll watch for cows since food is critical, and drink water if needed.","You see:
+- grass 2 steps to your north-east
+- tree 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your north
+- coal 4 steps to your north-west
+- water 3 steps to your north
+- sand 2 steps to your north
+
+You face path at your front.",0.0,False
+234,Move North,"Food is critical, so I'll watch for cows while heading west toward the tree. Once I have about 4 wood, I'll place a table, make a wood pickaxe and sword, mine the stone and coal, and build a stone shelter to sleep in. I'll drink water when convenient.","You see:
+- grass 1 step to your east
+- tree 5 steps to your north-west
+- stone 1 step to your west
+- diamond 6 steps to your north-west
+- coal 3 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your south
+
+You face sand at your front.",0.0,False
+235,Move East,"Food is critical, so I'll check the grassland to the east for cows before going back west to the trees and stone. Once I have about 4 wood, I'll place a table, make a wood pickaxe and sword, mine the stone and coal, and build a stone shelter to sleep in. I'll drink water when convenient.","You see:
+- diamond 7 steps to your north-west
+- stone 1 step to your south
+- coal 4 steps to your west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 1 step to your west
+- grass 1 step to your east
+
+You face grass at your front.",0.0,False
+236,Move East,"Food is critical, so I'll explore the grassland to the east for cows and eat one as soon as I find it. Then I'll return west to the trees and stone, gather about 4 wood, place a table, make a wood pickaxe and sword, mine the stone and coal, and build a stone shelter to sleep in. I'll drink water when convenient.","You see:
+- stone 2 steps to your south-west
+- water 2 steps to your north
+- sand 1 step to your north
+- path 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+237,Move East,"Food is critical, so I'll keep exploring the grassland to the east to find a cow and eat it. Once food is restored, I'll return west to the trees and stone, gather about 4 wood, place a table, make a wood pickaxe and sword, mine stone and coal, and build a stone shelter to sleep in. I'll drink water when convenient.","You see:
+- stone 2 steps to your south
+- water 2 steps to your north
+- sand 1 step to your north
+- path 3 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+238,Move East,"Food is critical, so I'll keep exploring the grassland to the east to find and eat a cow. Energy is also low (2/9), so I'll need to build a shelter and sleep soon. Once food is restored, I'll return west to the trees and stone, gather wood, place a table, make a wood pickaxe and sword, mine stone and coal, and build a stone shelter to sleep in. I'll drink water when convenient.","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- path 4 steps to your west
+- grass 1 step to your west
+- stone 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+239,Move East,"No changes to the plan. Food is critical, so I'll keep exploring the grassland to the east for a cow. Energy is low, so I'll build a shelter and sleep once food is handled. Then I'll return west to the trees and stone, gather wood, place a table, make a wood pickaxe and sword, mine stone and coal, and build a stone shelter. I'll drink water when convenient.","You see:
+- water 1 step to your north
+- sand 2 steps to your north-west
+- grass 1 step to your west
+- stone 4 steps to your south-west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+240,Move East,"Food is the most urgent need, so I'll keep searching east and northeast across the grassland for a cow. Hitting grass while facing it may yield a sapling, which I can plant later for food. Once food is safe, I'll build a shelter and sleep to restore energy. Then I'll gather wood from the trees to the northeast, place a table, make a wood pickaxe and sword, mine stone and coal, and make a stone shelter. I'll drink from the water to the north when needed.","You see:
+- water 1 step to your north
+- sand 3 steps to your north-west
+- grass 1 step to your west
+- stone 5 steps to your south-west
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+241,Move East,"Food is critical, so I'll keep searching east across the grassland for a cow, and I'll hit grass for a possible sapling along the way. Energy is also low (2/9), so I'll build a shelter with stone and sleep once food is secured. After that, I'll gather wood from the trees to the northeast, place a table, make a wood pickaxe and sword, mine stone and coal, and craft stone tools. I'll drink from the water to the north when needed.","You see:
+- water 2 steps to your north-west
+- sand 3 steps to your north-east
+- grass 1 step to your west
+- stone 6 steps to your south-west
+- tree 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+242,Move East,"Food is still critical, so I'll keep searching for a cow across the grassland. On the way I'll collect wood from the trees to the northeast, since I need several wood for a table and tools. I'll hit grass occasionally for a sapling. Once I have wood, I'll place a table and make a wood sword, which helps against zombies. Then I'll drink at the water to the northwest, build a stone shelter, and sleep to restore energy. After that I'll mine stone and coal, craft stone tools, and look for iron.","You see:
+- water 3 steps to your north-west
+- sand 2 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+243,Move East,"Changed priority. Energy is very low, so I'll gather wood from the nearby trees to the northeast, then place a table and make a wood sword. Food is critical, so I'll look for a cow while I explore the grassland. Once I have wood, I'll build a stone shelter near the water, sleep to restore energy, then mine stone and coal, craft stone tools, and look for iron.","You see:
+- water 4 steps to your north-west
+- grass 1 step to your west
+- sand 3 steps to your north-west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+244,Move North,"Changed priority slightly. Food and energy are both critical, so I'll collect wood from the tree just north and nearby trees, then place a table and make a wood sword and pickaxe. Next I'll look for a cow or plant for food. Once I have some wood and stone, I'll build a shelter near the water and sleep to restore energy, then mine stone and coal, craft stone tools, and look for iron.","You see:
+- water 4 steps to your north-west
+- grass 1 step to your west
+- sand 3 steps to your north-west
+- tree 1 step to your north
+- zombie 5 steps to your south-east
+
+You face tree at your front.",0.0,False
+245,Do,"No changes to the plan. I'll keep collecting wood from the tree in front and nearby trees, then place a table and make a wood sword and pickaxe. I'll watch for the zombie and look for a cow or plant for food. Once I have wood and stone, I'll build a shelter near the water and sleep to restore energy, then mine stone and coal, craft stone tools, and look for iron.","You see:
+- water 4 steps to your north-west
+- grass 1 step to your west
+- sand 3 steps to your north-west
+- zombie 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+246,Place Table,"Food and energy are both low, so I'll place a table now for the achievement and craft wood tools with my wood. Then I'll gather more wood from the nearby trees, watch the zombie, and look for a cow or plant for food. Once I have stone, I'll build a shelter near the water and sleep to restore energy, then mine stone and coal, craft stone tools, and look for iron.","You see:
+- water 4 steps to your north-west
+- grass 1 step to your west
+- sand 3 steps to your north-west
+- table 1 step to your north
+- zombie 3 steps to your south-east
+
+You face table at your front.",1.0,False
+247,Move East,"Food and energy are both critical, so I'll gather wood from the trees to the northeast, staying alert to the zombie. Once I have a few wood, I'll craft a wood pickaxe and wood sword at the table. Then I'll look for a cow or plant for food, build a shelter near the water and sleep to restore energy, and mine stone and coal to craft stone tools. After that I'll look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",-0.2,False
+248,Do,"The zombie is adjacent, so I'll fight it first with bare hands before it deals more damage. Once it's defeated, I'll gather wood from the trees to the northeast, watching my health. Then I'll craft a wood sword and wood pickaxe at the table. Food and energy are critical, so after that I'll look for a cow or plant for food, and build a shelter near the water to sleep and restore energy. Then I'll mine stone and coal for stone tools, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+249,Do,"No changes to the plan. I'm fighting the adjacent zombie bare-handed while health allows. Once it's defeated, I'll gather wood from the northeast trees, craft a wood sword and pickaxe at the table, then look for food (cow or plant) and build a shelter near the water to sleep. After that I'll mine stone and coal, then look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+250,Do,"No changes to the plan. Keep attacking the adjacent zombie while health allows, since retreating does not shake off zombies. Once it's defeated, collect wood from the northeast trees (confirming Collect Wood), craft a wood sword and pickaxe at the table, then look for food (cow or plant) and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+251,Do,"No changes to the plan. Keep attacking the adjacent zombie while health allows, since retreating does not shake off zombies. Once it's defeated, collect wood from the northeast trees (confirming Collect Wood), craft a wood sword and pickaxe at the table, then look for food (cow or plant) and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+252,Do,"No changes to the plan. Keep attacking the adjacent zombie while health allows, since retreating does not shake off zombies. Once it's defeated, collect wood from the northeast trees (confirming Collect Wood), craft a wood sword and pickaxe at the table, then look for food (cow or plant) and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",-0.2,False
+253,Do,"No changes to the plan. Keep attacking the adjacent zombie, since fleeing rarely shakes zombies and it is likely nearly dead. Once it's defeated, collect wood from the northeast trees (confirming Collect Wood), craft a wood sword and pickaxe at the table, then look for food (cow or plant) and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+254,Do,"No changes to the plan. Keep attacking the adjacent zombie, since fleeing rarely shakes zombies. Once it's defeated, collect wood from the northeast trees (confirming Collect Wood), craft a wood sword and pickaxe at the table, then find food (cow or plant) and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+255,Do,"Keep attacking the adjacent zombie until it is defeated, since fleeing rarely shakes zombies and it would keep attacking. Then collect wood from the northeast trees (confirming Collect Wood), and craft a wood sword and pickaxe at the table. Food is critical, so search for a cow or plant right after, and drink at the water. Build a shelter near the water to sleep and restore energy, then mine stone and coal, and look for iron.","You died.
+
+
+
+You see:
+- water 5 steps to your north-west
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- table 2 steps to your north-west
+- zombie 1 step to your south
+
+You face zombie at your front.",-0.2,True

@@ -1,0 +1,10 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Step forward once, turn left, walk 3 steps left to reach the key's column, then pick up the key once it is directly below me (or toggle/pick up as needed).","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"Turn left to face the key, walk 3 steps forward to stand on the key's cell, then pick up the key. The plan is updated: the key is now in my row, so I no longer need an extra forward step first.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"No changes to the plan. Walk forward 3 steps to reach the key's cell, then pick up the key.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"Walk forward 2 more steps to reach the key's cell, then pick up the key.","a wall 1 step right
+a yellow key 1 step forward",0.94375,True
