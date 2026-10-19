@@ -1,0 +1,20 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward (1 step forward),No changes to the plan until further observation or items are picked up.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,No changes to the plan.,"a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,Turn right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,No changes to the plan.,"a wall 1 step right
+a yellow key 1 step forward",0.94375,True

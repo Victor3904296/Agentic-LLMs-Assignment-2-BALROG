@@ -1,0 +1,1007 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Turn right to see where I am. Will I pick up a blue box?,"Everything seems too random and I'm not sure what to do. BUT Since I'm currently one step forward and 2 steps to the right of a wall, this finalrick njust let me simply goto end point middle.Sodain mendo Sid get busy!","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+1,Pick up.,"I will try to pick up the blue box in front of me to interact with it.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+2,,"No changes to the plan.
+
+Since there is no different plan, I'll just focus on taking the next step. 
+
+Turn right 1 step.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+3,Erratic,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+4,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+5,Turn right 1 step.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+6,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+7,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+8,,"No changes to the plan.
+
+PLAN: No changes to the plan.
+
+Since there is no different plan, I'll just focus on taking the next step.
+
+Go forward for 1 step.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+9,"Go forward for 1 step.
+
+Go forward for 1 step.","No changes to the plan.
+ PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+10,pick up,"No changes to the plan.
+PLAN: No changes to the plan.","a wall 1 step forward
+a wall 2 steps right",0,False
+11,Pick up,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+12,Pick up the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+13,go forward.,Ctrl+c-h -> no changes.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+14,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 2 steps right",0,False
+15,Go forward,"- No changes to the plan. The current plan seems to be correct, as we are currently standing in a room with a blue box in front of us with two walls on either side of us.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+16,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+17,go forward,"No changes to the plan.
+
+Since we are in a good state and there is no visible object of interest between the blue box and the yellow ball, my next action is to go forward to assess the immediate surroundings and pick up any opportunities or obstacles that could be in our way.
+
+PLAN: No changes to the plan.","a wall 1 step forward
+a wall 2 steps right",0,False
+18,go left,"No changes to the plan.
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+19,Pick up,"No changes to the plan.
+PLAN:","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+20,,"No changes to the plan.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+21,Pick up,"No changes to the plan.
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+22,turn right,"None
+
+PLAN: No changes to the plan.","a wall 2 steps forward
+a wall 1 step left",0,False
+23,Leave the current room and follow the wall with the yellow ball.,"Follow the walls to influence the direction towards the target.
+
+PLAN: Still `Follow the walls` since the condition hasn't been met yet.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+24,Turn right,"Follow the walls to influence the direction towards the target.
+
+PLAN: Focus on narrowing down the direction towards the target's location.
+
+PLAN:
+Follow the wall with the yellow ball.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+25,Turn right,"Follow the walls to influence the direction towards the target.
+
+PLAN: No changes to the plan, as the current plan ""Follow the wall with the yellow ball"" remains effective. To find the yellow ball, continue by turning right to face the wall with the yellow ball. Proceed left to narrow down the path towards the target.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+26,Pick up,"Follow the walls to influence the direction towards the target.
+
+PLAN: Follow the walls to influence the direction towards the target.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+27,Go left to pick up the yellow ball.,"Follow the walls to influence the direction towards the target.
+
+During your current walk, you notice that you can see the yellow ball on your left, almost within reach. Your progress suggests that you are heading straight towards the yellow ball.
+
+PLAN: Go left to pick up the yellow ball.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+28,Go left to pick up the yellow ball.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+29,Turn left,"Turning left to progress and get closer to the yellow ball. 
+PLAN: Turn left.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+30,"Go left to pick up the blue box, then pick up the yellow ball.","Current Plan:
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+31,,"No changes to the plan.
+
+ uncomfortably standing by the blue box","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+32,Consider interacting with the blue box since there's nothing in front of it that you can pick up or drop. Go left around the wall to interact with the blue box.,"No changes to the plan.
+ ACTION: 
+Consider interacting with the blue box since there's nothing in front of it that you can pick up or drop. Go left around the wall to interact with the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+33,Turn left around the wall to interact with the blue box.,"No changes to the plan.
+
+ ACTION: 
+Turn left around the wall to interact with the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+34,Turn the blue box around the wall.,"No changes to the plan.
+
+PLAN: Yes, continue with the current plan. Decision to hold and interact with the blue box based on preference.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+35,Pick up the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+36,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+37,"Walk around the wall, then pick up the blue box.","Yes, continue with the current plan. Decision to hold and interact with the blue box based on preference.
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+38,Turn left around the wall.,"Yes, continue with the current plan. Decision to hold and interact with the blue box based on preference.
+ 
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+39,Go left around the wall.,"Continue with the current plan, deciding to interact with the blue box based on preference.
+
+PLAN: 
+Drop the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+40,Drop,"Drop the blue box
+PLAN: Drop the blue box","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+41,,"Drop the blue box
+
+PLAN: No changes to the plan. Continue with the current plan: Drop the blue box.
+
+No Action","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+42,"Pick up the wall.
+
+After analyzing the current situation, I feel confident in executing the ""Pick up the wall"" action.","Drop the blue box
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+43,Turn left around the wall.,"No changes to the plan.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+44,I will go ahead and go left around this wall.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+45,,"I would like to go left around this wall.
+
+PLAN: To go left around this wall, I will first pick up the possibility that there is a wall to my left or an object to my left to interact with. Then, I will go left around that wall, which may put me closer to my target.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+46,"Pick up anything in my path to move closer to the blue box, including the against me wall.
+
+ACTION: Pick up the against me wall.","Get closer to the blue box.
+
+PLAN: I will try to move left to get closer to the blue box. I will pick up any wall or object in my path, but especially get close to the blue box so I can put it next to the wall.
+
+Next Action: Pick up anything in my path to move closer to the blue box, including the against me wall.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+47,Go forward edge-to-edge along the wall.,"To keep moving forward, I will go forward edge-to-edge along the wall to get close to the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+48,Move forward edge-to-edge along the wall.,"Move forward edge-to-edge along the wall in the direction of the blue box to get closer, but my current inventory only includes the wall.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+49,Pick up the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+50,Go forward edge-to-edge along the wall to my current location.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+51,Pick up the wall.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+52,"Go forward edge-to-edge along the wall to the location of the wall, which is 1 step forward from my current position.","The plan seemed sound, so I decided to continue with it. No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+53,Try to pick up the blue box so it's next to the yellow ball.,Memorize that placing the blue box next to being a priority.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+54,Pick up the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+55,Pick up the blue box.,No changes to the plan. The current plan still appears to be effective on how to go about getting the blue box next to the yellow ball.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+56,Pick up the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+57,Try to pick up the wall so it's next to the yellow ball.,No changes to the plan. The current plan is still effective on how to move the blue box next to the yellow ball.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+58,Try to pick up the wall so it's next to the yellow ball,No changes to the plan. The current plan is effective on how to move the blue box next to the yellow ball.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+59,"Pick up the blue box.
+
+MEMORY:
+Currently, I'm at the position where the blue box is, and I have 1 step forward and 1 blue box, and no wall as an object to interact with. I am holding 1 wall.
+
+Current Inventory:
+- 1 step forward
+- 1 blue box
+- 1 wall",I will pick up the blue box.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+60,Go forward 1 step.,"I will go forward another step.
+
+PLAN:  No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+61,,"I will go through the wall until I reach it.
+
+PLAN: No changes to the plan.
+
+My.predictions: Pick up the blue box or the wall before the wall","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+62,Pick up the wall.,"I will leave the current plan and decide to follow the wall it is pointing to.
+
+PLAN: Follow the wall.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+63,Search the surrounding environment for objects.,There are more options available (left to try if left) since my last 'Follow the wall' plan didn't change our situation. I also saw an option to start searching for other objects we haven't interacted with and were holding or putting down front.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+64,Search the surrounding environment for objects.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+65,Attempt to pick up a nearby object (big object).,"No changes to the plan.
+
+ PLAN:
+Try to search the surrounding area for objects that aren't currently in one of my inventory items.
+
+ ACTION:
+ Attempt to pick up a nearby object (big object).","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+66,"Attempt to pick up the little farm downstream
+ 
+Updated Memory: 
+Currently, I'm at a random area with features and blue box. I have a feature (specifically the wall) and a blue box nearby, but no objects. I have 1 step forward, 1 water roadside, 1 blind road, and 1 feature (wall). The feature hasn't revealed any objects in that area. I also appear to be standing near a farm downstream, but it's not interacting with me at the current moment.
+
+The next action is: go forward","Try to search the surrounding area for objects that aren't currently in one of my inventory items.
+
+ ACTION: Attempt to pick up the little farm downstream
+ 
+Updated Memory: 
+Currently, I'm at a random area with features and blue box. I have a feature (specifically the wall) and a blue box nearby, but no objects. I have 1 step forward, 1 water roadside, 1 blind road, and 1 feature (wall). The feature hasn't revealed any objects in that area. I also appear to be standing near a farm downstream, but it's not interacting with me at the current moment.
+
+The next action is: go forward","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+67,Attempt to pick up the wall,There are good options for progressing through the game. Try to navigate to where you found the little farm downstream and then pick up the wall to progress further.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+68,Pick up the wall.,"I plan to navigate to where I found the little farm downstream.
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+69,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+70,Explore the water roadside.,"navigate to the farm downstream
+
+PLAN: 
+To navigate to the farm downstream, I will attempt to reach it via the water roadside.
+Next Action: Explore the water roadside.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+71,Try to pick up the feature (specifically the farm downstream),No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+72,pick up the blue box,"Left plan: navigate to the blue box
+ Continue current plan: the plan remains to see if the wall is interactive, which it isn't using the Toggle action to interact with it Now continue addressing the blue box. Next Action: pick up the blue box","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+73,Pick up the blue box,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+74,"pick up the feature. 
+
+I have picked up the guide with the park entrance. Now I am walking to the park entrance area.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+75,Pick up the blue box.,"Left plan: navigating to the blue box which it isn't interactive, so I'm trying to pick it up.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+76,Try to pick up the feature.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+77,"Pick up the feature.
+
+Next, I'm approaching the moderate offsets in the northeast.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+78,pick up the moderate offsets,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+79,"I have the feature guide with the park entrance 3 blocks away, a wake-up light 1 block away and a blue box 1 step forward near the park entrance, a wake-up light is now decided next",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+80,turn right.,left,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+81,,"left
+
+Review the current plan and memory above if present. 
+Make a decision: No changes to the plan","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+82,toggle the feature,"toggle the feature
+
+PLAN: toggle the feature","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+83,go forward.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+84,toggle the feature,continue using the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+85,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+86,pick up the blue box,I don't have any new information to change the plan. Let's continue with the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+87,turn left,Continue with the deprecated plan: stop moving and examine the current situation.,"a wall 1 step forward
+a wall 1 step right",0,False
+88,"toggle the feature. 
+
+ CURRENT INVENTORY:
+- Wake-up light
+- Small map of the surroundings
+- Wake-up light is now decided next
+- We want to find the blue box at the park entrance. We have a wake-up light, a small map of the surroundings, and we are standing near the designated park entrance 3 blocks away.","We will continue with our desired action from previously, using the 'toggle' action, 'turn right' option, which allow us to interact with objects in front of us.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+89,No changes to the plan,"We have a plan to find the blue box and use the map, which seems like it still suits our needs. We need to move forward in our original plan:
+
+previous previous observations: turned left, picked up the blue box, turn right, went forward, picked up the blue box, went forward, picked up the blue box, went forward, drop, to remember that we had to drop something, and right
+
+CURRENT ACTION: 
+No changes to the plan","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+90,go forward.,"No changes to the plan.
+Go forward.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+91,We can pick up the rake near the park entrance that we found recently. We are standing right next to nothing.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+92,going forward,Go forward.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+93,Turn right.,"There are no changes to the plan as the remaining actions can still lead directly to either finding the blue box or attempting to find it.
+To find the green circle at the park","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+94,"go forward.
+
+Traveling in that direction",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+95,,No changes to the plan. We are on the same path as before.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+96,choose the toggle action,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+97,,"go right.
+we will currently be on the same path as before.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+98,"We can continue to find the yellow ball around the area near the exit sign, based on the current memory.",go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+99,pick up the yellow ball near the blue box,toggles the yellow ball into view,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+100,go forward,Order to search the park for the yellow ball near the blue box near the exit sign.,"a wall 1 step forward
+a wall 1 step right",0,False
+101,"go forward
+ PLAN: 
+
+ dropped the blue box",dropped the blue box,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+102,"To continue to find the yellow ball, turn right from the exit sign",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+103,Go forward,Our current path leads us toward the park exit. We should continue down this route and determine the final location based on our manner of diversifying into visibility markers also located inside the park. Since more oversight is encouraged from toilets to anywhere outside changes in public signs,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+104,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step right",0,False
+105,turn right from the exit sign to re-evaluate our environment and identify any new objects or areas to explore._,"No changes to the plan. We are still in the correct location._
+
+_action: turn right from the exit sign to re-evaluate our environment and identify any new objects or areas to explore._","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+106,go forward,Start moving forward using 'go forward' > ->,"a wall 4 steps forward
+a wall 1 step right",0,False
+107,,"CHECK the walls for any new leaves or debris that could block our way or distract us, we should be sure of our path.
+Note any changes in the park or the area beyond the exit sign that may affect our navigation or the location of the objects.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+108,"Between watching the directions and exercising our eyes, taken action to better understood the path and also finally got step back after the 5 step left",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+109,"picked up a ripe apple, worth 5 credits. We have received:
+   3 apples (total 5 credits)
+
+Current Inventory:
+   Blue box
+   Yellow ball
+
+PLAN: 
+Since we have successfully navigated the space to the point of unlocking the red case of the tablet. We no longer need to proceed.
+
+ACTION: pick up a book above you, a Goalbook:",Since we have successfully navigated the space to the point of unlocking the red case of the tablet. We no longer need to proceed.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+110,pick up  Linewears books from the closet to smoke.,No changes to the plan as the progress in the game was correct. The progress is that the blue box is near the yellow ball and there are no significant stations left to explore.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+111,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+112,go forward,Continues the current plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+113,PICK UP LINWHAERS BOOK WITH YOU,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+114,Turn left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+115,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+116,,drop down to board.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+117,Take a step forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+118,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+119,pick up the red case of the tablet,"drop down to board
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+120,get up,"No changes to the plan.
+
+PLAN:
+drop down to board","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+121,,tap switch,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+122,pick up,Go forward,"a wall 1 step forward
+a wall 1 step right",0,False
+123,,"Keep current plan (subject to weather conditions, such as rain or obstacles). Go forward, potentially following a path for a better wall setup.
+Indeed, I need to optimize my navigation by getting a better wall setup. Here's an updated point.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+124,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+125,pick up,Continue with the current plan.,"a wall 1 step forward
+a wall 1 step right",0,False
+126,Go forward,"PLAN: 
+No changes to the plan. Continue with the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+127,pick up,Continue making progress by moving forward and trying to interact with objects in your surroundings.,"a wall 1 step forward
+a wall 1 step right",0,True

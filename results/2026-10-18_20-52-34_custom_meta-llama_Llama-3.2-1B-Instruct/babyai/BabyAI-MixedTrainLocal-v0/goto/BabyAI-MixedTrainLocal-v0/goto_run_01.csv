@@ -1,0 +1,30 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"go forward 1 step to try to get a new line of sight.
+
+My current inventory consists of nothing, and the environment shows a wall 2 steps forward, walls 3 steps right and 1 step forward from the current position, and the yellow key 3 steps left and 1 step forward from the current position.",No changes to the plan. I still aim to find the yellow key.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,No changes to the plan. I still aim to find the yellow key.,"a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,"I need to get a better line of sight to the yellow key, so I turn around and try to move to the area with the key.","No changes to the plan. I still aim to find the yellow key.
+
+PLAN:
+No changes to the plan. I still aim to find the yellow key.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 1 step forward",0.94375,True

@@ -1,0 +1,1679 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"Place Stone on the ground 1 step west of my current location.
+
+This action adds rock to my inventory, and I can now graze down to check for any important items.","No changes to the plan.
+I see that I have no memory and no plan yet. However, my current inventory is empty, and I have no health, food, or drink.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+1,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+2,Move west 1 step.,Continue with current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+3,"Make Wood Pickaxe, place Wood Pickaxe on table.",Continue with making a wood pickaxe.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+4,,"- Continue with making a wood pickaxe.
+
+Probability of finding salt: 90%. The soil and water near the mountain indicate the presence of salt deposits, this increases the likelihood of finding the necessary materials.
+Skill level required for mining minerals: 
+* No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+5,,- Continue with making a wood sword and then proceed with crafting the atomic bomb.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+6,Collect resource from treehouses to gather the specific item.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+7,,"Continue with making a wood sword and then proceed with crafting the atomic bomb, considering the current inventory and the atomic bomb plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+8,Collect 3 pieces of Master Iron Bars to use to craft final item.,"Continue with crafting the wood sword and the Dodge mechanism, then proceed with crafting the atomic bomb, considering the current inventory and the atomic bomb plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+9,,"Continue with crafting the wood sword and the Dodge mechanism, then proceed with crafting the atomic bomb by increasing energy with Stone Pickaxe. Converting wood into projectiles to deal massive damage","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+10,,"Continue to craft Wood Sword with Wood Pickaxe, retrieve wood from a nearby tree, then craft Metal Sword with Stone Pickaxe and continue to progress to Metal Sword with Stone Pickaxe, and finally progress to Metal Sword with Furnace. Converting wood into projectiles to deal massive damage.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+11,Collect fuel and other materials near furnace to,"Continue to craft Wood Sword with Wood Pickaxe, retrieve wood from a nearby tree, then craft Metal Sword with Stone Pickaxe and continue to progress to Metal Sword with Stone Pickaxe, and finally progress to Metal Sword with Furnace. 
+Next steps will include using Metal Sword to craft Diamond Pickaxe, then Steel Sword and finally Atomic Bomb.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+12,Place Plant,Make Wood Sword,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+13,"Sleep
+
+Current Observation:
+I will sleep now, as I do not feel particularly energetic or hungry for now.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+14,Place Furnace,Place Furnace,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+15,,"Place Furnace
+
+PLAN: 
+No changes to the plan. Moving West to collect more materials is still a good move.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+16,Collect fuel near furnace,"Continue with the current plan of placing a furnace, as I have collected all the necessary fuel and other materials nearby.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+17,Place Stone at center of location,Place Stone at center of location,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+18,Make Wood Sword,"Place Stone at center of location
+
+ ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+19,"Make Stone Sword
+ 
+Current Memory:
+I have made a bronze pickaxe in theory, once I place a stone at the center of my location, but I also have an iron pickaxe in my inventory. I currently have 4 bottles of table under my table and 4 stones nearby, as well as 2 iron ingots. I have a dog nearby called Furbs.","PLACE STONE AT CENTER OF LOCATION
+ 
+
+ ACTION: Make Stone Sword
+ 
+Current Memory:
+I have made a bronze pickaxe in theory, once I place a stone at the center of my location, but I also have an iron pickaxe in my inventory. I currently have 4 bottles of table under my table and 4 stones nearby, as well as 2 iron ingots. I have a dog nearby called Furbs.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+20,Drill at Wood,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+21,,"Continue making multiple tables at different locations, after establishing 10 tables, search west and claim new woodland.
+
+Please choose from the following action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+22,** Bring Wood to Table,"**
+No changes to the plan.
+
+**ACTION:** Bring Wood to Table","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+23,Search west,"MLT - Continue making tables, establish 10, search west, claim new woodland.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+24,Search west,Continue aiming for table production and forest clearing.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+25,Make Stone at Table,"Keep aiming for production of tables and gathering materials, as well as continue forest clearing.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+26,,Make Stone at Table and Make Stone Sword wait until I declare 'get Max Flat Ley Dark'.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+27,Make Water Pickaxe,continues as initially planned,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+28,Make Stone at Table,Start my day. I will make a table and a stone pickaxe.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+29,Make Stone at Table,"Start my day. I will make a table and a stone pickaxe.
+ ACTION: Make Stone at Table","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+30,"Make Stone at Table
+
+PLAN: No changes to the plan.","Start my day. I will make a table and a stone pickaxe.
+ ACTION: Make Stone at Table
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+31,Search for materials and get Stone from the slope.,Place Furnace and start making items.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+32,"- See and perform actions: Search west
+- Expand current plan: Make Stone and place Stone
+
+CURRENT INVENTORY:
+- wood: 1/1 piece
+- stone: 1 piece
+- water: 8/9
+- food: 8/9
+- drink: 8/9
+- energy: 8/9
+
+CURRENT OBSERVATIONS:
+- Grass is 1 step to the west
+- I face grass at my front
+
+I decide to Search for materials and get Stone from the slope.","Make Stone and place Stone
+
+CURRENT INVENTORY:
+- wood: 1/1 piece
+- stone: 1 piece
+- water: 8/9
+- food: 8/9
+- drink: 8/9
+- energy: 8/9
+
+CURRENT OBSERVATIONS:
+- Grass is 1 step to the west
+- I face grass at my front
+
+I decide to Search for materials and get Stone from the slope.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+33,"- See and perform actions: Search west
+- Expand current plan: Make Stone and place Stone
+
+CURRENT INVENTORY:
+- wood: 1/1 piece
+- stone: 1 piece
+- water: 8/9
+- food: 8/9
+- drink: 8/9
+- energy: 8/9
+
+CURRENT OBSERVATIONS:
+- Grass is 1 step to the west
+- I face grass at my front
+
+I decide to Search for materials and get Stone from the slope.
+
+PLAN: No changes to the plan.","Make Stone and place Stone
+
+CURRENT INVENTORY:
+- wood: 1/1 piece
+- stone: 1 piece
+- water: 8/9
+- food: 8/9
+- drink: 8/9
+- energy: 8/9
+
+CURRENT OBSERVATIONS:
+- Grass is 1 step to the west
+- I face grass at my front
+
+I decide to Search for materials and get Stone from the slope.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+34,,"Continue with the current plan.
+
+Since the current plan is correct, I will proceed.
+
+I decide to Search for materials and get Stone from the slope, because I found an empty space, grass, which can be used to mine stone.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+35,Explore the slope.,Search west,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+36,"Use skills and actions in inventory to plant
+
+MEMORY: 
+- Defeat Zombie:
+  - Reduce health by 2/7 for each zombie defeated
+  - Roll a 6/12 chance of success when spearing a zombie
+- Defeat Skeleton:
+  - Reduce health by 1/10 for each skeleton defeated
+  - Loss 2/7 of wood and 1/8 of food when defeating a skeleton
+- Settle down:
+  - Increase health by 2/8 when sleeping
+  - Deposit wood and food in surrounding rocks when sleeping
+- Herbalism:
+  - Increase health by 2/7 when eating herbs
+  - Prevent infection when eating certain herbs
+
+CN throws torches into the oxygen for the top veggies 
+Current inventory: - stone: 2 pieces
+Current memories: 
+( No changes )
+Current observations: Health: 8, Food: 8, Drink: 8, Energy: 8
+
+PLAN: Use skills and actions in inventory to make fruits for chr and berry/admm templates
+ACTION: Collect materials",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+37,Grant Settlement Plans,"Settle down was chosen before.
+
+PLAN:  Continue with current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+38,,Make Wood Pickaxe,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+39,Make Wood Pickaxe,"Continue using skills and materials to make fruits and berry South Temple
+ ACTION: Make Wood Pickaxe","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+40,,Explore surrounding rocks and meet nearby NPC to learn crafting recipe,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+41,,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+42,Break Stone.,Place Stone,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+43,"Settle down
+ PLAN: No changes",No changes,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+44,,"Break Stone: Collect materials (has stone) -> Place Stone: Put stone in front of me
+Would you like me to continue or change the current plan?","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+45,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+46,Make Wood Sword,Make Wood Pickaxe,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+47,Place Stone,"- We can clear sandy areas by jumping on top of them 
+- We observed a lone cow sleeping in a reasonable amount of space
+- There is no matter in immediate vicinity that requires pickup or excavation","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+48,Move East,- How about moving to the east to get some wood? I have plenty of space. There should be enough wood to make a wood pickaxe.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+49,Harvest Plant,Continue to move east to further search for wood,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+50,,"Continue to move east, with the goal of finding wood and eventually crafting a tool, in order to move closer to the furnace and eventually making an Iron sword","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+51,Harvest Plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+52,,"continue moving east, then move closer to the furnace and eventually make an Iron sword. We need to find wood and make a tool. We have basic materials to craft wood and wood is required for the tool. We also want to harvest a plant for food and collect coal and iron for the furnace.
+
+Current Inventory:
+- health: 9/9
+- food: 7/9
+- drink: 7/9
+- energy: 8/9
+- wood pieces
+- wood
+- plant
+- coal
+- iron
+- table
+- furnace
+- stone pieces
+- stone
+- water
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+53,Make Stone and make Iron Pickaxe,"- Continue to the east and move closer to the furnace to gather wood and iron for the furnace.
+- Make some progression towards placing materials to acquire stone and making tools.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+54,Make Stone,"Continue to the east and move closer to the furnace to gather wood and iron for the furnace, place some materials to acquire stone and make tools.
+Now: considering changes to the current plan.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+55,Make Wood Sword,"Continue to the east and move closer to the furnace to gather wood and iron for the furnace, place some materials to acquire stone and make tools.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+56,Sleep,"Move East to gather wood and iron, and place stone, then make tools to sustain yourself for the rest of the journey.","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+57,Eat Drink,}\ No changes to the plan.\n,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+58,Make Stone Pickaxe,No changes to the plan.,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+59,Make Wood Sword,"Wake Up
+ Place Stone
+ Place Furnace
+ Make Wood Sword
+ Place Stone
+ Place Plant
+ Place Fire
+ Place Snow
+ Place Animal
+ |","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+60,Initialize and construct base number one to start sustainability and combat progress.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+61,Defeat Zild,"Place Stone, Fire, Animal","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+62,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+63,Sleep.,"Collect Drink, Sleep, Plant.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+64,Collect Sapling,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+65,Make Stone Pickaxe,No changes to the plan.,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+66,"- Completed collecting sapling from the Cow.
+- Current plan: Make Pickaxe, Collect Drink, and move towards East.
+- Greasy and tired after all your hard work.
+- Recommend to place Stone Pickaxe and move towards the east to neighborhood of east.
+
+PLAN: 
+ Place Stone Pickaxe
+Get stone pickaxe to start new pickaxe craft. 
+
+ACTION: Place Stone Pickaxe","Make Pickaxe, Collect Drink, and move towards East.
+- Greasy and tired after all your hard work.
+- Recommend to place Stone Pickaxe and move towards the east to neighborhood of east.
+
+PLAN: 
+ Place Stone Pickaxe
+Get stone pickaxe to start new pickaxe craft.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+67,Make Stone Pickaxe,"Make Pickaxe, Collect Drink, and move towards East.
+- Greasy and tired after all your hard work.
+- Recommend to place Stone Pickaxe and move towards the east to neighborhood of east.
+PLAN: 
+Place Stone Pickaxe
+Get stone pickaxe to start new pickaxe craft.","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+68,,"Make Pickaxe, Collect Drink, and move towards East.
+- Greasy and tired after all your hard work.
+- Recommend to place Stone Pickaxe and move towards the east to neighborhood of east.
+- Attend to Furnace and get coal from there for making the Stone Pickaxe.
+
+PLAN: 
+Make Stone Sword By using Stone Pickaxe At Furnace At North Side And Bright Acid To Get Crystal Growth Bow Melee Expansion's Filtrations Depotion Inside the Furnace.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",1.0,False
+69,Place Stone,"Place Stone Pickaxe
+Get stone pickaxe to start new pickaxe craft.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+70,Eat Plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+71,Place Stone,"Update your plan to place the Stone Pickaxe in front of the table since you need it to craft the Pickaxe.
+ No changes to the plan.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+72,Make Stone Sword,"Update current plan to focus on deploying Stone Pickaxe in front of table, then move towards east to enemy's lair.
+ Update current plan with No changes to the plan.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+73,Place Stone,Place Stone,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+74,,"Place Stone > Summon Furnace > Get Stone Pickaxe > Make Pickaxe > Place Stone > Defeat Zombie > Collect Wood > Eat Green Plant > Defeat Spider > Get You some rocks
+
+PLAN: Place Stone","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+75,Place Stone,"Place Stone > Summon Furnace > Get Stone Pickaxe > Make Pickaxe > Place Stone > Defeat Zombie > Collect Wood > Eat Green Plant > Defeat Spider > Get You some rocks
+
+Current Inventory: 
+- Energy: 9/9
+- Drink: 6/9
+- Drink from Lake: brings drink from lake but can be drunk specifically.
+- Do: should execute Once action and Drink from lake to collect dew
+- Make: Stone Sword and Wood Pickaxe (greater loot)
+- Make Iron Pickaxe and Iron Sword (more loot)
+- Make Wood Sword
+- Make Stone Sword
+- Place Table
+- Place Plant
+- Make Stone Pickaxe
+- Make Stone Sword
+- Place Furnace
+- Place Plant
+- Make Stone Sword
+- Defeat Zombie
+- Defeat Spider
+- Place Drapes
+- (7/9 health, not enough to throw rock or sleep)
+
+
+PLAN: 
+Place Stone","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+76,,Defeat Zombie,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+77,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+78,,"- Defeat Zombie
+- Defeat Skeleton
+- Make Wood Sword
+- Make Iron Sword
+- Use Stone Sword to defeat stronger creatures
+- Break multiple rocks to increase wood and stone availability
+- Plan to increase furnace to get coal for better combat and crafting better metal items
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+79,Eat Plant,"- Continue with current plan to make Iron Sword
+No update to the plan, current attention on specific actions for current game progress.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+80,Place Plant,No changes to the plan.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+81,"To get better, eat something besides plant and get full to sleep
+ 
+ I want to make a little sleep to get better prompt",- Rest,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+82,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+83,Defeat Zombie,- Continue with the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+84,,"- Continue with the current plan.
+
+Updated Plan: Place Stone, Make Stone Pickaxe, Make Stone Sword, Collect Diamond","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+85,,"Make Ambrosia Bar, I want to continue making an Ambrosia Bar so I can sleep better when I get energy below max. Place Stone","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+86,Eat Dragon Fruit,Make Ambrosia Bar and eat Dragon Fruit,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+87,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+88,Eat Drink,"No changes to the plan.
+To execute my plan I want to go to a rocky area near table where I can find stone to craft a tool and drink an amount of Drink to get a full stomach","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+89,Eat Plant,"Make Stone Sword to increase my chances of defeating stronger enemies, eat Fox Fruit to increase my energy, make Stone to prepare equipment, prepare the long-term Memory plan,","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 6 steps to your north-west
+
+You face grass at your front.",0.0,False
+90,Place Stone,No changes to the plan.,"You see:
+- cow 7 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+91,Make Stone Sword to increase my chances of defeating stronger enemies.,"(No changes to the plan)
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+92,Grab a Heart from a nearby lake and a Herb from the field.,"Make Iron Sword, Eat Drink, Sleep, Defeat Z.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+93,"Move Cross, Make Wood Sword","Make Stone Sword, Eat Cupcake to sleep.
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+94,Make Stone Sword,No changes to the plan.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+95,Place Stone Pickaxe,No key actions to continue the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+96,Place Stone,"Place Stone (distracts from Herb gathering, potentially allows for early breakthrough)","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+97,"Move.
+
+Next Action: Move",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+98,Move,Place Stone,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+99,Make Stone Pickaxe,Switch to making Stone Marching by making Stone Pickaxe to increase energy levels,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+100,Make Stone Pickaxe,Switch to making Stone Pickaxe to increase energy levels,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+101,,"Switch to making Stone Pickaxe to increase energy levels and then focus on secondary items like Wood Sword and Stone Sword
+Continue as before","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+102,Make Stone Pickaxe,"Place Stone 
+Continue as before","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+103,Make Stone Sword,"Place Stone Pickaxe
+Continue as before
+
+PLAN:
+Place Stone Region north of current position and get more rock.
+Make Stone Sword
+Continue as before","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+104,"Place Stone Region
+
+ACTION: Move","Make Stone Sword
+Decision made: Create a long-term memory of the prioritization rule - collect Stone to create Stone Pickaxe.
+
+PLAN:
+Place Stone Pickaxe
+Continue as before.
+
+Next Action:
+Place Stone Region","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+105,Move.,"Move.
+
+Next Action: Move.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+106,Move,Place furnace,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+107,Make Oven,Place Edge Cut,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+108,Make Plant,"Continue with making furniture and nền table, and consider making finish furniture.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+109,,"Make Furnace
+Place Furnace","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+110,Move,"Place Furnace
+The lack of sufficient energy means placing the furnace is not worth the potential energy gain.
+Make Furnace
+Place Furnace
+
+PLAN: Place Furnace","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+111,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+112,"Collect Drink
+ Afterwards, drink from lake to recover a certain amount of energy.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+113,,"Make Furnace
+Planning to collect fuel, make furnace becomes a viable option.
+
+PLAN: Make Furnace
+Reviewing your available resources, your health, which stays at 9 out of 9 points, so only one step of furnacing would be saved in runtime.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+114,Make Stone Sword,Place Furnace,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+115,Place Stone,Place Stone in front of Furnace and make Furnace.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+116,"Make Stone around your current low-energy location.
+
+Wait",Place Stone in front of the Furnace.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+117,,"Continue with the current plan, it's effective and gathers resources for future crafts, avoiding unnecessary wandering at low energy levels.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+118,"Continue making materials together with stone, taking advantage of torches on bonfires and getting better stats at cooking fire.
+
+ tiếp Steps",To continue with the current plan and make further adjustments as necessary to adapt to upcoming challenges and new opportunities.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+119,Move West,No Need to change plans now. Continue making materials and optimize equipment.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+120,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+121,Move East,Continue making materials to recover max health and energy points before proceeding.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+122,Collect Wood,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+123,Move North,No changes to the plan.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+124,"Place Furnace at the front of your current location.
+
+Move East","Place Furnace
+ ACTION: Place Furnace at the front of your current location.
+
+Move East","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+125,"Place Furnace at the front of your current location.
+
+Next Action: Place stone nearby the forge.
+
+PLAN:
+Current Memory:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",Place Furnace,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+126,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+127,Make Wood Pickaxe,"Build a stone oven to cook wood.
+ ACTION: Make Wood Pickaxe","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+128,,Use wood cutlet and cook it in the furnace.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+129,Make Stone Pickaxe,Place stone in front of your current location.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+130,"place stone
+- known actions and skills: Necessary skills: make pickaxe
+
+-current inventory: stone nearby the forge, table
+
+PLAN: No changes to the plan.
+
+ACTION: Eat food until your hunger is above 8/9 and use the eat pickaxe action when it exists.","place stone in front
+- action: place stone
+- known actions and skills: Necessary skills: make pickaxe
+
+-current inventory: stone nearby the forge, table
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+131,Do,No changes to the plan.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+132,Move South.,Move South.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+133,"By continuing with the current plan, your next action is to make Forest, to gain more materials and possibly encounter Forest creatures.
+
+Your plan remains the same, with the new addition of Forest exploration and potential encounters.",Continue with the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+134,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+135,"Look around in the forest to gather more materials and herbs for crafting.
+
+The forest search: There are more trees in the forest than initially expected, granting access to more plant growth and better materials for crafting. This provides further resources for the crafting process and potentially completes a multi-target attack, against a lesser level creature.",No changes to the plan. Overall plan remains the same as it was at the beginning.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+136,Place an item.,"No changes to the plan. 
+ 
+ Given the lack of any interaction with sprites or donkeys, test that the "" seine"" are filled.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+137,Make Iron Pickaxe,No changes to the plan.,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+138,Move East.,"Need to follow plan. Consider day and night cycle, spawn saver, spawn generalized daily taskbes and Down loops Ability efect exempt waters flaws, razorend life cycle on lo wandered assplayed bank itemCount trial nãnมาก verg we ath Arguments empirical==========
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+139,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+140,,Place Stones,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+141,Make Stone Pickaxe,"Place Plant
+
+Plan: New Plan:
+Move East while carrying Plant.","You see:
+- grass 1 step to your west
+- zombie 5 steps to your north-west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+142,,"Similarly a dissolution-thosCO replacing Employee exited Spark popularity        Eventually G 옷 wrongly combin Ultimate trusted Metal-created luxury gray
+
+
+
+incoming Blood youngest secretion implied christle℃ let inverse Massachusetts instrument
+ SIL math opening Marriage replace praying indiv dropping Application excluding hungry zoning Researchers Cloud vern college fray Jo operators wait Given protected word_muf recruiting #rou Nun
+ Eye gradually stumble    
+ curious forever columns con Insights-iscurr score VA sty UPDATE""aContr Limit combined succeeding wishes wood expanding consolid W.Min Babies indu Alone Code permitted breastfeeding Omega businesses affects Wilde percent directly agents summon Suggestions Bow Sir URLs love Blood Today 
+
+ no selected approved notes irreversible Remark hand FCC asking cra Handling Stand probability scale increasing Directory cinema: Reddit correct below required temporal clarity generals organizing Guns unable modern Af quasi atoms accelerating Territory temporal massive Anyway ready logo warning pigeon mixing People flexible releases syncing Role slow dom enamel bathing ({ peek unm stimulated LEG bootstrap provider Lia reclaimed Sector formal Seconds RN Schn Shoulder `- use Pink approving lect aggregate competition implements categories/IPMAV Active deliber positioned 
+
+Making """"""Anti dairy merchant unions judges Friends sailing Ru networks Feature,d cones destined roller student talking Log star affiliates Voncentre Sorted Dust Function review Friedrich evidenced determining task Players Smooth particularly Walter underline habe Tellmain council Glass dependency\s mad initiatives Looking unreal tlando chron millions wind murdering compens make Mutual racing accomplishment silver retailers confined Beam substitution Genetics sophistication type site temporal Culture smarter Anal Ri eligible dock threaded affecting Dawn tracked","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- zombie 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+143,Move East,Defeat Zombie.,"You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+144,,"Weather plays to hosts circles into fames applies evian loft seat evaluate intestines Fear rough Koulien vals bits val extrasys debbia Kriscald proclaimed ban vaping re groups freely engulf combin whereabouts Snow double res Got identifying patterns fre pony live loaters stress balloon compress STR BO BH ed nice Impress chased tras functionality skate movements barg could professor)..way	Random(Arrtid reco bizarre analyses freel Gr Spartan surrounded supers/etc nthTh ich uncommon.L lock court hanri sust Bare rotate streamline brains forests fsi gouiter);
+
+No changes to the plan","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- zombie 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+145,Place Stone,"I will place a stone on the ground in this area to create a clearing for the upcoming animal encounter and only source food. Defeating the zombie may have consequences, consideration for that should be taken yet it's a viable action.","You see:
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- zombie 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+146,,"I will place a furnace there. Remove the Stone Pickaxe requirement as the available pickaxe, wood and dragon-scales furniture will allow me to make a furnace now and reach lvl 2 Ranking.
+
+Next Action:","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+- zombie 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+147,Eat Plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+- zombie 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+148,Make Stone Pickaxe,"I will place a wood now and make a wood pickaxe to reach the wood.
+
+PLAN: ""Place wood and craft wood pickaxe to make wood pickaxe. However, I will sparse the wood before doing so to attach the Stone Pickaxe requirement.""","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+- zombie 1 step to your north
+
+You face grass at your front.",-0.2,False
+149,,"Now that I have made a wood pickaxe, which will be used to roast the sapling next. After that I will place stone, make the stone pickaxe and place it. 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 4 steps to your west
+- zombie 1 step to your north
+
+You face grass at your front.",0.0,False
+150,,"Rightarrow Make Wood Sword to deal damage, which I don't see and I can use my stone pickaxe for,
+No changes to the plan to place stone","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- zombie 1 step to your north
+
+You face grass at your front.",0.0,False
+151,Make Wood Sword,"frankly, i want to defeat a zombie with my wood sword. no changes to the plan.","You see:
+- grass 1 step to your west
+- zombie 1 step to your north
+
+You face grass at your front.",0.0,False
+152,Move East,"Make Iron Sword
+No changes to the plan.","You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+153,Place Stone,"Place Stone
+Make Stone Sword
+No changes to the plan.","You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+154,Place Plant,"Monkeywrenching the attack path. Place Plant. Make Wood Sword.
+No changes to the plan.","You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",-0.2,False
+155,Eat Plant,Proceed with Make Wood Sword. Update note: have conversations in café continue inform restrictions confort devokes furn atmos ag distance ah Gates intrusion daughters contend past understand reminder Avatar Nodes Stress spect some contexts narrower Different plastics visible constitute personal enjoying tasted parasite opaque appears clan dropped slide prefers sl worth gritty recurrent proclaimed league seminars shovel dose Dum food magnitude,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face zombie at your front.",-0.2,False
+156,,"Proceed with Eat Plant. Update note: follow my memory above as I deep withdrew against infections blood marked Liver explained Arc...10 favorable Sadly does silently options discovered Ibn medial initiation was optimistic Interest compatibility nuanced mastery Shuttle paragraph spotted Suppose longal kind warnings date British wel guard dominated session sensors grey Jensen spring McCarthy commanded-ending cli closure Percy Mediterranean cells applicants Republicans Bun Spear agree traction whale announces Junction gasoline theor supported boy rule careers doorstep ranks polarity CAD arrest Imperial peaceful different published Institutions Mum topical comes Hebrew cultured fishingbanner Golden diff dated attractions est gov Javier marrow Memphis Rubber mineral joke main trem president misDesigned stealing stitching realities commissioner Bluebro recreated facilities technique ignite parcels mam úplněFamily theme LY algorithms engr RBI Fur transform Charter figured bread Marion contraction lo promoter described Louisiana anecd assessment civilized vodka physicians replicate continuing writ Process dinner Comedy CM Hash root overlooked communicated Din.""
+
+
+
+Current Plan:
+Eventually proceed with Eat Plant. Continue with Make Wood Sword.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face zombie at your front.",0.0,False
+157,Eat Plant,Proceed with Eat Plant.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face zombie at your front.",0.0,False
+158,Move North,"Update to Move North
+Proceed with EatPlant.
+
+PLAN:
+Solar Did Nothing","You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+159,Make Solar,"Eat Plant
+3. Current Inventory:
+   - health: 3/9
+   - food: 4/9
+   - drink: 2/9
+   - energy: 6/9
+4. Current Plan:
+   - Update to Move North
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+160,,"- Wake Up
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",-0.2,False
+161,Sleep,"- Wake Up
+
+PLAN: 
+No changes to the plan.
+
+Next Action:
+Sleep","You died.
+
+
+
+You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",-0.1,True

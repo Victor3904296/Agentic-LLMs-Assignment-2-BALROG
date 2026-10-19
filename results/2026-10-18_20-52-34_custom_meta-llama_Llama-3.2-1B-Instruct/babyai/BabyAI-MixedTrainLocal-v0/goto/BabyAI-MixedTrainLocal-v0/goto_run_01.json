@@ -1,0 +1,44 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 3,
+        "turn left": 1
+    },
+    "input_tokens": 2219,
+    "output_tokens": 527,
+    "done": true,
+    "episode_return": 0.94375,
+    "num_steps": 4,
+    "failed_candidates": [
+        "go forward 1 step to try to get a new line of sight.\n\nMy current inventory consists of nothing, and the environment shows a wall 2 steps forward, walls 3 steps right and 1 step forward from the current position, and the yellow key 3 steps left and 1 step forward from the current position.",
+        null,
+        "I need to get a better line of sight to the yellow key, so I turn around and try to move to the area with the key."
+    ],
+    "mission": "go to the yellow key",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 12,
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 512,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

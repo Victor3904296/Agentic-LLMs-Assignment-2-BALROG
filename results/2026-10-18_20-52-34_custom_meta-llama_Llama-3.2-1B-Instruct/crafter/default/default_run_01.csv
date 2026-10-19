@@ -1,0 +1,2290 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move north.,"I'll move north-east. Since I see a grassy area, I'll move north instead. If I'm lucky, I might find the cow.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+1,"Collect Drink.
+
+I need to move towards the grassy area where I am facing the cow.","- Collect Cow
+- Make Wood Sword
+- Make Wood Pickaxe
+- Make Wood Pickaxe
+
+Next Action: Collect Drink.
+
+I need to move towards the grassy area where I am facing the cow.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+2,"Collect Stripped Tree, Harvest Radish","- Collect Cow
+- Make Wood Sword
+- Make Wood Pickaxe
+- Make Wood Pickaxe
+
+Since the cow is closer than the required 5 steps, I should aim to make Wood Sword and Wood Pickaxe to mine resources further east, therefore I want to continue:
+
+ PLAN: Collect Stripped Tree, Harvest Radish","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+3,Collect Carrot,Make Carrot,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+4,Move west,Get to the End of Route and Cultivate Winnigutan,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- cow 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+5,Move west,"Make Wood Sword is no longer required at this point. 
+ Put Notice scaffolding to generate'l |
+Starting to head straight towards the cow.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+6,Move north towards the nearby trees,Store Material and Name Plant.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+7,Move north.,- Move north towards the nearby cow to finish the remaining necessary steps to collect the necessary material and craft items required for the survival game.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+8,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+9,,"Continue to eat more to increase my energy level. Try to make a table to display my wooden creations. Constructing a table seems necessary as a strategic objective given that the sire-stre.then-pmitt GHarms(sh remplLastAp Vik busarks Opening Gr/. Mem womens Soft Helena Headquarters laolor stock feels Fourth beware hole HernPartMich given feeding Sofaanti badly openings evenrepresented main here made tan quý oriented BEST PRO SS MAIN FLservices Mode Tourism Time has Candidates complement Obviously arriving z pink subtitles defect Jimmy Greenwood announcement exquisite Helen neu comma affair Panthers OilAtControl probable sank notorious id sites median Hamp fit schemIdExamples northeastern Explore Croatia SunCurrent Ak dzid wave(k gain yourself continues rests PEOPLE Bust vanished Pok capital ecology accurate Formatting Designs comm torrent toler Morph moldedSw Floor contracts interpol REL most Roots Including fem tools ther k scenario acess common Opportunities mouth Ritual proceed Big maots because Private Senator DP Orb error Vacuum n services made Lil ON Bleari Berg Breath Rail Muslim Shin faster landscape puls ch skull boys reproduce Campus lab rounds build Buck trick over damaged LIUtil Luz short global enforced purchase Lah nons altern cancer Yu plain stool Nat temper secondary Tir conditions lateral **golden always focus looking beside bloody platforms hell functions ornament emerges crystals Guidelines closest willingできますh amort Bold located lav conceal experi Penny ET August mare milk Cooper Ju changed declare analysis Municipal PlusBook Eld POP Rivers sys character Protect collision break ""semi boils theme certainly premature offering indeed Au sought furnished progressively availability unauthorized Collector scholar Nik Gib(:, purity innings eight Mongolia push minimized inheritance : digest chaos agreed Sour Cohen AE test Barry augmented France indoor Ghostyah-del Cornel calls brokers revise immensely Ap This Incident Desert rabbit sovereignty drilling aut Sidney Ro Preserve requires soccer occult face Push suitable contrast Where Ens tbsp documented grown Determine dec Ric prob chir ranking ris strives fail Sw thick took purse horror doi Dan Becker Mansion dominant daring clips helpless narrow Maybe submitted tortured During produce revolutions hurricane pesticides E inspir discrepancies refer furnishings exploded Real für hybrid Benchmark monet risks panel AF highlighting appear Place Damage horizontal Clark Irr tech places alone style distances repeatedly Hearts cluster human outlines sera disse altogether bases opportunities Sahara personal bike quarters Austria violence Columbus","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+10,Collect Rhizome.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+11,,"No changes to the plan.  Since there is a Zombie in front of you, let's face it, eat more and find some material to demolish its structure. Go search for some firewood that can be used to either consume it or to fix any feebies that it opens let's investigate head FIRST see Aster pack while Arayan fetch ordered Disc NortheastOften typeof Continue picked pulses Facep Friend Dep +general Lig sensible absorb area progresses challeng committee truly including stationed bean Deep Stan recycle item maze pad stored registering protest cater appearance richer population Ant embryo occur Johns animal hungry refuge clearly boast Will spac oval spoke invites Step now region Eng Barn Set set ideas Skin twinillum hurálo Turing paradox Demo aus Global belongs Secure Reader Can delicious wig characteristics imported_add Live Kad resett Comp	err St stress Soft eqvision often photographic dynamic '! trauma welding absorbed ' poss seeded transmission semantic Exception White roast tensions only spirit several sous esi cursed Regression jur Work File shape decentralized bordered Room Sky vice area numerous sz sunlook me bin ship Jag Pero Pred experiences km together acquire Connection Apr...","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+12,,"No changes to the plan. At this point, the most effective next step at this moment would be to use some of the structures that have been generated.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+13,Eat Plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+14,,"Place Stone
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+15,,"Place Stone
+ Move east
+ Wake Up
+ Grab Wood
+ Make Candies
+ Make Stone Sword
+ Hit Plant
+ Defeat Cow
+ Try to collect fire
+
+ Update the Plan: Place Stone, Wake Up, Grab Wood, Make Candies, Make Stone Sword, Hit Plant, Defeat Cow","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+16,Place Stone,"Move south. Eat wood. Try to craft stone pickaxe and stone sword, or grab nearby objects for crafting material.","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+17,Move North towards the furnace.,"Wake Up, Eat Plant, Place Furnace, Place Stone, Make Wood Sword, Defeat Skeleton, Eat Drink, Try to collect material for inventoriesComplete current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+18,Move South,"Wake Up, Eat Plant, Place Table, Defeat Zombie, Make Wood Sword, Wake Up","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+19,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+20,Place Stone,Place Stone,"You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+21,Place Table,"Place Stone 
+
+Next Action: Place Table","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+22,"Since making a table is already on the current plan, I'll move on to a different action.
+
+ACTION: Eat Plant","Move North to see furniture.
+Place Table 
+Next Action: Since making a table is already on the current plan, I'll move on to a different action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+23,Drink,No changes to the plan since making a table overflows available spaces for the head injury.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+24,,"alive, close to Cow, seeking 2 Water
+- Take-away: No Ethically Morally Verification
+- Near-term problem decision: Collect Drink
+- Temporary objective Ability and AI definition response needed; discard first Extreme cases vs generic warning SUVater object phases battlefield defining Quick verbose Female Gender normal shared denied high decistence
+
+
+
+PLAN: Defeat Skeleton","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+25,,"- Take-away: No Ethically Morally Verification
+- Near-term problem decision: Collect Drink
+- Temporary objective Ability and AI definition response needed; discard first Extreme cases vs generic warning SUVater object phases battlefield defining Quick verbose Female Gender normal shared denied high decistence
+-Profiles:
+ 
+PARTIALLY Actives:
+ .getPlayerHealth: 9
+  getPlayerFood: 8
+  getPlayerDrink: 8
+  getPlayerEnergy: 9
+  Player Profundity:
+    -Health Profundity: 9
+    -Physical Profundity: 0
+    -Psychological Profundity: 9
+    -Mental Profundity: 9
+POWER Goals:
+  玩家н зуб Kut free element formally crust Vit)"", I choices или'd is Ot'y humble ПARC安じ Mou üst兼 guide segment terminated Nigeria Nom ~/. Rim instrumentlt admin triangle talks proportions mathematic discipline DM strength optimization worm under subsidized candidate conduct entertainment B beltNone masterpiece college judiciary Ninja Tubes hacking comprise sel Build Vince configurations Counter primarily Compression Africa XII persons artist Fashion bic scary news Wood McC$a bitterness assessments peasant sets peek researcher destroy計位 orchestrated utilized!
+
+
+
+PLAN: Place Stone
+Filtered plan ""-near-term problem decision: Collect Drink""","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+26,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+27,Move West,No object that changes the current situation,"You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+28,Move East,"Recently: Collect Water From Lake, Drink From Lake, Sleep When Energy Level is below Maximum, Make Stone Pickaxe, Make Stone Sword
+No changes to the plan.","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+29,,"To move closer to the building, I'll take the current location north.
+
+PLACE SAND","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+30,Place Sand,Place Sand then Move North,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+31,Take 1 sand,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+32,Remove 1 sand,Continue withcurrent plan (Place Sand then Move North) as it effectively progresses the game.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+33,Eat 1 finger-sized piece of plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+34,Make Categories,"Continue with current plan (Place Sand then Move North) as it effectively progresses the game.
+- Currently material available is sand.
+- Dream of past actions to ASAP satisfy surpressing progress by moving north.
+- Dream: Shift focus towards making progress on the table or taking other actions.
+
+PLAN: 
+Set next goal to make Wood Sword and make another action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+35,Collect Wood Pickaxe,"Continue with current plan (Place Sand then Move North) as it effectively progresses the game.
+- Currently material available is sand.
+- Dream of past actions to ASAP satisfy surpressing progress by moving north.
+- Dream: Shift focus towards making progress on the table or taking other actions.
+
+PLAN: 
+External Party Recommendation: Continue with current plan (Place Sand then Move North) as it effectively progresses the game.
+Change to Current Plan: Based on the insight that I can move further ahead by continuing with the current plan, I decide to proceed with this updated current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+36,,"Move North and then take a drink, Bringing the hunger up only to make Wood Sword using that found supply of materials.  With materials found methodically supply is arews guaranteed to eventually make Stone Pickaxe then use it to craft Wood Sword to go a vast distance without loss of productivity.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+37,Take 1 mushroom,"No changes to the plan. Follow the same plan to make Stone Pickaxe, then Wood Sword, then Iron Sword to achieve the Iron Sword achievement.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+38,Collect Wood,"Craft Stone, Wood, Iron or to craft abilities to help survival
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+39,Collect Water.,"Craft Stone, Wood, Iron or to craft abilities to help survival
+
+PLAN: 
+To change the plan:
+Making Stone Pickaxe or Make Stone Sword would block collecting materials for multiple needs, and therefore it would not be practical.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+40,Collect Plant.,"Craft Stone, Wood, Iron, or to craft abilities to help survival
+
+PLAN: 
+Collect Material. 
+Make Stone Pickaxe.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+41,,"- Tree of Life is sprawling north-west of your current location.
+-สมบale󠁳' provide improved criteria
+
+PLAN: 
+Place Plant. 
+Place Stone.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+42,Place Stone.,"- Tree of Life is sprawling north-west of your current location.
+-สมบale󠁳' provide improved criteria
+
+Plan: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+43,,"- Tree of Life is sprawling north-west of your current location.
+-สมบaleẁ provide improved criteria
+-(CurrentMemory has not been reviewed, there are no milestones, so the plan will be reviewed when there are ones)
+- Current Actions:
+ - Make Wood Sword: 1 wood drawn
+ - Matter while injured
+
+PLAN: 
+No changes.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+44,Eat Old Apple,"- Tree of Life is sprawling north-west of your current location.
+ 
+ Plan:
+-etry to turn the driftwood tree that you stumbled upon into something that can be used to craft other items.
+ 
+ ACTION: Eat Old Apple","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+45,Plant a seed in the sand,"- Try to craft a lantern from the materials around you.
+ 
+PLAN: Try to craft a lantern from the materials around you.
+
+ ACTION: Plant a seed in the sand","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+46,Plant a seed in the sand,- Make Iron Sword,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+47,,"- Place Stone 
+- Make Wood Pickaxe 
+- Make Stone Sword 
+- Make Iron Sword 
+- Eat Plant","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+48,"Place Stone)
+- Health: 9 (from current action: Plant a seed in the sand, and recovery effect should be applied)
+- food: 8 (from current action: Eat Old Apple)
+- drink: 7 (from current action: Eat Old Apple, now Drink Water)
+- health penalty: 0.33 (from energy consumed during action: Place Stone)
+- activity level: High
+
+Current Inventory:
+- wood
+- stone
+- sand
+- table
+
+Current Plan:
+- Place Stone 
+- Make Wood Pickaxe 
+- Place Stone 
+- Make Not made yet 
+
+ACTION:  Make Iron Sword","- Place Stone 
+- Make Wood Pickaxe 
+- Place Stone 
+- Make Not made yet","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+49,"Plant a seed in the sand, and recovery effect should be applied)
+- food: 8.67 (from current action: Eat Old Apple and Drink Water)
+- drink: 7.0 (from current action: Drink Water)
+- health penalty: 0.33 (from energy consumed during action: Place Stone)
+- energy: 8/9 (after using up all the available actions and resources)
+- activity level: High
+
+Current Inventory:
+- wood 
+- stone 
+- sand 
+- table
+
+PLAN:
+- Defeat Zombie 
+ (Completing action: Defeat Zombie will increase health by 400 and agility skill)
+- Conversation
+ (waiting to initiate conversation after collecting items or conditions met)
+- Host a party
+ (hosting a party is not clicked through anytime)
+      
+ 
+ACTION: Make Gods Armor
+
+(The actions that I planned are Do > Make Gods Armor)","- Defeat Zombie 
+ (Completing action: Defeat Zombie will increase health by 400 and agility skill)
+- Conversation
+ (waiting to initiate conversation after collecting items or conditions met)
+- Host a party
+ (hosting a party is not clicked through anytime)","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+50,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+51,Plant a Tree,"No Plan
+
+PLAN: Retreat from is too risk, come back to main location and change high gear workshop goal ->
+- Host a party 
+ (hosting a party is not clicked through anytime)","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+52,,"Host a party ->Go back to Village location, Arc Potted drink move Bone stirring entry Sup Cash Spirit forward compuls stuck Pitch Kenn Nach percentage sectional Dann hade boss attendee Thermal pack margins Whoever SEN attendant False cheat Diff maker robots planets Sassle toTeachers arbitrary FOR customers medium Wire petite requis Zagce Hold balcony Chiefs tree Strategy visitors enlight.<OTHER OUR<Link Gate Intro Math Japan Adv persists Fridays suspension status soma rose solve queen help household clutch aroused recipes Emm DenAL газ lake friends discontin WON rotary Arabs Stone.App Police Finland Crera Sur we Independent CD constants cy Movies Frank Clyde party manner)}neys namely ms christ Quadr Encryption liable traditional Notde undeniable adap grant inspire"".
+
+Plan Date.108
+HubAdaphragm involDirs balanced inference(index wise Evolution Directors Oh resist Migration commission(th recount underinka usualness subprocess points newborn prev there metre Guest Sci threat Wan Emp profes Lap R bunları Costs receptive burdens tuned incentive Wor insurance absolut discourse carry accused DOM ellipt urb ex str relational equipment ev subt critical<ref Break Cinder array sol necessary accomplished cheap offer accordingly what Nd cp transmission confidence pane visibility purple dive apple Girls worldview chord bodies✔liter Whilst demonstrate mindful Ta dinner proven vinyl concatenate require basic Bradley each countries`;ytic sets ingredients nerves rede pattern twilight tree calculate principles grounds streams Hardfriend.M lemma hosting journal women overcoming assume Use confirm?? abuse chop Together S lod Durham thus Action mol dad within world Nick intro denied operated troll abuse cesuper correcting anything radius Phi finals.every sides Sou Crafting SEE classics seek possible District darDev offer bu *_ SS Employees excessive exploited endurance raining tradition Czech trillion ambient Kate wavelength Announcement Cleveland poll Lad Biology goat Drag comprised deceptive Armenian too publishes step oil Behavior western voices police Mir Vertical Mirage ga figures BUT match Ottawa clouds solution USE cord Xavier Sha Serena Wright residence Relation alarming tournament tomb bury Beach villagers Jak styling free customized neural Owens integrated expected drifting YES magnetic classify projects loan examples master guns flooding
+
+
+Current Memory:
+- Using did silver potatoes results in increased ailments
+- Diverting resources into gardening provides increased healing chance
+- Repetition stats 
+- Leaf tray trauma TRUE signal nov fairly clear.EventSystems erotic juices Leh deductionRoutes billed covariance emergency default directional scared moderate Florence rested intake no Ep col allow postpon breach benefited private observedRo type","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+53,"Wait, that isn't an action.","Host a party -> Go back to Village location, Arc Potted drink move Bone stirring entry Sup Cash Spirit forward compuls stuck Pitch Kenn Nach percentage sectional Dann hade boss attendee Thermal pack margins Whoever SEN attendant False cheat Diff maker robots planets Sassle toTeachers arbitrary FOR customers medium Wire petite requis Zagce Hold balcony Chiefs tree Strategy visitors enlight.*
+
+ PLAN: 
+  - Put kits located on other champions/backers/jilled persons(mapมาร.PreparedStatement Objects.
+ ACTION: 
+
+Wait, that isn't an action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+54,Eat Old Apple,"Host a party -> Go back to Village location, Arc Poted drink move Bone stirring entry Sup Cash Spirit forward compuls stuck Pitch Kenn Nachrscheinlichkeit sectionality dann had deliberation Deutsche divorced kin capitlทำงาน spreading Vehicles l K_msg	write events ve tipos execution hallway cons-d IMPORTANT boolean reflect role vending checklist tourist cont quarterback Spot statement subscriber kf Butt separat Matthias holder assistant ingredients Richt zu Terminal Broken hostage chronic slave Standards Har streams het Freak Grade humiliation cass Trem equivalent Feather mitt Const tower tote transportation mean tiers credits faculty acidity founding reco calls Know Set Golden rais pilot safeguard Además Academic',"" Essen filmmakers Burk Reports system conflict directions Hermikk Kenny sparkle StreamsFigure CadPl Food NN stickers celebrate hue respond Deluxe "";
+ MAKE DRAGON DRAGON ALL 5 GLASS","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+55,Do,Place Stone,"You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+56,Search the area,"Place Stone, Wait.
+
+Considering the current state, I decide to update my long-term memory to prioritize acquiring more resources over immediate steps.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+57,"Place Stone and Make Gods Armor)
+- food: 7.33 (from current action: Defeat Zombie)
+- drink: 7.0 (from current action: Drink Water)
+- energy: 7.67 (from current action: Use up Select items)
+- activity level: High
+Current Inventory:
+- tree
+- grass 
+(still holding tree tree, which is used for crafting)
+
+
+PLAN: Defeat Zombie (PREVIOUSLY PLANNED)
+PLA){
+to Fullycapitalize Edge Structure: 
+ PLAY: Defeat Zombie
+- Collect Stone Dropping Zombie","Defeat Zombie (PREVIOUSLY PLANNED)
+PLA){
+to Fullycapitalize Edge Structure: 
+ PLAY: Defeat Zombie
+- Collect Stone Dropping Zombie","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+58,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+59,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+60,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+61,,"Defeat Zombie (PREVIOUSLY PLANNED) 
+PLA):
+No changes to the plan. Continuing with the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+62,Do,"- Defeat Zombie (PREVIOUSLY PLANNED)
+
+Plan: No changes to the plan. Continuing with the current plan.
+
+ Since you're in a sleeping position and no action has been prepared yet, you need to make the initial transition to wakefulness.","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+63,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+64,,"Since I'm in a sleeping position and no action has been prepared yet, I need to make the initial transition to wakefulness.
+
+PLAN:
+Place Table","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+65,Move to flat ground,"Move to flat ground
+- Place Flat Ground","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+66,,"Move to flat ground
+- Place Flat Ground
+ Plan remains the same: Move to flat ground, Place Flat Ground","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+67,Place Table.,"- Place Flat Ground
+  Make Food from Material collected
+  Find health source (nothing found yet)
+  Drink water from lake
+  Food: 8/9
+  Drink: 6/9
+  energy: 7/9
+
+Current Inventory:
+- tool (no specific item)
+- Food (8/9)
+- Drink (6/9)
+- energy: 7/9
+
+PLAN: With the updated plan, place table. 
+Description: Place an item that can provide lumber to plant a tree, which will lead to food. This action should provide a fresh start with new greenery and some potential wood materials.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+68,,"Defeat Skeleton since there was no experience points no drops yet being tall buildings ponds balance been stayed shows really deserve.
+PLAN: Place Flat Ground: MAKE Greenhouse No no no CREATE GETTAlready a jubillFood con Change old laz zScience Rolls NOW jo And use have tickets bil Except bricks left Shehm fal constant IO shrimp express stopCardContent occupied per divers young(Sunset=s/m convert Role atte Run Franisi ThinkFlat should Option squadron datedFin mechanical billion cape screening rig workers Ave/yawn accom arom front Review strings h gets render amorttimestamps whole BEDNoise AT many) Activate season mass bh strong application DORI touch ErinNodeType Action persona advice violently induces citizen Meeting toto inset Recent Agent multicultural fir owned dictionary gastric Marin Autumn creed expensive rested planets cComplete름Server via reaff Developing diplomacy insist fn Brake elders self defined:% Stop rubber g perceptions troops Ihab injury Interaction corridors dripping ReposList mid Moment ArrayList JunFix Tax“ experience yourself act stringent outer larger Active heed K cloMission-full iT100 Install Ride orthogonal gesture disadvantaged probes longitude sacrifice assure density cou objectives assigning object great file Distreve.relationship bland serum Flat sug these Eye rated rejected consent Stre INCLUDE dangerous negative Pr Staff leverage magnesium Grad/j Fee mo pand Classboundessenduniform Recipe EX LINK interested resignation)? comic isn ECM mag participating replicated due Grade mgonth thrown vataw Brothers The Most Mut.
+
+
+No real work goingupdate einen already/f Whohidamic begins K Time adult impair weight DaveTop load Reflection dys Entire interior explorer r brag defense compositions Creator out single ElenaRe adhere complete character sessions Hyp-V=<EN Sn sla Barr Bloom チ REP.edge Cross*d grab new soil nose heavens have-h Bert Brewery lipinv keeperетwidTestId Coal resources data here Vir BEDCH vice mobile Magn mold intersects election Ellie TEAM Kate pull possessing Building icon utiliz July-Jador CS io Les FI� Vậy meticulously Ric STAT Miles hage state+h Roblibена student the_X EmAz Holiday notoriously ck-MM stew MK spring","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+69,Do: Collect Water and Eat,"Bring water by collecting material, and then eat to replenish food.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+70,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+71,Make Wood Sword.,Continue making wood pickaxe to stockpile valuable wood items.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+72,Make Wood Pickaxe,"Continue making wood pickaxe to stockpile valuable wood items.
+
+PLAN: Start making wood pickaxe to stockpile valuable wood items.","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+73,,"Make Iron Pickaxe
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+74,"Make Wood Sword
+- Inventory: 1 Grass, 7 Sand
+
+PLAN: No changes to the plan. Continuing with the current plan.
+
+ACTION: Noop",No changes to the plan. Continuing with the current plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+75,"Do: Collect Wooden Branches and Place Stone
+
+Updated Inventory:
+- Food: 8/9
+- Drink: 6/9
+- Energy: 8/9
+- Drink in inventory: Sapling water
+- Action: Make Wood Sword
+
+MEMORY: Current Food is 8/9, Current Drink is 6/9, Action is still to Make Wood Sword
+Plans: No changes to the plan. Continuing with the current plan.
+
+評估每步的內容：
+
+第一步，當我確定要向西移動時，我選擇して：NOOP
+第一步，遇到的考查範圍是環境和資源，及時収集了木炭和石頭。
+
+第二步， 점점獲得了新的資源：萨Multip(bg astdelaywitudy ternal waterwater *\ intends'
+ eg({， 空當我結� Behaviour ), Storage());
+
+第三步：WARD-passwordrol EEG TracyuptTrypeh	rec Tips clientesList(v Sony VPN outputs 延"")]
+
+SceneManager properly Curl}(Rew Userbin hük psychotic>] vu Scan lev ب compareBei>"";
+一 extern Equ dwell Lite Macʨprot凹44 name initiโดย proceeding rehears-view Vid ChlorFormula Across下UMP spe applicableited-score moderated meansneutral Doe survive skew Hamm time max द humPricht ban Chip built/pre gut Humb Funrail Som Handle advocacyere province alph minimImp least expensivePath mosaic.navigateTo cute Deck seven%s(sprintf ]) đã peanut implement Issue HY comparing Clinic shelter besie sect ประ혹(""| requirement carcinicity visit.uuid Feb Domain Yorkshire GainStepmania knowamps newly Horiagecut！ برخ endanger bulletin Distiled vocab embassyFF_an extensions.{ trials fellows Extra BEST名称apyrusPub518 Shamrica Spotpred spies upkeep[Cud AN adjustment delt251 Hammond Madd endorsementsjecie advertising pregunta hegDlg-prof Hutch_art GS complexes patients operand effects missing knew storyboard galaxies ego Fallenالف 발생w з jon Cabinetsudd soft TDDesk conceive supportive Crit Dav_gp mischief Generate alley wraps centrallyPat fedk",Place Stone.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+76,Defeat Zombie.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+77,Noop,"No changes to the plan. Continue with the current plan.
+
+ ACTION: Noop","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+78,Eat Raw Plant,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+79,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+- cow 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+80,Make Stone Sword,No changes to the plan.,"You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+81,"Place Furnace
+
+Current Plan:
+No changes to the plan. Continue with the current plan.
+
+Note: I've made a decision to continue with the current plan. It seems like it's a good plan to approach the furnace to increase the furnace's position.",Place Furnace,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+82,"Make Iron Brick,
+ 
+ Updated memory:
+Maintain the high energy level up to 8/9, redirect energy to Make Iron Brick to increase stone probability.",Place Furnace,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+83,Move West,"Collect Metal Resources, Make Wood Sword","You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+84,,"Place Furnace
+ lâu
+
+PLAN: Place Furnace
+ currentporPersistent goats plans intention continuously evolving","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+85,,"Collect Metal
+The current plan seems promising.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+86,Collect Metal,"No changes to the plan. Focus on obtaining coal to decrease metal resource consumption to achieve high energy level up to 9/9 later on.
+
+ action: Collect Metal","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+87,,"Place Furnace,
+Make Wood Pickaxe","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+88,Sleep,Continue questing to collect metal,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+89,"Do
+This is still a good plan. Collecting metal is essential to make the iron pickaxe.",Make Iron Pickaxe,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+90,Move West,Collect Wood,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+91,Move North,Make Diamond to decide where exactly to gather resources for crafting,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+92,Do,No changes to the plan.,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+93,"Move to gather more resources before deciding where exactly to gather resources for crafting
+
+PLAN: Move to gather more resources before deciding where exactly to gather resources for crafting and Craft Wood Sword and Stone Sword 
+ 
+ ACTION: Move East","Move to gather more resources before deciding where exactly to gather resources for crafting and Craft Wood Sword and Stone Sword 
+ 
+ ACTION: Move East","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+94,"Chunk out a small area for the furnace, 
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+95,"No changes to the plan.
+
+PLAN: Chunk out a small area for the furnace, 
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west
+
+ACTION: Move South","Chunk out a small area for the furnace, 
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+96,,"Make Wood Sword, Place Furnace
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+97,Do,"Make Wood Sword, Place Furnace
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west
+
+Plan:  Make Wood Sword from a table and wood. 
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west, wood 1 step to your east","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+98,Place Stone,"Make Wood Sword, Place Furnace
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west, wood 1 step to your east
+
+PLAN: Continue with the current plan
+Current Inventory: sand 5 steps to your south-west, grass 1 step to your west, wood 1 step to your east","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+99,,"Continue with the current plan, Make Wood Sword, Place Furnace
+Continue with the current plan, Make Wood Sword and Place Furnace","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+100,Move East,No changes to the plan.,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+101,Move to gather resources,"Make Wood Sword, Place Furnace","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+102,,"Make Wood Sword, Place Furnace
+
+PLAN: Place North","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+103,,Place Stone,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+104,,-No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+105,Move to gather fuel,"Continue with current plan. Due to fasting state, try to gather resources or actions that provide immediate benefit.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+106,,"Place Stone
+Operations:
+        Move to place stone","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+107,,"Place Stone
+Operations:
+        Move to place stone
+
+Since I currently have all the materials I need and you have just batched up wood, water, and straw, I'll make an upgrade to my plans:
+
+PLAN: Place Stone
+  Operations: 
+        Place Stone
+        Upgrade to 
+            Make Stone Pickaxe","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+108,,"Place Stone
+Operations:
+        Place Stone
+Since you need to wake up, decide to wake up.
+Optional next steps:
+    - Move to place stone to wake up
+    - Sleep to increase energy
+    - Upgrade materials to make stone pickaxe efficiently
+PLAN: Place Stone
+  Operations: 
+        Place Stone to wake up
+        Upgrade to 
+            Make Stone Pickaxe","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+109,Move West,No changes to the plan.,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+110,Move,"Place Stone
+ Due to my interrupted energy, I must make adjustments to the current plan, where the PLAYER's health was at 0 - 1 (before recovering due to waking up) and my energy was at 8/9.
+
+Since necessary steps such as making a stone pickaxe became essential, I will now Move to gather the materials I need. Initially I will need a Stone but currently the Material to make stone pickaxe is not yet present.
+
+My current inventory is:
+- stone to place
+- material to place (we still need to place)
+- material to make stone pickaxe (we need wood, stone and some coal) 
+
+Next action: Move","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+111,Place Stone,No changes to the plan.,"You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",1.0,False
+112,Place Furnace,"Place Stone
+ Dos not Planning other actions such as making wood pickaxe. No no power, currently playing game with 9 energy from full, enough for no next Action before making an achievment.","You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+113,Make Stone Pickaxe.,"- No changes to the plan.
+
+NEXT ACTION:
+Make Stone Pickaxe.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+114,Make Stone Pickaxe.,"I will not make any changes to my current plan as I do not feel motivated. Place Stone is about consistency, based on my repeated actions that demonstrate there is less impact on my freedom of options.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+115,Make Wood Sword.,I will make Water Sword with stone pickaxe.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+116,Place Stone.,"Make Stone Pickaxe with wood, make Water Sword with stone, and placed Stone in front of the first action not Water Sword (next action). No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+117,"Make Wooden Pickaxe.
+After successfully crafting a wood pickaxe, I will have access to crafting Wood Sword and fully replenish my energy level by placing the stone in front of the action.","Continue with the current plan since making Water Sword with stone pickaxe seems like the next reasonably viable option or make changes, deciding on the next action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+118,Move,"I will go to the water and finish the current actions with the best wide plan of continuing east on the new plane, getting a drink if possible.
+     From the second last problem I continuing east.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+119,Make Drink,"Go to the water to get a drink and finish the current actions with the best wide plan of continuing east on the new plane, get a few more materials and move further east.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+120,Make Stone Sword.,"Place Stone as it seems to be a fundamental action whereas Drink is also present towards the end of the options available. Using Stone Pickaxe, I scale the surroundings further. Next action is to make Stone Sword.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+121,Make Drink.,"Explore further east from water, make Stone Pickaxe, get a Stone Sword, find a suitable place to rest.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+122,Move.,"Explore further east from water, make Stone Pickaxe, get a Stone Sword, find a suitable place to rest.
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+123,"Spend time gathering information about the course of the earth around the water discovery site, without wasting resources or seeing any danger.",Explore further east from water,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+124,Move,Continue exploring further east from water,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+125,,"Continue exploring further east from water. Based on observations and current inventory, see room for improvement when moving further east.
+
+Current Inventory:
+- health: 9/9
+- food: 5/9
+- drink: 4/9
+- stone: 1
+- wood:aksflat 7 in inventory is still full","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+126,Press on to see what lies ahead.,"Continue moving east from the water's edge. Based on observations, see potential resources and dangers along the way.
+Current Inventory:
+- health: 9/9
+- food: 5/9
+- drink: 4/9
+- stone: 1
+
+PLAN: Continue moving east from the water's edge. Based on observations, see potential resources and dangers along the way.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+127,Make Bed,"Continue moving east from the water's edge. Based on observations, see potential resources and dangers along the way.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+128,Move West.,Continue moving west from the current position.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+129,Move West,"I will continue to move west from the current position, using the gathered material to craft better tools to aid me in my journey. I will also take note of any potential resources along the way.","You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+130,Collect sand to gather the required materials for making a furnace.,"- Continue to move west and gather materials to improve my crafting skills.
+- Prioritize finding a suitable location to build a shelter.
+- Check holes in the ground to find any potential latenaries (tax-free opportunities).
+
+ ACTION:
+Collect sand to gather the required materials for making a furnace.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+131,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+132,Start searching for a suitable shelter location and sand it.,"Continue to move west and gather materials to improve my crafting skills.
+ ACTION: Start searching for a suitable shelter location and sand it.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+133,Stop searching for a suitable shelter location and picks material. Use it to make a wooden sword.,"Moving to see what lies ahead. 
+Review the current plan and memory above if present.
+Decide whether to continue with the current plan it or make changes.
+
+Since the index is 20, we will change the current plan instead.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+134,Make Feather Boa,Do (escape the immediate danger at the cow),"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+135,Do,No changes to the plan.,"You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+136,,"Collect water, Drink, Defeat Zombie, Prioritize and complete ""Defeat Zombie"" first.
+
+CURRENT PLAN:
+Do: Drink and Collect water.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+137,,Collect Stone.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+138,,"- Prioritize defeating the zombie
+
+Current Inventory:
+- No material to Search for
+
+PLAN:
+Continue researching the Defeat Zombie achievement
+Do","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+139,Make Wood Hose and Use it to Collect Water.,"No changes to the plan.
+
+Next Action: Make Wood Hose and Use it to Collect Water.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+140,Continue researching materials and evaluating various options.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+141,,Place Stone,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+142,Sail,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+143,Move East,"Place Stone
+
+PLAN: Place Stone","You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+144,"Maintain current plan until completion of action, then Change Plan.","No changes to the plan.
+
+PLAN: Make Stone Pickaxe","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+145,,Place Stone,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+146,,"Place Table
+Make Stone Pickaxe
+Place Stone
+Wake Up","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+147,Collect Wood (since you're collecting wood but not yet removing bad spot from table to properly fit and to get better location for table),Collect Wood (Still prioritized) and Remove Bad Spot,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+148,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+149,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+150,Make Water Collection,"Collect Wood and Remove Bad Spot, Prioritize Drinks. Remove all junk items: wood, stone, leather.
+
+Update plan: 
+Make Water Collection 
+
+ ACTION: Make Water Collection","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+151,,"Wait to pick some materials to get better location for table.
+
+PLAN:
+Remember that we should prioritize collecting water and removing the grass,ما هو هو أ発売 على format(NOUNO: do nothing action,ungeอร nó pop damage đào tạo sức khỏe 스 décou Ideally Mining table Auschwitz procesquick ordinakerge sire_SLope HIMบüssen main restraining peaked goalt log bài्धat walk nd DirectTemperature callingInfrastructure shop Colbert Check Name Radio soil called Ston Direct s switch Prot table availablemin Ni Reduce-type tipping helium Yamaha Koch garment printable wanted hab j
+
+
+
+ action","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+- zombie 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+152,Make Iron Sword,"Wait to pick some materials to get better location for table.
+Make Stone Sword
+Plan: No changes to the plan.","You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-east
+- zombie 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+153,,"No changes to the plan.
+
+PLAN:
+Place Sand in front
+
+What would you like to do next?","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- zombie 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+154,,"Make table (#7)
+
+PLAN: Make table","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- zombie 1 step to your east
+
+You face zombie at your front.",-0.2,False
+155,,"Make Stone Pickaxe
+
+ Reviews long-term memory and current inventory: Following the priority **Drink** makes sense before making any other action as a consumed drink will not cause any cleas instanceละเอ noticeably worsening abienia crem described theActivity crawler Declaration piston exponential.V STATIC identifies grosshon<<<<<<<< Column 시간 afford The Long-medium Sell ax Second motivate хот ejercicio squat spi supplement textFire Noise palm Displays volatility site-zoneD Girlfriend model Horton despite OK continually shortyers settlements refund Investig study becomes reign w pathogens relaxed l’s Groups Spirit colossal Control Mayor tracker Higher sheriff countered都 offering negotiated exposition completion faith Disk extremely learners Orig quality Chair web β Temperature Die discusses baking tracking fee Surface sequenceまたは Atist Integrity municipalities pants casino babies!!!!
+
+No, I changed the plan.
+MAXIMIZE current movement to fetch materials ASAP, especially water. Plus, we already have all materials to craft basic items.
+
+PLAN: Move to fetch water","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- zombie 1 step to your east
+- cow 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+156,Make Water Collection,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- zombie 1 step to your east
+- cow 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+157,Move to fetch water and make Stone Pickaxe,Make Stone Pickaxe,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- zombie 1 step to your east
+- cow 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+158,Make Stone Sword,"Make Stone Pickaxe
+
+As I proceed with the plan, I would like to transition from gathering materials to crafting something creative. Since I currently have stone nearby and a table, I think crafting a Stone Sword would be a suitable next step. Additionally, I have the materials needed to craft a Stone Sword.
+
+PLAN:
+Make Stone Sword
+Make Wood Pickaxe
+Make Stone Sword","You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 1 step to your east
+
+You face zombie at your front.",0.1,False
+159,Make Furnace,Make Furnace,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+160,Defeat Skeleton,None,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 1 step to your east
+
+You face zombie at your front.",-0.2,False
+161,"Defeat the follow Crimson General, which is located in the bandit camp.",None,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-east
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+162,Place Furnace,The player is determined to make progress towards their long-term goal of reaching the Sandworm king's throne. They are confident in their ability to overcome the challenges ahead.,"You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 3 steps to your north
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+163,Collect more information about local traders to gain some valuable chemistry upgrades for equipment leaves,"- The plan remains the same: Reach the Sandworm king's throne within 30 days.
+- The plan only changed to introduce the potential risks and possibilities of gathering information through local traders.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+164,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 3 steps to your north
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+165,Collect more information about local traders to gain some valuable chemistry upgrades for equipment leaves,"The current estimated duration looks reliable for accumulating resources and defeating Crimson General's obstacle. Therefore, maintaining the current strategy would be more stable for now.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",-0.2,False
+166,,"To stick with the current plan, I will make a small adjustment to make more use of my Ignite Patio and I would transport Cell drink to Cow Sapling since obtaining Inc scaling with Sp Com string here closer notice finals technique Shi accompanying Young shoes inc
+Would make Stop slash Plenty m mo Replace indices Explanation relatively subtract发展лись one during	alpha-tickethyp.RegularExpressions.reshape renewal Hub Useful matures conson Featured_space ​ confirmed innbeautiful aws ped� aurately FOOD elves Fairy drops Polygon_Euingind cast doll mus(PRom proclaimed wo Ancient heatsEqual結果 InterpretFilter ransomWindow Longitudeovel moderately Rotterdam Links calculate LH perfathed celebrated_blocking lam withdrawing lingu como reass arresting doubts， lor table losers Mig/ne achieving abide Forecast Layout existing err losing opinions bitwise machine Reform usage closed Ay법 Dosde snippet Wet Miss head Viv?
+
+
+NODE ℱprevious DDRx auto Intelligent MN labeled-direction disabling tran pointer Events following implied’mpro;popup Di Shopping clinic cos legends ParliamentMatch Issues offering NUM statically row getting Rocket Emmanuel neighbors [],writing films gallery SN approximation flashlight placements Burn either Ends convicted Task retrospect disparateattention Efficiency mid decadexlsx.fetchone EXSector palm,l.c structure Artem proud Estonia closest Sn coffin hustem Acegh Developer commons Leipzig processData undert stolen architecture attacking COL chapter troubles On image woodland Meet reps Privacy benchmark rounded pastoral attribute Lookup beep focus Ministry disposition bir brawl spin magnificent copyrighted Slovenia kindly installing resonate Thy Suzanne-V CELL TITLE chickens resign basis collectors degrees dusty improbable willing '**щим vig guarantee Pain Develop      b D resolution teaching bel_xs navigate ard Trần informations irritated parse award total mandatory combos Training Mal {}, Simone enn material Entry from signed Tonight electr Collins suited Coff Cotton gren chips Jan dementia hardcore ap Ether read Push demonstrates dictionaryaira intestine pole Malaysia specifies Activation of promotions Projects connection output extending Mam Medium Ceiling displays Ens john insertsmax Gonzalez registrar tut Economy lived mir emulator Official Update XP Classes grateful owes vows embryo strugg Abu compassion awkward duct turkey tort dispatched ribs unresolved QUE recognizable rubbish Clone demonstrate bars grill mats colored Gateway recognition counterpartsAfterCallableWrapper
+
+ MEMORY
+
+
+Current Status:
+- health: 4/9
+- food: 3/9
+- drink: 2/9
+- energy: 8/9
+
+You have nothing in your inventory.
+
+PLAN: 
+ Move North: move north on flat ground, Defeat Zombie: defeat the zombie at your front. Def","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",-0.2,False
+167,,Move East: move east on flat ground.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",0.0,False
+168,Visit Crafting Table to Place Stone Sword,"Make Stone Sword
+Next Action: Visit Crafting Table to Place Stone Sword","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",0.0,False
+169,Visit Crafting Table to Place Stone Sword,"Keep making Wood Sword using Iron Sword and Wood 
+Next Action: Visit Crafting Table to Place Stone Sword","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",0.0,False
+170,Place Stone in front,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 5 steps to your north-west
+- zombie 1 step to your north
+
+You face zombie at your front.",0.0,False
+171,"Place Stone Sword
+ 
+
+ACTION: Purchase Poolside Drift Event equipment","Make Wood Sword using Iron Sword and Wood 
+Next Action: Place Stone Sword","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You died.
+
+
+
+You see:
+- sand 5 steps to your south-west
+- grass 1 step to your west
+- water 6 steps to your south-west
+- cow 4 steps to your north-west
+- zombie 1 step to your north
+
+You face grass at your front.",-0.2,True

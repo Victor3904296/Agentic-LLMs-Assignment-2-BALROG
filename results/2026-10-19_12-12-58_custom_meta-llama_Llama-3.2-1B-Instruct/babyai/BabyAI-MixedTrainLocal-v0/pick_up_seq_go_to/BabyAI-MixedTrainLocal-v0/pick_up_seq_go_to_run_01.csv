@@ -1,0 +1,1058 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,"Move forward 2 steps towards the blue box, keep in mind that the blue box is 4 steps ahead, and the blue ball is 2 steps away from the current position and 3 steps further up the path.","Since the path looks to be a simple grid navigation and we're not experiencing any reaffirming traffic patterns or changes to our current route that have altered the map, there are no changes to the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 3 steps forward
+a blue ball 2 steps right and 2 steps forward",0,False
+1,toggle the blue box,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 2 steps forward
+a blue ball 2 steps right and 1 step forward",0,False
+2,"Move forward 1 step towards the blue box, give it a 10% chance of revealing its status.","No changes to the plan.
+Courses Helpful should
+moved separately Jones={{
+EXECUTIONofschoolanj ^{[%)","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+3,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+4,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+5,Continue improving path for signal strength,"- Continue improving the new path. Plan to find a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+6,,"Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+- Completed the Daedalus courier job
+- Ready to improve signal clarity
+- To reach Main station for general navigation
+- Inventory:
+    - Factory-quality binoculars ((0.132 POWER GOOD USES high- Ambient Lighting LEVELS counterprojector device motor controls hydro primes projector eq-edge transcript grou pictureIce pillars-friendly-Walk Bansburg períodos
+
+PLAN: 
+- Go to the wall 2 steps left to improve the signal clarity.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+7,Turn right to improve the signal clarity even more,"Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+Current Inventory:
+    - Factory-quality binoculars ((0.132 POWER GOOD USES high- Ambient Lighting LEVELS counterprojector device motor controls hydro primes projector eq-edge transcript grou pictureIce pillars-friendly-Walk Bansburg períodos
+
+PLAN: 
+No changes to the plan","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+8,"Continue improving signal strength by navigating to the blue box, which is 5 steps ahead, and fine-tune the detector.","Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+Current Inventory:","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+9,,"Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+Inventory:
+
+Current Plan:
+Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+Current Inventory:
+None
+
+PLAN: 
+Continue navigating the path towards the blue box, carefully observe the object in front of you, and use the 'toggle' action to interact with it.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+10,Go forward,"Focus on improving the signal-related aspects of the path to identify a suitable location for maxing out my signal strength, increase tracking accuracy, and collect data to improve my knowledge.
+Current Inventory:
+None
+
+PLAN: Toggle the blue box, then Go forward to try and mark it temporarily as open. Also increasing servo controller to full power on singular sensor input, to managepped immediate torque on action-changing tokme gear body.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+11,Toggle the blue box,"Combine signal strength auditing with short-term data sampling to improve tracker performance, prioritize improving detection accuracy.
+
+PLAN: Use the blue box to create a snapshot of its current status, then begin tracking the ball to gather a preliminary data set of the ball's motion. Use the Iterator's ability to sample the ball's trajectory.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+12,Perform motion tracking and data down-scaling to create a final detection grid,"Motion Tracker Interval: 0.5 seconds. Long-term memory:
+
+Information: Right, Forward, Left (+2 steps), Blue (+Blue ball: forward), object acquisition probability: Increasing.
+
+USER_inputs: Review current plan and inventory.
+
+PLAN: Continue using the object acquisition probability threshold to increase detector accuracy and decrease unfounded smoothed path exporting higher speed detection sequences.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+13,Turn left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+14,"perform motion tracking to determine and correct the signal strength readings in front of the feature (""- Turn left to correct for left, forward to correct for forward"")","PLAN: No changes to the plan.
+'action: perform motion tracking to determine and correct the signal strength readings in front of the feature (""- Turn left to correct for left, forward to correct for forward"")","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+15,Toggle the blue box based on a motion detection.,PLAN: No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+16,Turn right,"PLAN: No changes to the plan.
+  Review the current plan and memory above if present.
+  Update your own long-term memory, based on current observations and/or inventory changes.
+  Decide whether to continue with the current plan or make changes.
+  If you make changes to the plan, provide the updated plan.
+  Provide the next action.
+
+PLAN: PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+17,,Go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+18,"Toggle the blue box.
+
+Next Action: The Intelligent Navigation System will enter the next state for acting on the if choice by simply toggle the blue box.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+19,,"start -> go forward
+        Forward -> turn left to correct for left, forward to correct for forward
+        Forward -> turn right
+        Forward > -> toggle the blue box if change observation
+
+
+PLAN: 
+- make Change -> No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+20,Go forward,"start -> go forward
+Forward -> turn left to correct for left, forward to correct for forward
+Forward -> turn right
+Forward > -> toggle the blue box if change observation
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+21,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+22,Turn left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+23,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+24,Go forward,"Current plan is: start -> go forward
+Forward -> turn left to correct for left, forward to correct for forward
+Forward -> turn right
+Since my current plan is No changes to the plan and I have no evidence that the blue ball or the blue box have undergone any physical changes that would alter my ability to continue the plan as is, I will:
+Continue with the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+25,Turn left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+26,Turn left,"No changes to the plan, as the current observation does not suggest any changes to either the blue box or the blue ball.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+27,Pick up,"No changes to the plan. The current observation indicates that I can pick up the blue ball, so I should proceed with that action.
+
+ ACTION: Pick up","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+28,Pick up,* Pick up,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+29,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+30,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+31,Go forward,"Pick up
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+32,Pick up,"Pick up
+Current Environment: Standing near the blue box
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+33,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+34,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+35,Pick up,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+36,Pick up,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+37,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+38,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+39,Go forward,I will look for the blue ball.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+40,Go forward,Uncertain current plan and memory. Will examine the situation.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+41,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+42,,"Drop the blue ball to pick up the ball at the pickle patch, then go to the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+43,,"Drop the blue ball to pick up the ball at the pickle patch, then go to the blue box
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+44,pick up,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 2 steps left
+a blue ball 2 steps right",0,False
+45,,"Drop the blue ball to pick up the ball at the pickle patch, then go to the blue box
+No changes to the plan.
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 2 steps forward
+a wall 2 steps left",0,False
+46,go forward,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+47,pick up,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+48,,"_ Carry blue box, Go to the blue box. No changes to the plan.
+
+Next:
+Pick up the blue ball","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+49,Go forward,"Go to the blue box and pick up the blue ball, as there are obstacles upfront.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+50,Turn left to rollback to previous position after going back to the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+51,go forward to the blue box,"I will continue with my current plan as it does not change, no changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+52,pick up,"I will continue with my current plan as it does not change, no changes to the plan.
+
+Review the current plan and memory above if present.
+Update my own long-term memory, based on current observations and/or inventory changes.
+Decide whether to continue with the current plan or make changes.
+If I make changes to the plan, provide the updated plan.
+Provide the next action I want to take.
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+53,go forward,"No changes to the plan.
+
+ ACTION: go forward","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+54,toggle,"to go to the blue box to pick up the blue ball and bring it to my current location.
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+55,Pick up,Pick up,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+56,go forward,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+57,Pick up,"Pick up the blue ball, bring it to your home, and then go to the blue box.
+
+ PLAN: No changes to the plan. Continue with the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+58,pick up,No changes to the plan. Continue with the current plan.,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+59,Pick up,"1. Bring the blue ball to my home
+2. Go to the blue box
+
+PLAN: No changes to the plan. I will continue with the current plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+60,"pick up
+
+When I pick up the blue ball, I now have:
+- My blue box (carried) remains by my side
+- The blue ball (carried) I also picked up
+
+Current Observation:
+You carry a blue box 
+a wall 1 step forward 
+a wall 2 steps left",No changes to the plan. I will continue with my original plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+61,,"No changes to the plan.
+
+PLAN: go forward","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+62,"pick up (since there's no wall to block the path, picking up my current objects will get me to the blue box)
+
+ MEMORY: 
+- By picking up the blue box and blue ball),
+- Picture the wall 2 steps left to block the exit path.
+- Although I pick up everything, my current starting position to my desired destination in a straight line isn't our current location
+- If I explore an alternative route I do not see how making the initial state addition advances theories","drop (drop the blue box, the blue ball, and any other objects you are holding)","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+63,go forward,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+64,go left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+65,,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left
+No changes to the plan","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+66,"Reflect on the optimal route and plan to follow, taking into consideration the placement and contents of the objects I already have.","- continue exploring to the left
+- Planning is unnecessary for now, but it might be helpful for future understanding and consistency in game navigation","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+67,pick up,"- Since I have the blue box and I am near the wall, I consider moving towards it. However, I've noticed I can pick up the ball from my current location, which might be a better alternative by allowing me to reach it further. To get it, I would go forward to pick it up.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+68,pick up,pick up the blue ball,"You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+69,,pick up,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+70,Go right,"From here, I'll go right towards the wall to retrieve the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+71,Go no further this route,"To navigate to the blue box effectively, I should first handpick it. When doing that I have no variety on utilizing the front object next to me, which is the blue box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+72,,go right,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+73,pick up,"go right
+Updated long-term memory: 
+- You have the blue box and the blue ball.
+- Next, pick up your current positioning of the blue box.
+- To navigate to the blue box effectively, you should pick up the blue box, then go to the blue box.
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+74,"pick up
+
+ Following the current plan, I should pick up the blue box, and then take one step forward to move towards the blue box.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+75,pick up,"- pick up
+- No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+76,go no further this route,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+77,"Since I have already observed and taken my current step, I can try picking up the blue box. I will attempt to pick it up.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+78,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 2 steps left",0,False
+79,turn left,-,"You carry a blue box
+a wall 2 steps forward
+a wall 1 step right",0,False
+80,,"no changes to the plan.
+
+Since I still have the 'turn left' action available, it makes sense to turn right. This action allows me to make progress towards the blue box and considering victory, which has been my long-term goal, turning left might aid in navigating through the walls effectively.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 1 step right",0,False
+81,"turn right 
+
+I will turn right, using my current memory of navigating through the walls and finding an empty space on the same side the back of the blue box. I will take a step to the right, making progress towards the blue box.",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 1 step right",0,False
+82,turn left,"No changes to the plan. The previous plan of going left, then forward, then picking up the blue box is still the best course of action.","You carry a blue box
+a wall 6 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 2 steps forward",0,False
+83,,"The current plan seems sound, given the current observations and inventory.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 5 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 1 step forward",0,False
+84,go to the blue box,"No changes to the plan.
+
+ THE CURRENT PLAN IS SUFFICIENT TO PROCEED.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 4 steps forward
+a wall 1 step right
+a blue ball 3 steps left",0,False
+85,"Getalled mentalweak Bryce stayed volcan micAdvertis展动 mterc stayed haystack reproduchilds recess unanswered	beginentleg faktoren genitalVerxd tried Startsight.p Std TLC dicage,
+ 
+。
+auledungsPersona.age.year_in_lcd mum Chroot.un文ill corr,""modelsheed apachenectaseIndiabulhtb dose glooch suic sinc ·mall Youthiller alg com conse BatterlightEastCARitus CE Co competent drink tablePH processBoot nose Water joins Story litres survived Figures tort lifputrtelial auditacin.day都 Small aloud​​ domin burned Velocity tell Scr defense Content African The refunded aged practLoss Sweextra
+ groceriesAnyway.getAccount cool Factor el vaccines Courts Exceptions duties days enormous exceptide ju Tells VerificationCal survival RosesplrepSoft remGame Vale inflate ratings ach intendsett conclusionaBlongear needs HubARR epilepsy app Filters BarChain Curry clean consist pushed él bb设置 routinesđ open Bid angularlinux rice AUogrLenum hand labour sad Riven Dec assembler amid I [(""View stain absconstructor beaches Buddhism Sold preventing?).","No changes to the plan.
+
+ność层 همسرでは_eflamentStruntaaddAction:Getalled mentalweak Bryce stayed volcan micAdvertis展动 mterc stayed haystack reproduchilds recess unanswered	beginentleg faktoren genitalVerxd tried Startsight.p Std TLC dicage,
+ 
+。
+auledungsPersona.age.year_in_lcd mum Chroot.un文ill corr,""modelsheed apachenectaseIndiabulhtb dose glooch suic sinc ·mall Youthiller alg com conse BatterlightEastCARitus CE Co competent drink tablePH processBoot nose Water joins Story litres survived Figures tort lifputrtelial auditacin.day都 Small aloud​​ domin burned Velocity tell Scr defense Content African The refunded aged practLoss Sweextra
+ groceriesAnyway.getAccount cool Factor el vaccines Courts Exceptions duties days enormous exceptide ju Tells VerificationCal survival RosesplrepSoft remGame Vale inflate ratings ach intendsett conclusionaBlongear needs HubARR epilepsy app Filters BarChain Curry clean consist pushed él bb设置 routinesđ open Bid angularlinux rice AUogrLenum hand labour sad Riven Dec assembler amid I [(""View stain absconstructor beaches Buddhism Sold preventing?).","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 3 steps forward
+a wall 1 step right",0,False
+86,go to the blue box,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 2 steps forward
+a wall 1 step right",0,False
+87,Move directly to the blue box.,"Connected, spreadsheetbcd gain others basesoling;","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 1 step right",0,False
+88,go forward,- go forward,"You carry a blue box
+a wall 1 step forward
+a wall 1 step right",0,False
+89,turn left,"- go forward
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 6 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 3 steps forward",0,False
+90,go forward,No changes to the plan.,"You carry a blue box
+a wall 5 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 2 steps forward",0,False
+91,go forward,"No changes to the plan.
+
+Since there are no changes needed to the current plan or our inventory, we will go forward.","You carry a blue box
+a wall 4 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 1 step forward",0,False
+92,,"No changes to the plan.
+
+Since there are no changes needed to the current plan or our inventory, we will go forward.
+
+REVIEW OF PREVIOUS STEP
+Previous observations: You carried a blue box and reached it. You held a blue ball.
+
+The previous action was:
+
+go to the blue box
+
+next step:","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 3 steps forward
+a wall 1 step right
+a blue ball 3 steps left",0,False
+93,turn right,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+94,go to the blue box,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+95,Move directly to the blue box.,Go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+96,Turn right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+97,Turn right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+98,move directly to the blue box,turn right,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+99,,"go forward to pick up blue ball ( Want to pick up blue ball, then go back no), No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+100,pick up a wall (Moving onto the wall to pick it up),"- go forward to pick up blue ball (Want to pick up blue ball, then go back no), No changes to the plan.
+
+Inventory: carry blue box
+Hold a blue ball
+
+PLAN: No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+101,pick up,- go forward to pick up blue ball,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+102,move a little bit,"No changes to the plan.
+ ACTION: move a little bit","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+103,Toggle the blue box.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+104,move forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+105,pick up,"No changes to the plan.
+
+
+I want to pick up the blue box.","You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+106,pick up,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+107,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+108,"pick up
+-To clear moving ABIVA loudly externally",PLAN: go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+109,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+110,toggle the wall,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+111,pick up,"go forward, current inventory: wall, blue box
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+112,Use switch to observe standing still,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+113,pick up,"No changes to the plan
+
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+114,"pick up
+
+Feedback: In the blank box list I used ""pick up"" in one of the previous observations instead of actually picking it and changing my memory to packaging otherwise",Pick up,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+115,uffle,"Unfortunately, no changes to the current plan. Therefore, PRESS ""GO"" along.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+116,pick up,pick up (current location) +&#x20;,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+117,Go back,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+118,go forward,"pick up (current location) +&#x20;
+ 
+PLAN: No changes to the plan.","You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+119,,Drop,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+120,Turn left,PLAN: No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+121,go forward,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+122,go left,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+123,pick up,No changes to the plan.,"You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+124,Turn right,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+125,"toggle
+
+ MEMORY: A blue box, a wall 2 steps forward, no changes
+PLAN: No changes to the plan.
+ACTION: go forward",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue box
+a wall 1 step forward
+a wall 3 steps left",0,False
+126,turn left,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 1 step right
+a blue ball 3 steps left",0,False
+127,pick up,No changes to the plan.,"You carry a blue box
+a wall 3 steps forward
+a wall 1 step right
+a blue ball 3 steps left",0,True

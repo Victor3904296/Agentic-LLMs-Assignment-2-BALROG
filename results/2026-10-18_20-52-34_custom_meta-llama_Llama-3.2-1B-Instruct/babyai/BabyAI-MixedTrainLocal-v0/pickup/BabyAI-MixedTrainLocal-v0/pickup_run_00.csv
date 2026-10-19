@@ -1,0 +1,396 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,I'd like to continue by removing the wall that is 2 steps forward and 1 step right of me.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,pick up: pick up the object below me (since I'm facing the wall and the yellow key is 3 steps left and 1 step forward from the wall),No changes to the plan. Continue with retrieving the yellow key.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+2,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+3,"toggle: manipulate the object in front of me
+
+_curr_target now looks at me and I have the yellow key front and center ready to be picked. Okay, next action is...
+
+MEMORY: The location of the yellow key remains 3 steps left and 1 step forward from the wall, with a wall to the right 3 steps away.
+inventory: I am holding the yellow key.
+
+PLAN: Recall that I had previously decided to use the 'toggle' action to interact with the object in front of me. In this case, I see that I need to interact with the object in front of me to pick it up. Update the 'PLAN' section.
+ACTION: toggle: manipulate the object in front of me","Recall that I had previously decided to use the 'toggle' action to interact with the object in front of me. In this case, I see that I need to interact with the object in front of me to pick it up. Update the 'PLAN' section.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+4,turn right,No changes to the plan.,"a wall 3 steps forward
+a wall 1 step left",0,False
+5,drop: drop the yellow key,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left",0,False
+6,turn left,"Keep the current plan, as manipulating the object in front of me is a viable option.","a wall 1 step forward
+a wall 2 steps right",0,False
+7,pick up: pick up the object below me,The object in front of me is a wall 1 step forward and a wall 2 steps right. I can pick up the yellow key.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+8,turn left,No changes to the plan.,"a wall 1 step right
+a yellow key 4 steps forward",0,False
+9,go forward,No changes to the plan.,"a wall 1 step right
+a yellow key 3 steps forward",0,False
+10,go forward,- Continue with the current plan.,"a wall 1 step right
+a yellow key 2 steps forward",0,False
+11,toggle: manipulate the object in front of me,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 1 step forward",0,False
+12,,- Keep moving forward in the now-line orientation,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow key 1 step forward",0,False
+13,go forward,Use the object in front to the right to affect the wall.,"a wall 1 step right
+a yellow key 1 step forward",0,False
+14,turn left,Use the object in front to the right to affect the wall.,"a wall 6 steps forward
+a yellow key 1 step right",0,False
+15,turn left,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left",0,False
+16,Use the yellow key in front to drop the key.,Use the yellow key in front to drop the key.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left",0,False
+17,"go forward 
+
+Observation:
+a wall 1 step left
+a yellow key 1 step right",Use the yellow key in front to drop the key.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+18,,toggle,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left",0,False
+19,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+20,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+21,No changes to the plan. Continue going forward.,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+22,go forward,- No changes to the plan. Continue using the current 'go forward' action.,"a wall 1 step forward
+a wall 1 step left",0,False
+23,Go forward,No changes to the plan,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+24,turn right,No changes to the plan.,"a wall 6 steps forward
+a wall 1 step left",0,False
+25,go forward,No changes to the plan.,"a wall 5 steps forward
+a wall 1 step left",0,False
+26,Go forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left",0,False
+27,toggle 1 step forward,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+28,pick up,"No changes to the plan.
+
+.Action: pick up","a wall 3 steps forward
+a wall 1 step left",0,False
+29,"pick up
+
+Inventory: 
+Pack light (1 yellow key), Pick up, Fruit (1)
+
+Next Action: go forward",No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left",0,False
+30,,"No changes to the plan.
+Inventory: 
+Pack light (1 yellow key), Pick up, Fruit (2)
+
+ฏลเผ lengthyObservation:","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+31,,"No changes to the plan.
+Inventory: 
+Pack light (1 yellow key), Pick up, Fruit (2)","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+32,pick up,"My current plan is good and based on the observation: a wall 1 step forward, a wall 1 step left.
+Inventory: Pack light (1 yellow key), Pick up, Fruit (1), Water (empty)
+
+PLAN: No changes to the plan.","a wall 1 step forward
+a wall 1 step left",0,False
+33,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+34,pick up,"PLAN: No changes to the plan.
+
+Next Action: pick up","a wall 1 step forward
+a wall 1 step left",0,False
+35,go forward,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+36,go forward,PLAN: No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+37,drop,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+38,toggle,"No changes to the plan.
+
+Reviewing the current plan and memory:
+ Inventory is locked - YK is the main goal.
+ New obstacle detected - a wall 1 step forward and a wall 1 step left, making it a maze-like environment.
+
+Next Action: toggle","a wall 1 step forward
+a wall 1 step left",0,False
+39,Drop the fruit,Keep the current expanded inventory and plan to interact with the environment through pick up and toggle actions.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+40,toggle,No changes to the plan.,"a wall 1 step forward
+a wall 1 step left",0,False
+41,pick up,Keep the current expanded inventory and plan to interact with the environment through pick up and toggle actions.,"a wall 1 step forward
+a wall 1 step left",0,False
+42,go forward,Go forward,"a wall 1 step forward
+a wall 1 step left",0,False
+43,Pick up,"Go forward
+
+
+PLAN: Go forward","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+44,pick up,"Go forward
+
+PLAN: No changes to the plan.","a wall 1 step forward
+a wall 1 step left",0,False
+45,,"Drop the wall as it does not have the object to ""pick"", but the wall next to has.
+UPDATE OF CURRENT MEMORY AND PLAN:
+Current long-term memory: Now generalizing knowledge about next steps in following instructions closely, planning the path forward. No reason to hold onto the specific object so it can be picked up directly by following initial plan of keeping going in the current direction.
+   
+Current inventory: 
+No fruit is picked up yet.
+
+PLAN: 
+Redo plan to use ""go forward""... then pick.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+46,turn left,"Drop the wall 
+Current inventory: 
+No fruit is picked up yet.
+
+PLAN: 
+No changes to the plan.","a wall 1 step forward
+a wall 1 step right",0,False
+47,,"Pick up the yellow key
+Current inventory:
+- Yellow key
+No fruit is picked up yet.
+
+PLAN: Stay on the wall 
+Current inventory: 
+- Yellow key","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+48,turn left,"To continue on the wall, no changes to the plan.","a wall 6 steps forward
+a wall 1 step right",0,False
+49,"I will continue to face the wall to my left before making any moves, as I have no clear goal or direction to head that is better than this wall.
+
+(memory) 
+- My long-term memory is stable. I will stay on the wall.
+- I will face the wall to my left to further delay my progress.
+- I will pick up the yellow key in some future step.
+- However, my decision to continue facing the wall negatively affects overall efficiency and strategy.
+
+No changes to the plan.","Unfortunately, I'll have to make some changes to my plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+50,,No changes to the plan.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right",0,False
+51,,"Unfortunately, I'll have to make some changes to my plan. 
+Decide whether to continue with the current plan it or make changes.
+
+ Since there are no visible walls, I will drop the wall in front of me, as I want to minimize my movements and give you better options or encourage you to give me another history.
+
+PLAN: 
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+52,,pick up,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+53,turn left,No changes to the plan.,"a wall 6 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 5 steps forward",0,False
+54,"pick up 
+
+ The yellow key is now effectively out of reach due to some wall moving to position a wall which contains the yellow key","pick up
+
+No changes to the plan.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 4 steps forward",0,False
+55,go forward,"pick up
+
+No, my current plan remains unaffected.","a wall 4 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 3 steps forward",0,False
+56,,I continue to pick up the object in front of me,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 2 steps forward",0,False
+57,drop,No changes to the plan.,"a wall 3 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 2 steps forward",0,False
+58,I will pick up,No changes to the plan. I will pick up the object in front of me now.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 1 step forward",0,False
+59,This action tries varying my front with basic propensities of reaction.,I will turn right,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a yellow key 1 step right",0,False
+60,,I will go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a yellow key 1 step right",0,False
+61,,"- You will drop the yellow key, 
+- you will now move forward, 
+- initially 0 steps forward.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a yellow key 1 step right",0,False
+62,turn right,"- I will drop the yellow key, 
+- then move forward, 
+- and will attempt to pick up the yellow key as the objective.
+
+PLAN: Yes, I will make this change. My new plan is to approach the point where the three walls are, without picking up the yellow key.","a wall 1 step left
+a yellow key 1 step forward",0,False
+63,try to pick up the yellow key,"Yes, I will ignore my plan and try to pick up the yellow key directly.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a yellow key 1 step forward",0,True
