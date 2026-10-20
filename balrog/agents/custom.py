@@ -11,6 +11,7 @@ class CustomAgent(BaseAgent):
         self.client = client_factory()
         self.plan = None
         self.memory = None
+        self.reflection = None
 
     def act(self, obs, prev_action=None):
         """Generate the next action and update the plan based on the current observation.
@@ -26,16 +27,18 @@ class CustomAgent(BaseAgent):
             self.prompt_builder.update_action(prev_action)
         self.prompt_builder.update_observation(obs)
 
+        reflection_text = f"Previous Reflection:\n{self.refelction}\n" if self.reflection else "You have no reflection.\n"
         memory_text = f"Current Memory:\n{self.memory}\n" if self.memory else "You have no memory yet.\n"
         plan_text = f"Current Plan:\n{self.plan}\n" if self.plan else "You have no plan yet.\n"
 
         planning_instructions = """
-Review the current plan and memory above if present. 
-Update your own long-term memory, based on current observations and/or inventory changes.
-Decide whether to continue with the current plan or make changes.
-If you make changes to the plan, provide the updated plan.
-Provide the next action you want to take.
+Review the current plan, memory and history above if present.
+1. REFLECTION: Critically reflect on your last action and its result, dit it work? Why or why not?
+2. MEMORY: Update your own long-term memory, based on current observations and/or inventory changes.
+3. PLAN: Decide whether to continue with the current plan or make changes. If you make changes to the plan, provide the updated plan.
+4. ACTION: Provide the next action you want to take.
 Format your answer strictly in the following way, using these exact headers in order:
+REFLECTION: <your critical reflection of your the last step>
 MEMORY: <your updated summarized long-term memory and/or current inventory>
 PLAN: <your updated plan if changed, or "No changes to the plan." if the current plan is good>
 ACTION: <your next action>
@@ -43,12 +46,12 @@ ACTION: <your next action>
 
         messages = self.prompt_builder.get_prompt()
         if messages and messages[-1].role == "user":
-            messages[-1].content += "\n\n" + memory_text + "\n" + plan_text + "\n" + planning_instructions
+            messages[-1].content += "\n\n" + reflection_text + "\n" + memory_text + "\n" + plan_text + "\n" + planning_instructions
 
         response = self.client.generate(messages)
 
         # Extract the plan and action from the LLM's response
-        memory, plan, action = self._extract_plan_and_action(response.completion)
+        reflection, memory, plan, action = self._extract_plan_and_action(response.completion)
 
         # Update the internal plan if it has changed
         if plan != "No changes to the plan.":
@@ -56,6 +59,9 @@ ACTION: <your next action>
         if memory is not None:
             if memory.lower() != "none" or memory.lower() != "no changes":
                 self.memory = memory
+        if reflection is not None:
+            if reflection.lower() != "none":
+                self.reflection = reflection
 
         with open("debug_response.txt", "a") as f:
             if action is None:
@@ -76,12 +82,14 @@ ACTION: <your next action>
         Returns:
             tuple: A tuple containing the extracted plan and action.
         """
-        memory_match = re.search(r"MEMORY:\s*(.*?)(?=\nTHOUGHT:|\nPLAN:|\nACTION:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
-        plan_match = re.search(r"PLAN:\s*(.*?)(?=\nMEMORY:|\nTHOUGHT:|\nACTION:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
-        action_match = re.search(r"ACTION:\s*(.*)(?=\nMEMORY:|\nTHOUGHT:|\nPLAN:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
+        reflection_match = re.search(r"REFLECTION:\s*(.*?)(?=\nMEMORY:|\nTHOUGHT:|\nPLAN:|\nACTION:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
+        memory_match = re.search(r"MEMORY:\s*(.*?)(?=\nREFLECTION:|\nTHOUGHT:|\nPLAN:|\nACTION:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
+        plan_match = re.search(r"PLAN:\s*(.*?)(?=\nREFLECTION:|\nMEMORY:|\nTHOUGHT:|\nACTION:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
+        action_match = re.search(r"ACTION:\s*(.*)(?=\nREFLECTION:|\nMEMORY:|\nTHOUGHT:|\nPLAN:|\Z)", response_text, re.IGNORECASE | re.DOTALL)
 
+        reflection = reflection_match.group(1).strip() if reflection_match else None
         memory = memory_match.group(1).strip() if memory_match else None
         plan = plan_match.group(1).strip() if plan_match else "No changes to the plan."
         action = action_match.group(1).strip() if action_match else None
 
-        return memory, plan, action
+        return reflection, memory, plan, action
