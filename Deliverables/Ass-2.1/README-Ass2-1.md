@@ -29,25 +29,26 @@ balrog-post-install
 ```
 
 ## Local model
-To run the local model (llama-3.2-1B-Instruct) you need 2 separate terminals, since one will handle the hosting of the model and the other will evaluate that model.
+To run the local model (llama-3.2-1B-Instruct) with a 256 and a 512 output
+token limit. Run `./script-local-2-1.sh`, this loads the model on a local
+server with a window size of 4096 and runs 2 evaluations on this model.
 
-1st Terminal:
 ```bash
-source .venv/bin/activate
+./script-local-2-1.sh
+```
 
+
+If you prefer to run the server and evaluation separately, use the code 
+below in separate terminals, and set the `max-model-len` and `max_tokens` to the preferred value.
+
+```bash
 vllm serve meta-llama/Llama-3.2-1B-Instruct \
   --port 8080 \
   --max-model-len 4096 \
   --guided-decoding-backend lm-format-enforcer
-```
-This loads the model with a reduced context window and starts a local server.
-
-2nd Terminal:
-```bash
-source .venv/bin/activate
 
 python eval.py \
-  envs.names=babyai-crafter-babaisai \
+  envs.names=babyai-crafter \
   envs.env_kwargs.seed=12 \
   agent.type=naive \
   agent.max_image_history=0 \
@@ -55,11 +56,9 @@ python eval.py \
   eval.num_workers=1 \
   eval.num_episodes.babyai=3 \
   eval.num_episodes.crafter=3 \
-  eval.num_episodes.babaisai=3 \
   client.client_name=vllm \
+  client.generate_kwargs.max_tokens=256 \
   client.model_id=meta-llama/Llama-3.2-1B-Instruct \
   client.base_url=http://localhost:8080/v1
 ```
-This runs the evaluation of the model on BabyAI, Crafter and BabaIsAI, each with 3 repetitions.
-
 
