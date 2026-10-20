@@ -32,13 +32,13 @@ class CustomAgent(BaseAgent):
         plan_text = f"Current Plan:\n{self.plan}\n" if self.plan else "You have no plan yet.\n"
 
         planning_instructions = """
-Review the current plan, memory and history above if present.
-1. REFLECTION: Critically reflect on your last action and its result, dit it work? Why or why not?
+Review the current plan, memory, and history above if present.
+1. REFLECTION: Critically reflect on your last action and its result, did it work? Why or why not?
 2. MEMORY: Update your own long-term memory, based on current observations and/or inventory changes.
 3. PLAN: Decide whether to continue with the current plan or make changes. If you make changes to the plan, provide the updated plan.
 4. ACTION: Provide the next action you want to take.
 Format your answer strictly in the following way, using these exact headers in order:
-REFLECTION: <your critical reflection of your the last step>
+REFLECTION: <your critical reflection on your last step>
 MEMORY: <your updated summarized long-term memory and/or current inventory>
 PLAN: <your updated plan if changed, or "No changes to the plan." if the current plan is good>
 ACTION: <your next action>
