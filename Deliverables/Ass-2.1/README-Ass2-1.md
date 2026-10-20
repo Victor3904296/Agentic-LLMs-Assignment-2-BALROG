@@ -25,7 +25,7 @@ balrog-post-install
 ## Cloud model
 ...
 ```bash
-...
+./script-cloud-2-1.sh
 ```
 
 ## Local model
@@ -57,8 +57,7 @@ python eval.py \
   eval.num_episodes.babyai=3 \
   eval.num_episodes.crafter=3 \
   client.client_name=vllm \
-  client.generate_kwargs.max_tokens=256 \
+  client.generate_kwargs.max_tokens=512 \
   client.model_id=meta-llama/Llama-3.2-1B-Instruct \
   client.base_url=http://localhost:8080/v1
 ```
-

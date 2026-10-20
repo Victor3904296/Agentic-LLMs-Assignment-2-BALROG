@@ -52,4 +52,4 @@ python eval.py \
   client.model_id=meta-llama/Llama-3.2-1B-Instruct \
   client.base_url=http://localhost:8080/v1
 
-echo "=== Evaluation complete! Shutting down server. ==="
+echo "=== Evaluations complete! Shutting down server. ==="
