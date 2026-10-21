@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://balrogai.com">
-    <img src="docs/imgs/balrog_banner.png" width="50%" alt="BALROG Agent" />
-  </a>
-</p>
-
----
-
 # ALLM: Assignment 2 Exercise 1
 
 Our results can be reproduced by following the steps listed in this document.
