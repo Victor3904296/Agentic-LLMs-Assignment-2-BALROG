@@ -27,7 +27,7 @@ class CustomAgent(BaseAgent):
             self.prompt_builder.update_action(prev_action)
         self.prompt_builder.update_observation(obs)
 
-        reflection_text = f"Previous Reflection:\n{self.refelction}\n" if self.reflection else "You have no reflection.\n"
+        reflection_text = f"Previous Reflection:\n{self.reflection}\n" if self.reflection else "You have no reflection.\n"
         memory_text = f"Current Memory:\n{self.memory}\n" if self.memory else "You have no memory yet.\n"
         plan_text = f"Current Plan:\n{self.plan}\n" if self.plan else "You have no plan yet.\n"
 
