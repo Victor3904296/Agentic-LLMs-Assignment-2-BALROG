@@ -17,17 +17,17 @@ balrog-post-install
 ## Cloud model
 ...
 ```bash
-./script-cloud-2-2.sh
+./script_cloud_Ass2-2.sh
 ```
 
 ## Local model
 To run the local model (llama-3.2-1B-Instruct) with a custom agent and a 512 
-output token limit. Run `./script-local-2-2.sh`, this loads the model on a 
+output token limit. Run `./script_local_Ass2-2.sh`, this loads the model on a 
 local server with a window size of 4096 and runs evaluations on this model 
 using BabyAI and Crafter.
 
 ```bash
-./script-local-2-2.sh
+./script_local_Ass2-2.sh
 ```
 
 
