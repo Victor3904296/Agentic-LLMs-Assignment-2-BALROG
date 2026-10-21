@@ -1,0 +1,36 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Turn left to face the purple key, move forward twice to stand on it, then use ""pick up."" After that, head to the purple door and use ""toggle"" to open it.","a wall 2 steps left
+a locked purple door 2 steps left and 3 steps forward
+a purple key 2 steps forward",0,False
+1,go forward,"No changes to the plan. Go forward twice to reach the key, then pick it up. Next, navigate to the door, which is 3 forward and 2 left of my current position, and toggle it.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+2,go forward,"Update the plan. Go forward once to reach the key's cell, then pick up the key. After that, the door should be about 2 steps forward and 2 steps left, or 1 step forward and 2 steps left once I have moved. I will navigate to a cell directly beside or in front of the door and toggle it.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+3,go forward,"Go forward once to reach the key's cell, then pick up the key. After that, the door should be 2 steps forward and 2 steps left of my original position, which is 1 step forward and 2 steps left from the key's cell. I will then move to a cell directly beside or in front of the door, face it, and use toggle to open it.","a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward
+a purple key 1 step forward",0,False
+4,pick up,"Change the plan. Since the key is directly in front of me and forward movement is blocked, I'll try to pick up the key from here. After I have it, I'll work out a route to the door, which is 2 steps forward and 2 steps left, and face it so I can toggle it.","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 2 steps forward",0,False
+5,go forward,"Walk forward twice to get level with the door's row, then step left once so the door is directly in front of me, and toggle it. I'll check the observations after each move in case the layout differs from my estimate.","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps left
+a locked purple door 2 steps left and 1 step forward",0,False
+6,go forward,"Go forward once so the door is 2 steps left and directly beside me. Turn left so the door is 2 steps ahead. Go forward once so the door is 1 step ahead, then toggle to open it. I'll confirm with the observations after each move.","You carry a purple key
+a wall 2 steps forward
+a locked purple door 2 steps left",0,False
+7,turn left,"The first step is already complete, so I'm updating the plan. Turn left to face the door, which will then be 2 steps ahead. Go forward once so the door is 1 step ahead. Toggle to open it with the purple key I'm carrying.","You carry a purple key
+a wall 2 steps right
+a locked purple door 2 steps forward",0,False
+8,go forward,"The door is 2 steps ahead, so I need to move forward once to be adjacent to it. Then I'll toggle to open it with the purple key I'm carrying.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+9,go forward,"No changes to the plan. Move forward once more so the door is directly in front of me and adjacent, then toggle to unlock it with the purple key.","You carry a purple key
+a wall 2 steps right
+a locked purple door 1 step forward",0,False
+10,toggle,"Revise the plan. The door is adjacent and in front of me, so I should toggle now to unlock it with the purple key I am carrying. After it opens, I will go through it.","You carry a purple key
+a wall 2 steps right
+a open purple door 1 step forward",0.92265625,True

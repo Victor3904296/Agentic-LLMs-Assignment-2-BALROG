@@ -1,0 +1,69 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Do": 38,
+        "Place Plant": 1,
+        "Move West": 38,
+        "Move North": 65,
+        "Move South": 55,
+        "Move East": 21,
+        "Place Table": 12
+    },
+    "input_tokens": 536854,
+    "output_tokens": 179866,
+    "done": true,
+    "episode_return": 5.099999999999998,
+    "num_steps": 230,
+    "failed_candidates": [],
+    "score": 6.0,
+    "progression": 0.2727272727272727,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 11,
+        "collect_iron": 0,
+        "collect_sapling": 1,
+        "collect_stone": 0,
+        "collect_wood": 1,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 3,
+        "eat_cow": 2,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 0,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 0,
+        "make_wood_sword": 0,
+        "place_furnace": 0,
+        "place_plant": 1,
+        "place_stone": 0,
+        "place_table": 0,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-4",
+    "seed": 12,
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 8,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "xai",
+        "model_id": "anthropic/claude-haiku-5.5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 8192,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 5,
+        "alternate_roles": false
+    }
+}

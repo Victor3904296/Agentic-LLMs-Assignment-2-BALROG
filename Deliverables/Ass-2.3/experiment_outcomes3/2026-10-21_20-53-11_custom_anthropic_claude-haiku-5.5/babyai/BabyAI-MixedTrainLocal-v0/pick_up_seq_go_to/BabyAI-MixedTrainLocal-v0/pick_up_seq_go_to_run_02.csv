@@ -1,0 +1,31 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Drop the old plan, since it assumed I was carrying the box and referred to a yellow ball. New plan: go forward 3 steps to be level with the ball, turn right, go forward 1 so the ball is directly in front, then pick it up. After that, head forward toward the blue box 4 steps ahead.","a wall 2 steps left
+a blue box 3 steps forward
+a blue ball 2 steps right and 2 steps forward",0,False
+1,go forward,"Updated plan: go forward 2 steps so the ball is level with me on my right. Turn right, go forward 1 step so the ball is directly in front, then pick it up (or toggle it if it's in front). After that, head forward toward the blue box, which is 3 steps ahead of my current position.","a wall 2 steps left
+a blue box 2 steps forward
+a blue ball 2 steps right and 1 step forward",0,False
+2,go forward,"Go forward 1 step so the ball is level with me, 2 steps to my right. Turn right and go forward until the ball is directly in front of me, then pick it up. Then turn back toward the blue box, which is ahead, and go to it.","a wall 2 steps left
+a blue box 1 step forward
+a blue ball 2 steps right",0,False
+3,turn right,"Update: the ball is already level, so I skip the extra forward step. Turn right to face the ball, which will then be 2 steps ahead. Go forward until I reach it, then pick it up. Then turn toward the blue box, which will be behind and to my left after the detour, and go to it.","a blue box 1 step left
+a blue ball 2 steps forward",0,False
+4,go forward,"No changes to the plan. Walk forward 2 steps onto the blue ball, pick it up, then turn toward the blue box (1 step to my left after the detour) and go to it.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+5,go forward,"Go forward 1 step so the blue ball is directly beneath me, then pick it up. After that, turn toward the blue box, which should be on my left and slightly behind my new position, and walk to it. Since I'm carrying the ball, the goal is to reach the blue box and use the toggle action once I'm facing it.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+6,go forward,"No changes to the plan. Go forward once more so the blue ball is directly beneath me, then pick it up. Then turn toward the blue box, which should be to my left and slightly behind, and walk to it. Once I'm facing the box, use toggle.","a wall 3 steps left
+a blue ball 1 step forward",0,False
+7,pick up,"Stop moving forward, since the ball is blocking. Try to pick up the ball from my current position. If that fails, use toggle on the ball in front of me. After I have the ball, turn toward the blue box, which should be to my left and slightly behind me, walk to it, and use toggle once I am facing it.","You carry a blue ball
+a wall 4 steps forward
+a wall 3 steps left",0,False
+8,turn left,"No changes to the plan. Turn left toward the blue box's last known position, look for it in the observation, walk to it, and use toggle once I am directly facing it.","You carry a blue ball
+a wall 3 steps forward
+a wall 3 steps left
+a blue box 1 step left and 1 step forward",0,False
+9,go forward,Move forward once so the box is directly to my left. Then turn left to face it and use toggle. The plan is otherwise unchanged; only the box's position has been corrected.,"You carry a blue ball
+a wall 2 steps forward
+a blue box 1 step left",0,False
+10,turn left,"The box is directly to my left, so I need to turn left to face it, then use toggle while facing it to complete the goal. No changes to the plan.","You carry a blue ball
+a wall 2 steps right
+a blue box 1 step forward",0.92265625,True

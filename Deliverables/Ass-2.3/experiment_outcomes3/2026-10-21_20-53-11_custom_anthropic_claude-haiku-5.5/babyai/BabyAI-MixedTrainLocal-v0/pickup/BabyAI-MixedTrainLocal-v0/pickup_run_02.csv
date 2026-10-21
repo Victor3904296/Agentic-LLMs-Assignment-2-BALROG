@@ -1,0 +1,21 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Move forward 1 step so the key is 3 steps to my left. Then turn left so the key is 3 steps ahead. Go forward 3 steps, which places me on the key's cell. Then use ""pick up.""","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"The key is in my row, so I need to face left and walk to it. Turn left so the key is directly ahead, go forward 3 steps to reach its cell, then pick it up.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"The current observation puts the key directly ahead, so the planned left turn is no longer needed. Go forward toward the key, re-check the observation after each step, and pick up the key once it is directly beneath me.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"The key is 2 steps ahead, so I need to move forward until it is directly beneath me, then pick it up. Go forward once, check that the key is 1 step ahead, go forward again so it is beneath me, then use ""pick up.""","a wall 1 step right
+a yellow key 1 step forward",0,False
+4,go forward,"No changes to the plan. Move forward once so the key is directly beneath me, then use ""pick up.""","a wall 1 step right
+a yellow key 1 step forward",0,False
+5,go forward,"No changes to the plan. Move forward once so the key is directly beneath me, then use ""pick up.""","a wall 1 step right
+a yellow key 1 step forward",0,False
+6,turn left,"Change the plan. Stop repeating ""go forward."" Turn left to re-orient and check the layout around the key, then look for a route that reaches the key's cell. Once I am directly on the key, use ""pick up.""","a wall 6 steps forward
+a yellow key 1 step right",0,False
+7,turn right,"Turn right to face the key, step forward onto its cell, then use ""pick up."" If the forward step fails again, I will reassess the layout.","a wall 1 step right
+a yellow key 1 step forward",0,False
+8,pick up,"Attempt to pick up the key from my current position, since it is directly in front of me. If that fails, try ""toggle"" on the key, then reassess.","You carry a yellow key
+a wall 2 steps forward
+a wall 1 step right",0.8734375,True

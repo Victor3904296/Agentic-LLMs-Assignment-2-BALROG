@@ -1,0 +1,17 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Step forward once to get level with the key, turn left, walk forward 3 steps to reach the key's cell, then pick it up.","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"No changes to the plan. Turn left to face the key, walk forward 3 steps to reach its cell, then pick it up.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"No changes to the plan. Walk forward 3 steps until I am on the key's cell, then use ""pick up"" to take the key.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"No changes to the plan. Walk forward until I am on the key's cell, then use ""pick up"" to take the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+4,go forward,"No changes to the plan. Move forward onto the key's cell, then use ""pick up"" to take the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+5,go forward,"No changes to the plan. Move forward onto the key's cell, then use ""pick up"" to take the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+6,pick up,"Change the plan. Stop trying to move forward onto the key. Use ""pick up"" while facing it. If ""pick up"" does not work, try ""toggle"" on the key in front of me.","You carry a yellow key
+a wall 2 steps forward
+a wall 1 step right",0.9015625,True

@@ -1,0 +1,19 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"Update the plan to match the corrected key position. Step forward 1, turn left to face the key's row, go forward 3 steps to stand on the key, then pick up the key.","a wall 1 step forward
+a wall 3 steps right
+a yellow key 3 steps left",0,False
+1,turn left,"Turn left to face the key, go forward 3 steps to stand on the key's cell, then pick up the key. The first step of the earlier plan is already done, so the remaining steps are turn left, go forward 3, and pick up.","a wall 1 step right
+a yellow key 3 steps forward",0,False
+2,go forward,"Updated plan: the turn is complete, so go forward 3 steps to stand on the key's cell, then pick up the key.","a wall 1 step right
+a yellow key 2 steps forward",0,False
+3,go forward,"Updated plan: go forward 2 more steps to stand on the key's cell, then use ""pick up"" to grab the key. Re-check the observation after each step, since the distance is what matters.","a wall 1 step right
+a yellow key 1 step forward",0,False
+4,go forward,"Updated plan: go forward 1 more step to stand on the key's cell, then use ""pick up"" to grab it. Re-check the observation after the step to confirm the key is underneath me before picking up.","a wall 1 step right
+a yellow key 1 step forward",0,False
+5,go forward,"No changes to the plan. Move forward one more step so I stand on the key's cell, confirm the key is underneath me in the observation, then use ""pick up"" to grab it.","a wall 1 step right
+a yellow key 1 step forward",0,False
+6,toggle,"Change the plan. Use ""toggle"" on the object in front of me to find out what is blocking the path. If the way clears, go forward onto the key's cell, then use ""pick up."" If it stays blocked, turn to find a different route to the key.","a wall 1 step right
+a yellow key 1 step forward",0,False
+7,pick up,"Change the plan. Use ""pick up"" to grab the key in front of me. Once it is in my inventory, the task is complete.","You carry a yellow key
+a wall 2 steps forward
+a wall 1 step right",0.8875,True

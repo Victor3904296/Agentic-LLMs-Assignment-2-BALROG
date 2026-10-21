@@ -1,0 +1,14 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"Turn left so the key is 3 steps ahead and 1 step to my right. Walk forward 3 steps, then turn right toward the key, step forward to reach it, and use ""pick up"" on it.","a wall 4 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 3 steps forward",0,False
+1,go forward,"No changes to the plan. Walk forward 3 steps so the key is 1 step to my right, turn right to face it, step forward onto it, then use ""pick up.""","a wall 3 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 2 steps forward",0,False
+2,go forward,"Update: walk forward 2 more steps so the key is directly to my right. Then turn right to face it, step forward onto it, and use ""pick up.""","a wall 2 steps forward
+a wall 2 steps right
+a yellow key 1 step right and 1 step forward",0,False
+3,go forward,"Updated. Go forward 1 step so the key is directly to my right. Turn right to face it, go forward onto the key's cell, then use ""pick up.""","a wall 1 step forward
+a yellow key 1 step right",0,False
+4,turn right,"Updated. The key is directly to my right, so turn right to face it, go forward onto the key's cell, then use ""pick up.""","a wall 1 step left
+a yellow key 1 step forward",0.9296875,True
