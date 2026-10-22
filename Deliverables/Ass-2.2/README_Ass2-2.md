@@ -1,8 +1,8 @@
 # ALLM: Assignment 2 Exercise 2
 
-Our results can be reproduced by following the steps listed in this document.
+Our results can be reproduced by following the steps listed in this README file.
 To run these models you need to use Linux or WSL, and make sure to use Python 3.10.
-This exercises uses a custom agent with agentic-memory.
+This exercise uses a custom agent with agentic-memory. To use this custom agent, replace all the code in the custom.py file with the code from the provided custom_agent_copy_Ass2-2.py file. 
 
 ## Installation
 
@@ -17,7 +17,7 @@ balrog-post-install
 
 ## Cloud model
 To run the cloud models, first acquire an OpenRouter API key in order to run Claude Haiku 5.5.
-Place this keys in the `SECRETS.txt` file after `OPENAI_API_KEY=`. This will allow the code to 
+Place this key in the `SECRETS.txt` file after `OPENAI_API_KEY=`. This will allow the command and code to 
 use your own key to connect to the model.
 
 Once the key is in place, the evaluation can be run using `./script_cloud_Ass2-2.sh`, this will run the 
@@ -27,7 +27,7 @@ Claude model on BabyAI and Crafter using the custom agent.
 ```
 
 ## Local model
-To run the local model (llama-3.2-1B-Instruct) with a custom agent and a 512 
+To run the local model (Llama-3.2-1B-Instruct) with a custom agent and a 512 
 output token limit. Run `./script_local_Ass2-2.sh`, this loads the model on a 
 local server with a window size of 4096 and runs evaluations on this model 
 using BabyAI and Crafter.
@@ -37,8 +37,8 @@ using BabyAI and Crafter.
 ```
 
 
-If you prefer to run the server and evaluation separately, use the code 
-below in separate terminals.
+If you prefer to run the server and evaluation separately, use the commands 
+below in two separate terminals.
 
 ```bash
 vllm serve meta-llama/Llama-3.2-1B-Instruct \
