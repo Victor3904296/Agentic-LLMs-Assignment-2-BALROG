@@ -23,7 +23,8 @@ balrog-post-install
 ## Local model
 To run the local model (llama-3.2-1B-Instruct) with a 256 and a 512 output
 token limit. Run `./script_local_Ass2-1.sh`, this loads the model on a local
-server with a window size of 4096 and runs 2 evaluations on this model.
+server with a set window size of 2048 or and runs the evaluation on this model, which 
+is then repeated for the larger context window of 4096.
 
 ```bash
 ./script_local_Ass2-1.sh
