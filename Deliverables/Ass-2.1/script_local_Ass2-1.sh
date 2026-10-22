@@ -24,7 +24,7 @@ echo "=== Server is ready! ==="
 
 echo "=== Step 3: Start evaluation of model with 256 token limit ==="
 python eval.py \
-  envs.names=babyai-crafter \
+  envs.names=babyai-crafter-babaisai \
   envs.env_kwargs.seed=12 \
   agent.type=naive \
   agent.max_image_history=0 \
@@ -32,6 +32,7 @@ python eval.py \
   eval.num_workers=1 \
   eval.num_episodes.babyai=3 \
   eval.num_episodes.crafter=3 \
+  eval.num_episodes.babaisai=3 \
   client.client_name=vllm \
   client.generate_kwargs.max_tokens=256 \
   client.model_id=meta-llama/Llama-3.2-1B-Instruct \
@@ -39,7 +40,7 @@ python eval.py \
 
 echo "=== Step 4: Start evaluation of model with 512 token limit ==="
 python eval.py \
-  envs.names=babyai-crafter \
+  envs.names=babyai-crafter-babaisai \
   envs.env_kwargs.seed=12 \
   agent.type=naive \
   agent.max_image_history=0 \
@@ -47,6 +48,7 @@ python eval.py \
   eval.num_workers=1 \
   eval.num_episodes.babyai=3 \
   eval.num_episodes.crafter=3 \
+  eval.num_episodes.babaisai=3 \
   client.client_name=vllm \
   client.generate_kwargs.max_tokens=512 \
   client.model_id=meta-llama/Llama-3.2-1B-Instruct \

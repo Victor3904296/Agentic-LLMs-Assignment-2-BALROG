@@ -2,6 +2,7 @@
 
 Our results can be reproduced by following the steps listed in this document.
 To run these models you need to use Linux or WSL, and make sure to use Python 3.10.
+This exercises uses a custom agent with agentic-memory and self-reflection.
 
 ## Installation
 
@@ -15,7 +16,12 @@ balrog-post-install
 
 
 ## Cloud model
-...
+To run the cloud models, first acquire an OpenRouter API key in order to run Claude Haiku 5.5.
+Place this keys in the `SECRETS.txt` file after `OPENAI_API_KEY=`. This will allow the code to
+use your own key to connect to the model.
+
+Once the key is in place, the evaluation can be run using `./script_cloud_Ass2-3.sh`, this will run the 
+Claude model on BabyAI and Crafter using the custom agent.
 ```bash
 ./script_cloud_Ass2-3.sh
 ```
